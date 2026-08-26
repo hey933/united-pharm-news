@@ -5,9 +5,19 @@
 다음뉴스(v.daum.net)에서 구글 뉴스 RSS의 site: 필터를 이용해
 '한국유나이티드제약' 관련 기사를 모아 articles.json에 누적 저장한다.
 
-GitHub Actions가 매일 KST 09:00에 이 스크립트를 실행한다.
+두 가지 모드:
+  - daily (기본값):  최근 기사 위주로 증분 수집. GitHub Actions가 매일 09:00 KST에 실행.
+  - backfill:        최근 YEARS_BACK년치를 연도별로 쪼개어 검색 (after:/before: 날짜
+                     필터). 구글 뉴스 RSS는 검색 1건당 최신순 상위 결과 위주로만
+                     돌려주기 때문에, 연도별로 나눠 질의해야 과거 기사를 더 많이
+                     모을 수 있다. 처음 한 번(또는 가끔) 수동으로 돌리는 용도.
+
+사용 예:
+  python fetch_news.py                # 평소 daily 모드
+  python fetch_news.py --mode backfill   # 10년치 백필
 """
 
+import argparse
 import json
 import re
 import time
@@ -27,12 +37,15 @@ SOURCES = {
 }
 
 DATA_FILE = "articles.json"
-MAX_ITEMS_PER_SOURCE = 60   # 파일이 무한정 커지지 않도록 소스별 보관 개수 제한
+MAX_ITEMS_PER_SOURCE = 60   # daily 모드에서 파일이 무한정 커지지 않도록 소스별 보관 개수 제한
 REQUEST_DELAY_SEC = 1.5     # 구글에 너무 빨리 연속 요청하지 않기 위한 딜레이
+YEARS_BACK = 10             # backfill 모드에서 몇 년 전까지 거슬러 올라갈지
 
 
-def build_rss_url(keyword: str, domain: str) -> str:
+def build_rss_url(keyword: str, domain: str, start: str = None, end: str = None) -> str:
     query = f'"{keyword}" site:{domain}'
+    if start and end:
+        query += f" after:{start} before:{end}"
     q = urllib.parse.quote(query)
     return f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
 
@@ -70,43 +83,77 @@ def load_existing():
         return {"updated_at": None, "articles": []}
 
 
-def main():
-    data = load_existing()
-    existing = {a["url"]: a for a in data.get("articles", [])}
+def merge_items(existing: dict, source_id: str, label: str, items: list, limit: int = None):
+    count_new = 0
+    for it in (items[:limit] if limit else items):
+        if it["url"] in existing:
+            continue
+        existing[it["url"]] = {
+            "source": source_id,
+            "label": label,
+            "title": it["title"],
+            "summary": it["summary"],
+            "url": it["url"],
+            "pub_date": it["pub_date"],
+            "collected_at": datetime.now(timezone.utc).isoformat(),
+        }
+        count_new += 1
+    return count_new
 
+
+def run_daily(existing: dict):
     for source_id, (label, domain) in SOURCES.items():
         url = build_rss_url(KEYWORD, domain)
         try:
-            xml_bytes = fetch_rss(url)
-            items = parse_items(xml_bytes)
+            items = parse_items(fetch_rss(url))
         except Exception as e:
             print(f"[경고] {label} 수집 실패: {e}")
             continue
-
-        count_new = 0
-        for it in items[:MAX_ITEMS_PER_SOURCE]:
-            if it["url"] in existing:
-                continue
-            existing[it["url"]] = {
-                "source": source_id,
-                "label": label,
-                "title": it["title"],
-                "summary": it["summary"],
-                "url": it["url"],
-                "pub_date": it["pub_date"],
-                "collected_at": datetime.now(timezone.utc).isoformat(),
-            }
-            count_new += 1
-
-        print(f"{label}: 신규 {count_new}건 (총 후보 {len(items)}건)")
+        n = merge_items(existing, source_id, label, items, limit=MAX_ITEMS_PER_SOURCE)
+        print(f"{label}: 신규 {n}건 (후보 {len(items)}건)")
         time.sleep(REQUEST_DELAY_SEC)
 
-    # 최신순 정렬 (pub_date 파싱 실패 항목은 뒤로)
-    def sort_key(a):
-        try:
-            return datetime.strptime(a["pub_date"], "%a, %d %b %Y %H:%M:%S %Z")
-        except Exception:
-            return datetime.min
+
+def run_backfill(existing: dict):
+    current_year = datetime.now().year
+    years = range(current_year - YEARS_BACK + 1, current_year + 1)
+    for source_id, (label, domain) in SOURCES.items():
+        total_new = 0
+        for year in years:
+            start = f"{year}-01-01"
+            end = f"{year + 1}-01-01"
+            url = build_rss_url(KEYWORD, domain, start, end)
+            try:
+                items = parse_items(fetch_rss(url))
+            except Exception as e:
+                print(f"[경고] {label} {year}년 수집 실패: {e}")
+                continue
+            n = merge_items(existing, source_id, label, items)
+            total_new += n
+            print(f"{label} {year}년: 신규 {n}건 (후보 {len(items)}건)")
+            time.sleep(REQUEST_DELAY_SEC)
+        print(f">> {label} 총 신규 {total_new}건")
+
+
+def sort_key(a):
+    try:
+        return datetime.strptime(a["pub_date"], "%a, %d %b %Y %H:%M:%S %Z")
+    except Exception:
+        return datetime.min
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", choices=["daily", "backfill"], default="daily")
+    args = parser.parse_args()
+
+    data = load_existing()
+    existing = {a["url"]: a for a in data.get("articles", [])}
+
+    if args.mode == "backfill":
+        run_backfill(existing)
+    else:
+        run_daily(existing)
 
     all_articles = sorted(existing.values(), key=sort_key, reverse=True)
 
@@ -122,3 +169,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
