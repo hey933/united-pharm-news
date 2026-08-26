@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>유나이티드제약 뉴스 클리핑</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#eef1ee;
+    --paper-raised:#f7f8f6;
+    --ink:#16241f;
+    --ink-soft:#4b5b54;
+    --line:#c9d2cc;
+    --teal:#1f4b43;
+    --teal-deep:#12302a;
+    --label:#b2401f;
+    --label-bg:#f4e2d8;
+    --gold:#a9822c;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans KR', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px 80px;}
+
+  /* header */
+  header{
+    border-bottom:2px solid var(--teal);
+    padding:36px 0 18px;
+    margin-bottom:8px;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--teal);
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:14px;
+  }
+  .eyebrow .rx::before{content:"℞ ";font-family:'Newsreader',serif;font-size:15px;}
+  h1{
+    font-family:'Newsreader',serif;
+    font-weight:600;
+    font-size:44px;
+    line-height:1.05;
+    margin:0 0 10px;
+    letter-spacing:-0.01em;
+  }
+  h1 em{font-style:italic;font-weight:500;color:var(--teal);}
+  .sub{
+    color:var(--ink-soft);
+    font-size:15px;
+    line-height:1.6;
+    max-width:640px;
+  }
+
+  /* controls */
+  .controls{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    align-items:center;
+    margin:26px 0 30px;
+  }
+  .chip{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12.5px;
+    padding:7px 13px;
+    border:1px solid var(--line);
+    border-radius:100px;
+    background:var(--paper-raised);
+    color:var(--ink-soft);
+    cursor:pointer;
+    letter-spacing:.02em;
+    transition:all .15s ease;
+    user-select:none;
+  }
+  .chip:hover{border-color:var(--teal);color:var(--teal);}
+  .chip.active{background:var(--teal);border-color:var(--teal);color:#fff;}
+  .search{
+    margin-left:auto;
+    display:flex;
+    align-items:center;
+    border:1px solid var(--line);
+    border-radius:100px;
+    background:var(--paper-raised);
+    padding:0 14px;
+    height:34px;
+  }
+  .search input{
+    border:none;background:transparent;outline:none;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12.5px;
+    width:150px;
+    color:var(--ink);
+  }
+  .search input::placeholder{color:#8a968f;}
+
+  /* feed */
+  .feed{display:flex;flex-direction:column;}
+  .card{
+    position:relative;
+    padding:22px 0;
+    border-bottom:1px solid var(--line);
+    display:grid;
+    grid-template-columns:96px 1fr;
+    gap:20px;
+  }
+  .card:first-child{padding-top:0;}
+  .rail{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:8px;
+    padding-top:3px;
+  }
+  .tag{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    letter-spacing:.03em;
+    padding:3px 8px;
+    border-radius:3px;
+    background:var(--label-bg);
+    color:var(--label);
+    white-space:nowrap;
+    border:1px solid rgba(178,64,31,.18);
+  }
+  .tag[data-src="dailypharm"]{background:#dfe9e6;color:var(--teal);border-color:rgba(31,75,67,.2);}
+  .tag[data-src="pharmnews"]{background:#eee2c9;color:var(--gold);border-color:rgba(169,130,44,.25);}
+  .tag[data-src="yakup"]{background:#f4e2d8;color:var(--label);border-color:rgba(178,64,31,.18);}
+  .tag[data-src="daum"]{background:#dfe4ee;color:#2c4e8a;border-color:rgba(44,78,138,.2);}
+  .date{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);}
+
+  .body h3{
+    font-family:'Newsreader',serif;
+    font-weight:600;
+    font-size:19px;
+    line-height:1.35;
+    margin:0 0 8px;
+  }
+  .body h3 a{color:var(--ink);text-decoration:none;}
+  .body h3 a:hover{color:var(--teal);text-decoration:underline;text-underline-offset:3px;}
+  .body p{
+    margin:0;
+    font-size:13.5px;
+    line-height:1.65;
+    color:var(--ink-soft);
+  }
+  .byline{
+    margin-top:10px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:#8a968f;
+  }
+  .empty{
+    padding:60px 0;
+    text-align:center;
+    color:var(--ink-soft);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;
+  }
+
+  /* notice */
+  .notice{
+    margin-top:44px;
+    border:1px dashed var(--line);
+    border-radius:8px;
+    padding:18px 20px;
+    background:var(--paper-raised);
+  }
+  .notice .eyebrow{margin-bottom:8px;}
+  .notice p{margin:0 0 8px;font-size:13px;line-height:1.7;color:var(--ink-soft);}
+  .notice p:last-child{margin-bottom:0;}
+  .notice code{
+    background:#e4e8e4;padding:1px 5px;border-radius:3px;
+    font-family:'IBM Plex Mono',monospace;font-size:12px;
+  }
+
+  @media (max-width:560px){
+    h1{font-size:32px;}
+    .card{grid-template-columns:1fr;gap:8px;}
+    .rail{flex-direction:row;flex-wrap:wrap;}
+    .search{margin-left:0;width:100%;}
+    .search input{width:100%;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">
+      <span class="rx">뉴스 클리핑 · 매일 09:00 KST 자동 업데이트</span>
+      <span id="count-label">0건</span>
+    </div>
+    <h1>한국유나이티드제약<br><em>미디어 모니터링</em></h1>
+    <p class="sub">약업신문 · 데일리팜 · 팜뉴스 · 다음뉴스에서 수집한 한국유나이티드제약 관련 기사 모음입니다.</p>
+    <p class="sub" id="updated-line" style="margin-top:6px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:#8a968f;"></p>
+  </header>
+
+  <div class="controls" id="filters">
+    <div class="chip active" data-filter="all">전체</div>
+    <div class="chip" data-filter="yakup">약업신문</div>
+    <div class="chip" data-filter="dailypharm">데일리팜</div>
+    <div class="chip" data-filter="pharmnews">팜뉴스</div>
+    <div class="chip" data-filter="daum">다음뉴스</div>
+    <div class="search"><input id="search" type="text" placeholder="기사 검색…"></div>
+  </div>
+
+  <div class="feed" id="feed"></div>
+
+  <div class="notice">
+    <div class="eyebrow"><span class="rx">작동 방식</span></div>
+    <p>이 페이지는 <code>articles.json</code> 파일을 읽어서 기사를 보여줍니다. 그 파일은 GitHub Actions가 매일 <b>09:00 KST</b>에 구글 뉴스 RSS(site: 필터)를 조회해 자동으로 갱신합니다. 즉, 사람이 다시 열지 않아도 매일 아침 내용이 새로워집니다.</p>
+  </div>
+
+</div>
+
+<script>
+let articles = [];
+const feed = document.getElementById('feed');
+const countLabel = document.getElementById('count-label');
+const updatedLine = document.getElementById('updated-line');
+let activeFilter = 'all';
+let query = '';
+
+function formatDate(a){
+  if(a.pub_date){
+    const d = new Date(a.pub_date);
+    if(!isNaN(d)) return d.toLocaleDateString('ko-KR', {year:'numeric',month:'2-digit',day:'2-digit'});
+  }
+  return a.pub_date || '';
+}
+
+function render(){
+  const filtered = articles.filter(a=>{
+    const matchSource = activeFilter==='all' || a.source===activeFilter;
+    const matchQuery = !query || (a.title+a.summary).toLowerCase().includes(query.toLowerCase());
+    return matchSource && matchQuery;
+  });
+  countLabel.textContent = filtered.length + '건';
+  feed.innerHTML = filtered.length ? filtered.map(a=>`
+    <div class="card">
+      <div class="rail">
+        <span class="tag" data-src="${a.source}">${a.label}</span>
+        <span class="date">${formatDate(a)}</span>
+      </div>
+      <div class="body">
+        <h3><a href="${a.url}" target="_blank" rel="noopener">${a.title}</a></h3>
+        <p>${a.summary}</p>
+      </div>
+    </div>
+  `).join('') : `<div class="empty">해당 조건에 맞는 기사가 없습니다.</div>`;
+}
+
+document.getElementById('filters').addEventListener('click', (e)=>{
+  const chip = e.target.closest('.chip');
+  if(!chip) return;
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+  chip.classList.add('active');
+  activeFilter = chip.dataset.filter;
+  render();
+});
+
+document.getElementById('search').addEventListener('input', (e)=>{
+  query = e.target.value;
+  render();
+});
+
+fetch('./articles.json?_=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    articles = data.articles || [];
+    if(data.updated_at){
+      const d = new Date(data.updated_at);
+      updatedLine.textContent = '마지막 업데이트: ' + d.toLocaleString('ko-KR', {timeZone:'Asia/Seoul'}) + ' (KST)';
+    } else {
+      updatedLine.textContent = '아직 자동 수집이 실행되기 전 초기 데이터입니다.';
+    }
+    render();
+  })
+  .catch(err => {
+    feed.innerHTML = `<div class="empty">articles.json을 불러오지 못했습니다. 같은 폴더에 파일이 있는지 확인해주세요.</div>`;
+    console.error(err);
+  });
+</script>
+</body>
+</html>

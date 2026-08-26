@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-08-26T07:16:38.799922+00:00",
+  "articles": [
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드제약, 물류자동화창고 준공…세종1공장 확장",
+      "summary": "한국유나이티드제약이 세종1공장에 최첨단 자동화 설비를 갖춘 물류자동화창고를 완공하고 준공식을 가졌다. 강덕영 대표는 지속적인 시설투자로 시장 변화에 민첩하게 대응하겠다고 밝혔다.",
+      "url": "https://www.yakup.com/news/index.html?pmode=clist&cat=12&cat2=53&num_start=4160",
+      "pub_date": "",
+      "collected_at": "seed"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 신제품 3종 출격 대기…매출 3300억 목표",
+      "summary": "한국유나이티드제약이 하반기 신제품 3종 출시를 예고했다. 올해 매출 목표는 전년 대비 15% 늘어난 3300억원이다.",
+      "url": "https://www.dailypharm.com/Users/News/NewsView.html?ID=324104",
+      "pub_date": "",
+      "collected_at": "seed"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드제약, UN 및 국제기구 대상 공공조달 사업 범위 확장",
+      "summary": "빈라신주사액 등 항암 품목을 중심으로 국제기구 조달 시장 공급을 이어가고 있다. 베트남 현지 공장의 필수 기초의약품 공급도 확대할 계획이다.",
+      "url": "https://www.pharmnews.com/news/articleView.html?idxno=301393",
+      "pub_date": "",
+      "collected_at": "seed"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드제약 2024년 실적, 매출·영업이익 사상 최고 달성",
+      "summary": "2024년 매출 2887억원(전년비 +3.5%), 영업이익 563억원(전년비 +2.4%)으로 사상 최고 실적을 기록했다.",
+      "url": "https://www.pharmnews.com/news/articleView.html?idxno=257154",
+      "pub_date": "",
+      "collected_at": "seed"
+    }
+  ]
+}
