@@ -83,12 +83,21 @@ def load_existing():
         return {"updated_at": None, "articles": []}
 
 
+def dedup_key(title: str, pub_date: str) -> str:
+    """제목+발행일시가 완전히 같으면 같은 기사로 간주한다.
+    (구글 뉴스가 같은 기사를 다른 추적 링크로 두 번 주는 경우가 있어서
+    URL이 아니라 이 값으로 중복을 판단한다.)"""
+    norm_title = re.sub(r"\s+", " ", title).strip()
+    return f"{norm_title}||{pub_date.strip()}"
+
+
 def merge_items(existing: dict, source_id: str, label: str, items: list, limit: int = None):
     count_new = 0
     for it in (items[:limit] if limit else items):
-        if it["url"] in existing:
+        key = dedup_key(it["title"], it["pub_date"])
+        if key in existing:
             continue
-        existing[it["url"]] = {
+        existing[key] = {
             "source": source_id,
             "label": label,
             "title": it["title"],
@@ -148,7 +157,21 @@ def main():
     args = parser.parse_args()
 
     data = load_existing()
-    existing = {a["url"]: a for a in data.get("articles", [])}
+
+    # 기존 articles.json을 새 중복 판정 기준(제목+발행일시)으로 다시 키를 매겨
+    # 불러온다. 이전 방식(URL 기준)으로 저장돼 이미 중복이 들어있던 기사도
+    # 여기서 한 번에 정리된다. 같은 키가 여럿이면 먼저 나온 것(대개 더 먼저
+    # 수집된 것)을 유지한다.
+    existing = {}
+    removed_dup = 0
+    for a in data.get("articles", []):
+        key = dedup_key(a.get("title", ""), a.get("pub_date", ""))
+        if key in existing:
+            removed_dup += 1
+            continue
+        existing[key] = a
+    if removed_dup:
+        print(f"기존 데이터에서 중복 {removed_dup}건 정리")
 
     if args.mode == "backfill":
         run_backfill(existing)
