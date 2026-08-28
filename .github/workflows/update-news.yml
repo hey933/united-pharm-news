@@ -3,7 +3,7 @@ name: 유나이티드제약 뉴스 클리핑 업데이트
 on:
   schedule:
     # 00:00 UTC = 09:00 KST (한국은 UTC+9, 서머타임 없음)
-    - cron: "0 0 * * *"
+    - cron: "7 0 * * *"
   workflow_dispatch:
     inputs:
       mode:
