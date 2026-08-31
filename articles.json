@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T01:11:44.377602+00:00",
+  "updated_at": "2026-08-31T01:19:41.343575+00:00",
   "articles": [
     {
       "source": "yakup",
@@ -878,16 +878,6 @@
     {
       "source": "yakup",
       "label": "약업신문",
-      "title": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조 - 약업신문",
-      "summary": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUUt3ZVIwMllfSURnVHNKN1BYVFNMY0NwVnFiallWb0thZktPaTdMczhLZkpOd1NTdDlwRGV4RTFkNVA5V09Dc3VwRXo2MC1VNXM1WWpHVl9PX1lhY1kyZXN4bGtYU1loSl9NRS1sQUFwc2FJTjRoQVNwTGJsZVNYQWtqR0h3WmRPVVVFN1lEWXhEU0tXd25fWmkza3BmWEFTanRLSGtn?oc=5",
-      "pub_date": "Mon, 20 Apr 2026 15:55:20 GMT",
-      "collected_at": "2026-08-26T07:48:46.041246+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
       "title": "상장 제약·바이오 2025년 평균 R&D비 코스피 724억원·코스닥 133억원 - 약업신문",
       "summary": "상장 제약·바이오 2025년 평균 R&D비 코스피 724억원·코스닥 133억원&nbsp;&nbsp;약업신문",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rSzV3MVQzWlFrQTJGVkNBWFBjZ0ZVRGhZVldyZlllLXBIRVBaYTU4S1VCVWN0LUViZ1QxN3YzOUtaeU80eEpNbFB3elhFR2FaS216QTlJdVJqRGx1bldxMFllYTM0QQ?oc=5",
@@ -1417,7 +1407,8 @@
       "summary": "\"AI, 화이자 RWE 품질 핵심...허가·급여 기준될 것\"&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uWXNxTXhkcjFfWnAycVVFVjlXZjB6bmEtUGhiSmU3eUJfS1E0U0RQSGdUWERDZnBXWTFXWk4xcnpCVXA1MVdJcWxaSzRWeFJBOUlLR25tUjFkeXFUTHVhYy1kRm83a3hmZVdFOQ?oc=5",
       "pub_date": "Fri, 05 Dec 2025 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:32.182413+00:00"
+      "collected_at": "2026-08-26T07:49:32.182413+00:00",
+      "date_estimated": false
     },
     {
       "source": "daum",
@@ -2058,7 +2049,8 @@
       "summary": "‘옵디보’+‘여보이’ 병용요법 대장암 1차 치료제 FDA 승인&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12eXBUaGgwaXY0UnpSLWp1RlRidlltQ1dkaDE4bU11azVGQzFfS1BZemNUcWkxQzFMY3JiVWhneUJiRHJVMktmbTdXWk84clQ2VGJjc2tEdzk5cUJIeERlMnJwVnlfNHJDeFR4LQ?oc=5",
       "pub_date": "Fri, 11 Apr 2025 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:32.182438+00:00"
+      "collected_at": "2026-08-26T07:49:32.182438+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -2194,7 +2186,8 @@
       "summary": "[동정+] 국내 각막이식 6% 점유, 생명의 빛을 선사하는 각막이식 선도 外&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QcFdxVmV1REtYQVE5TVd6cVNNZkFHbWlDRGt1VGo5cHpYTFMzSno0UklMOEVOUU5QeDh0Q0RxQ1JZMGVGREk0bVRtVi0ydmFIN0lUZGIxRkFuSGRXcEF2NDNVSDNwWGF2cHlyNA?oc=5",
       "pub_date": "Tue, 14 Jan 2025 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:32.182429+00:00"
+      "collected_at": "2026-08-26T07:49:32.182429+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -2239,7 +2232,7 @@
       "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사 - 약업신문",
       "summary": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사&nbsp;&nbsp;약업신문",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXBxbmdMb0xTQUdObzJRU2hVNWFwNEhVSnhBd1dpSDY2WFE2NThwNkZCZTBOSHU4T0pydV9FWG1YREIyM0hSaXRqOXAwNzJxb2UzbEt0cy1ucEEtR2gxalg0cWtiU3JwNENIMVROdUlUSmhlLVpaZmZ2NVlLbFp3LW9fb0w3cW1jcXhsSmdCZEhjVmhMbDgwTER5a094SmxQYkRlRQ?oc=5",
-      "pub_date": "Mon, 23 Dec 2024 00:25:49 GMT",
+      "pub_date": "Sun, 22 Dec 2024 06:52:09 GMT",
       "collected_at": "2026-08-28T02:10:10.587271+00:00",
       "date_estimated": false
     },
@@ -2298,7 +2291,8 @@
       "summary": "종근당, 이상지질혈증 치료제 ‘CKD-508’ 美 FDA 임상 1상 승인&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TT3ZndVFxNnBheFVIX1RzSFNUNlFrWnZ1MWtkY1Y0RFBiaV9iZFJzVUJ0ejM3RTFlRllBUTZSaEcyM0ozRWlHaUdKTTd1Ykd5VFU1djZadFcwdW9NM3dtUk5zUEMtRGJHcnBCZw?oc=5",
       "pub_date": "Mon, 04 Nov 2024 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:30.393397+00:00"
+      "collected_at": "2026-08-26T07:49:30.393397+00:00",
+      "date_estimated": false
     },
     {
       "source": "daum",
@@ -4263,6 +4257,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "흡입제 생산·제조 국산화 속도…3강 체제 공고 - 데일리팜",
+      "summary": "흡입제 생산·제조 국산화 속도…3강 체제 공고&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mM3JNMUNBM3FqTGc2UV9VSFlMM0U4c1lfMFZrb0NROXdtZXp0b05DcUtHeng4T1pfU2lzZ2NMLUdDTXJqT3I4NkVjNFVIMXc5enpoRg?oc=5",
+      "pub_date": "Thu, 08 Aug 2019 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-08-31T01:16:12.040373+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "지난해 의약품 생산액 순위, 한미·종근당·셀트리온 순 - 데일리팜",
       "summary": "지난해 의약품 생산액 순위, 한미·종근당·셀트리온 순&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tQlFNdTkxUjBrT3J2YzNMaHphSEdwQ3ZhNnVnc005VldCTTduX0d5YU90VEdOamhDY1dobzRESTBHMUI1RG53bU9FeUFwWUZXOTR4Mg?oc=5",
@@ -4407,6 +4411,16 @@
       "pub_date": "Mon, 21 Jan 2019 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:21.494709+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조 - 약업신문",
+      "summary": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조&nbsp;&nbsp;약업신문",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUUt3ZVIwMllfSURnVHNKN1BYVFNMY0NwVnFiallWb0thZktPaTdMczhLZkpOd1NTdDlwRGV4RTFkNVA5V09Dc3VwRXo2MC1VNXM1WWpHVl9PX1lhY1kyZXN4bGtYU1loSl9NRS1sQUFwc2FJTjRoQVNwTGJsZVNYQWtqR0h3WmRPVVVFN1lEWXhEU0tXd25fWmkza3BmWEFTanRLSGtn?oc=5",
+      "pub_date": "Mon, 01 Jan 2019 00:00:00 GMT",
+      "collected_at": "2026-08-26T07:48:46.041246+00:00",
+      "date_estimated": true
     },
     {
       "source": "dailypharm",
