@@ -8,21 +8,20 @@
 두 가지 모드:
   - daily (기본값):  최근 기사 위주로 증분 수집. GitHub Actions가 매일 09:00 KST에 실행.
   - backfill:        최근 YEARS_BACK년치를 연도별로 쪼개어 검색 (after:/before: 날짜
-                     필터). 구글 뉴스 RSS는 검색 1건당 최신순 상위 결과 위주로만
-                     돌려주기 때문에, 연도별로 나눠 질의해야 과거 기사를 더 많이
-                     모을 수 있다. 처음 한 번(또는 가끔) 수동으로 돌리는 용도.
+                     필터). 처음 한 번(또는 가끔) 수동으로 돌리는 용도.
 
-날짜 보정:
-  구글 뉴스 RSS의 pubDate는 가끔 '실제 발행일'이 아니라 '구글이 그 링크를
-  최근에 다시 색인한 날짜'로 나온다. 특히 오래된 기사를 연도별 검색으로
-  찾을 때 이 문제가 두드러진다 (예: 2010년 검색인데 pubDate는 오늘 날짜).
-  이를 막기 위해, 검색한 연도와 실제 pubDate의 연도가 크게 어긋나면 구글
-  값을 버리고 검색 연도로 보정한 뒤 date_estimated=True로 표시한다.
+날짜 보정 (2단계):
+  1) 최근(RECENT_VERIFY_WINDOW_DAYS일 이내)으로 찍힌 항목만, 원문 기사
+     페이지에 직접 들어가 실제 게재일(og/meta 태그, '입력 YYYY.MM.DD' 텍스트
+     등)을 확인한다. 구글 뉴스가 오래된 기사를 최근에 재색인해 pubDate를
+     '오늘'처럼 최신으로 잘못 주는 경우를 이걸로 잡아낸다.
+  2) (backfill 전용) 그래도 남는 이상치를 위해, 검색한 연도와 pubDate의
+     연도가 크게 어긋나면 검색 연도로 강제 보정하고 date_estimated=True로
+     표시한다.
 
 사용 예:
   python fetch_news.py                  # 평소 daily 모드
-  python fetch_news.py --mode backfill  # 10년치 백필 (재실행하면 잘못된
-                                          # 날짜도 다시 검사해 고쳐진다)
+  python fetch_news.py --mode backfill  # 10년치 백필
 """
 
 import argparse
@@ -45,9 +44,11 @@ SOURCES = {
 }
 
 DATA_FILE = "articles.json"
-MAX_ITEMS_PER_SOURCE = 60   # daily 모드에서 파일이 무한정 커지지 않도록 소스별 보관 개수 제한
-REQUEST_DELAY_SEC = 1.5     # 구글에 너무 빨리 연속 요청하지 않기 위한 딜레이
-YEARS_BACK = 10             # backfill 모드에서 몇 년 전까지 거슬러 올라갈지
+MAX_ITEMS_PER_SOURCE = 60        # daily 모드에서 소스별 보관 개수 제한
+REQUEST_DELAY_SEC = 1.5          # 구글 RSS 요청 사이 딜레이
+PAGE_FETCH_DELAY_SEC = 0.6       # 원문 페이지 확인 요청 사이 딜레이
+YEARS_BACK = 10                  # backfill 모드에서 몇 년 전까지
+RECENT_VERIFY_WINDOW_DAYS = 30   # 이 안에 있는 날짜만 원문에서 재검증
 
 RSS_DATE_FMT = "%a, %d %b %Y %H:%M:%S %Z"
 
@@ -60,9 +61,9 @@ def build_rss_url(keyword: str, domain: str, start: str = None, end: str = None)
     return f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
 
 
-def fetch_rss(url: str) -> bytes:
+def http_get(url: str, timeout: int = 20) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=20) as resp:
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
 
 
@@ -85,24 +86,95 @@ def parse_items(xml_bytes: bytes):
     return items
 
 
-def pub_year(pub_date: str):
+def parse_rss_dt(pub_date: str):
     try:
-        return datetime.strptime(pub_date, RSS_DATE_FMT).year
+        return datetime.strptime(pub_date, RSS_DATE_FMT)
     except Exception:
         return None
 
 
+def pub_year(pub_date: str):
+    dt = parse_rss_dt(pub_date)
+    return dt.year if dt else None
+
+
 def sort_key(a):
+    dt = parse_rss_dt(a.get("pub_date", ""))
+    return dt if dt else datetime.min
+
+
+def to_rss_str(dt: datetime) -> str:
+    return dt.strftime("%a, %d %b %Y %H:%M:%S GMT")
+
+
+def parse_any_date(s: str):
+    s = s.strip()
+    for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d", "%Y.%m.%d"):
+        try:
+            return datetime.strptime(s, fmt)
+        except Exception:
+            continue
     try:
-        return datetime.strptime(a["pub_date"], RSS_DATE_FMT)
+        return datetime.fromisoformat(s.replace("Z", "+00:00"))
     except Exception:
-        return datetime.min
+        return None
+
+
+DATE_META_PATTERNS = [
+    r'property=["\']article:published_time["\']\s+content=["\']([^"\']+)["\']',
+    r'itemprop=["\']datePublished["\']\s+content=["\']([^"\']+)["\']',
+    r'name=["\']date["\']\s+content=["\']([^"\']+)["\']',
+    r'name=["\']pubdate["\']\s+content=["\']([^"\']+)["\']',
+]
+
+
+def extract_date_from_html(html: str):
+    for pattern in DATE_META_PATTERNS:
+        m = re.search(pattern, html, re.IGNORECASE)
+        if m:
+            d = parse_any_date(m.group(1))
+            if d:
+                return d
+    # 국내 언론사 페이지에 흔한 '입력 2016.05.20' / '승인 2016.05.20' 형태
+    m = re.search(r'(?:입력|승인|등록)\D{0,6}(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})', html)
+    if not m:
+        m = re.search(r'(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})', html)
+    if m:
+        y, mo, d = (int(x) for x in m.groups())
+        try:
+            return datetime(y, mo, d)
+        except ValueError:
+            return None
+    return None
+
+
+def verify_recent_date(it: dict):
+    """구글이 준 pubDate가 최근으로 찍혀 있으면, 원문 페이지에 들어가
+    실제 게재일과 비교해 어긋나면 바로잡는다. (오래된 기사가 최근 날짜로
+    잘못 재색인되는 문제를 여기서 잡는다.) 실패하면 조용히 넘어간다 -
+    구글 값보다 더 나쁘게 만들지는 않는다."""
+    g_dt = parse_rss_dt(it["pub_date"])
+    if g_dt is None:
+        return
+    if (datetime.utcnow() - g_dt).days > RECENT_VERIFY_WINDOW_DAYS:
+        return  # 이미 과거로 찍혀 있으면 검증 불필요 (요청 수 절약)
+
+    try:
+        html = http_get(it["url"], timeout=10).decode("utf-8", errors="ignore")
+        real_dt = extract_date_from_html(html)
+    except Exception:
+        real_dt = None
+
+    if real_dt is None:
+        return
+
+    if abs((real_dt - g_dt).days) >= 3:
+        it["pub_date"] = to_rss_str(real_dt)
+        it["date_estimated"] = False
 
 
 def dedup_key(source_id: str, title: str) -> str:
-    """같은 소스에서 제목이 완전히 같으면 같은 기사로 본다.
-    (예전엔 제목+발행일시로 판정했는데, 날짜 보정 때문에 같은 기사의
-    pubDate 값이 실행마다 달라질 수 있어 제목 기준으로 바꿨다.)"""
+    """같은 소스에서 제목이 완전히 같으면 같은 기사로 본다."""
     norm_title = re.sub(r"\s+", " ", title).strip()
     return f"{source_id}||{norm_title}"
 
@@ -116,9 +188,6 @@ def load_existing():
 
 
 def build_existing_index(data: dict):
-    """articles.json을 dedup_key 기준으로 다시 인덱싱한다. 같은 키가
-    여럿이면(예전 방식으로 저장돼 중복이던 것) 날짜가 추정이 아닌 쪽을
-    우선 남긴다."""
     existing = {}
     removed_dup = 0
     for a in data.get("articles", []):
@@ -161,16 +230,32 @@ def merge_items(existing: dict, source_id: str, label: str, items: list, limit: 
     return count_new, count_fixed
 
 
+def verify_items(items: list) -> int:
+    fixed = 0
+    for it in items:
+        before = it["pub_date"]
+        try:
+            verify_recent_date(it)
+        except Exception:
+            pass
+        if it["pub_date"] != before:
+            fixed += 1
+        time.sleep(PAGE_FETCH_DELAY_SEC)
+    return fixed
+
+
 def run_daily(existing: dict):
     for source_id, (label, domain) in SOURCES.items():
         url = build_rss_url(KEYWORD, domain)
         try:
-            items = parse_items(fetch_rss(url))
+            items = parse_items(http_get(url))
         except Exception as e:
             print(f"[경고] {label} 수집 실패: {e}")
             continue
+
+        verified = verify_items(items)
         n, fixed = merge_items(existing, source_id, label, items, limit=MAX_ITEMS_PER_SOURCE)
-        note = f" / 갱신 {fixed}건" if fixed else ""
+        note = f" / 원문 대조로 날짜 보정 {verified}건 / 갱신 {fixed}건" if (verified or fixed) else ""
         print(f"{label}: 신규 {n}건 (후보 {len(items)}건){note}")
         time.sleep(REQUEST_DELAY_SEC)
 
@@ -186,26 +271,34 @@ def run_backfill(existing: dict):
             end = f"{year + 1}-01-01"
             url = build_rss_url(KEYWORD, domain, start, end)
             try:
-                items = parse_items(fetch_rss(url))
+                items = parse_items(http_get(url))
             except Exception as e:
                 print(f"[경고] {label} {year}년 수집 실패: {e}")
                 continue
 
-            date_fixed_count = 0
+            # 1단계: 최근으로 찍힌 항목만 원문 대조 (당해 연도 검색에서만 해당)
+            verified = verify_items(items)
+
+            # 2단계: 그래도 검색 연도와 크게 어긋나면 검색 연도로 강제 보정
+            year_fixed = 0
             for it in items:
                 y = pub_year(it["pub_date"])
-                # 이번 검색은 {year}년으로 범위를 좁힌 결과다. 돌아온 pubDate가
-                # 그 연도(혹은 다음 연도 1월 초까지)를 크게 벗어나면 구글이
-                # 재색인 날짜를 준 것으로 보고, 검색 연도로 보정한다.
                 if y is None or y < year or y > year + 1:
                     it["pub_date"] = f"Mon, 01 Jan {year} 00:00:00 GMT"
                     it["date_estimated"] = True
-                    date_fixed_count += 1
+                    year_fixed += 1
 
             n, fixed = merge_items(existing, source_id, label, items)
             total_new += n
             total_fixed += fixed
-            note = f" (날짜 보정 {date_fixed_count}건 / 기존 항목 갱신 {fixed}건)" if (date_fixed_count or fixed) else ""
+            parts = []
+            if verified:
+                parts.append(f"원문 대조 보정 {verified}건")
+            if year_fixed:
+                parts.append(f"연도 강제 보정 {year_fixed}건")
+            if fixed:
+                parts.append(f"기존 항목 갱신 {fixed}건")
+            note = f" ({', '.join(parts)})" if parts else ""
             print(f"{label} {year}년: 신규 {n}건 (후보 {len(items)}건){note}")
             time.sleep(REQUEST_DELAY_SEC)
         print(f">> {label} 총 신규 {total_new}건 / 갱신 {total_fixed}건")
