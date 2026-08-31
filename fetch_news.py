@@ -11,10 +11,10 @@
                      필터). 처음 한 번(또는 가끔) 수동으로 돌리는 용도.
 
 날짜 보정 (2단계):
-  1) 최근(RECENT_VERIFY_WINDOW_DAYS일 이내)으로 찍힌 항목만, 원문 기사
-     페이지에 직접 들어가 실제 게재일(og/meta 태그, '입력 YYYY.MM.DD' 텍스트
-     등)을 확인한다. 구글 뉴스가 오래된 기사를 최근에 재색인해 pubDate를
-     '오늘'처럼 최신으로 잘못 주는 경우를 이걸로 잡아낸다.
+  1) 최근(RECENT_VERIFY_WINDOW_DAYS일 이내)으로 찍힌 항목만, 실제 기사
+     페이지에 들어가 진짜 게재일을 확인한다. 구글 뉴스 링크는 실제 기사가
+     아니라 news.google.com의 중간 링크인 경우가 많아, 그 안에 인코딩된
+     실제 URL을 먼저 디코딩해서 찾아낸 뒤 그 페이지에서 날짜를 읽는다.
   2) (backfill 전용) 그래도 남는 이상치를 위해, 검색한 연도와 pubDate의
      연도가 크게 어긋나면 검색 연도로 강제 보정하고 date_estimated=True로
      표시한다.
@@ -25,6 +25,8 @@
 """
 
 import argparse
+import base64
+import html
 import json
 import re
 import time
@@ -52,6 +54,13 @@ RECENT_VERIFY_WINDOW_DAYS = 30   # 이 안에 있는 날짜만 원문에서 재�
 
 RSS_DATE_FMT = "%a, %d %b %Y %H:%M:%S %Z"
 
+HTTP_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
+}
+
 
 def build_rss_url(keyword: str, domain: str, start: str = None, end: str = None) -> str:
     query = f'"{keyword}" site:{domain}'
@@ -62,7 +71,7 @@ def build_rss_url(keyword: str, domain: str, start: str = None, end: str = None)
 
 
 def http_get(url: str, timeout: int = 20) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    req = urllib.request.Request(url, headers=HTTP_HEADERS)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
 
@@ -127,25 +136,18 @@ DATE_META_PATTERNS = [
     r'name=["\']pubdate["\']\s+content=["\']([^"\']+)["\']',
 ]
 
-# 실제 언론사 도메인 목록 (구글 리디렉션 페이지 안에서 이 도메인이 포함된
-# URL을 찾아 실제 기사로 한 번 더 들어가기 위함)
-TARGET_DOMAINS = ["yakup.com", "dailypharm.com", "pharmnews.com", "v.daum.net", "daum.net"]
-_DOMAIN_PATTERN = re.compile(
-    r'https?://[^\s"\'<>\\]*(?:' + "|".join(re.escape(d) for d in TARGET_DOMAINS) + r')[^\s"\'<>\\]*'
-)
 
-
-def extract_date_from_html(html: str):
+def extract_date_from_html(html_text: str):
     for pattern in DATE_META_PATTERNS:
-        m = re.search(pattern, html, re.IGNORECASE)
+        m = re.search(pattern, html_text, re.IGNORECASE)
         if m:
             d = parse_any_date(m.group(1))
             if d:
                 return d
     # 국내 언론사 페이지에 흔한 '입력 2016.05.20' / '승인 2016.05.20' 형태
-    m = re.search(r'(?:입력|승인|등록)\D{0,6}(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})', html)
+    m = re.search(r'(?:입력|승인|등록)\D{0,6}(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})', html_text)
     if not m:
-        m = re.search(r'(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})', html)
+        m = re.search(r'(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})', html_text)
     if m:
         y, mo, d = (int(x) for x in m.groups())
         try:
@@ -155,38 +157,147 @@ def extract_date_from_html(html: str):
     return None
 
 
-def resolve_source_page(google_url: str, timeout: int = 10):
-    """구글 뉴스 RSS의 link는 실제 기사가 아니라 구글의 중간 리디렉션
-    페이지인 경우가 많다. 1) HTTP 리디렉션으로 이미 실제 도메인에
-    도착했으면 그 페이지를 그대로 쓰고, 2) 아니면 구글 페이지 본문 안에
-    텍스트로 박혀 있는 실제 기사 URL을 찾아 한 번 더 들어간다.
-    (실제 기사 URL, 그 페이지 HTML, 실패사유) 튜플을 돌려준다."""
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                      "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
-    }
+# 실제 언론사 도메인 목록 (구글 링크/토큰 안에서 이 도메인이 포함된 URL을
+# 찾아 실제 기사로 한 번 더 들어가기 위함)
+TARGET_DOMAINS = ["yakup.com", "dailypharm.com", "pharmnews.com", "v.daum.net", "daum.net"]
+_DOMAIN_PATTERN = re.compile(
+    r'(?:https?:)?//[^\s"\'<>\\]*(?:' + "|".join(re.escape(d) for d in TARGET_DOMAINS) + r')[^\s"\'<>\\]*'
+)
+
+
+def _normalize_candidate_url(url: str) -> str:
+    if url.startswith("//"):
+        url = "https:" + url
+    return url
+
+
+def decode_google_token(google_url: str):
+    """구글 뉴스 링크(news.google.com/rss/articles/<토큰>)의 <토큰>이 (구버전
+    방식으로) 원본 URL을 그대로 담고 있는 경우, 페이지 요청 없이 바로
+    디코딩해서 뽑아낸다. 요즘은 대부분 아래 batchexecute 방식이 필요한
+    새 형식이라 여기서 실패하는 게 정상이며, 그 경우 None을 돌려준다."""
+    m = re.search(r'/articles/([^?/]+)', google_url)
+    if not m:
+        return None
+    token = m.group(1)
+    padded = token + "=" * (-len(token) % 4)
+    for decoder in (base64.urlsafe_b64decode, base64.b64decode):
+        try:
+            raw = decoder(padded)
+        except Exception:
+            continue
+        text = raw.decode("utf-8", errors="ignore")
+        dm = _DOMAIN_PATTERN.search(text)
+        if dm:
+            return _normalize_candidate_url(dm.group(0))
+    return None
+
+
+_BATCHEXECUTE_URL = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
+
+
+def decode_google_token_via_api(google_url: str, timeout: int = 10):
+    """구글이 요즘 쓰는 새 형식(AU_yqL...) 토큰은 로컬 디코딩이 안 되고,
+    구글 뉴스 기사 페이지에 심어진 서명(signature)·타임스탬프를 이용해
+    구글 내부 batchexecute API를 호출해야 실제 URL을 돌려받을 수 있다.
+    (커뮤니티에 알려진 방식 - 구글이 페이지 구조를 바꾸면 깨질 수 있음)"""
     try:
-        req = urllib.request.Request(google_url, headers=headers)
+        req = urllib.request.Request(google_url, headers=HTTP_HEADERS)
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            page = resp.read().decode("utf-8", errors="ignore")
+    except Exception as e:
+        return None, f"api_page_fetch_error:{type(e).__name__}"
+
+    id_m = re.search(r'data-n-a-id="([^"]+)"', page)
+    sg_m = re.search(r'data-n-a-sg="([^"]+)"', page)
+    ts_m = re.search(r'data-n-a-ts="([^"]+)"', page)
+    if not (id_m and sg_m and ts_m):
+        return None, "api_signature_not_found"
+
+    article_id, signature, timestamp = id_m.group(1), sg_m.group(1), ts_m.group(1)
+
+    inner = json.dumps([
+        "garturlreq",
+        [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None, None, None, 0, 1],
+         "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+        article_id, timestamp, signature,
+    ])
+    f_req = json.dumps([[["Fbv4je", inner, None, "generic"]]])
+    body = "f.req=" + urllib.parse.quote(f_req)
+
+    try:
+        req = urllib.request.Request(
+            _BATCHEXECUTE_URL,
+            data=body.encode("utf-8"),
+            headers={**HTTP_HEADERS, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            resp_text = resp.read().decode("utf-8", errors="ignore")
+    except Exception as e:
+        return None, f"api_call_error:{type(e).__name__}"
+
+    m = re.search(r'"(https?://[^"\\]+)"', resp_text)
+    if not m:
+        return None, "api_response_no_url"
+    return m.group(1), "ok"
+
+
+def _normalize_page_text(raw: str) -> str:
+    text = raw.replace("\\/", "/")
+    text = html.unescape(text)
+    try:
+        text = urllib.parse.unquote(text)
+    except Exception:
+        pass
+    return text
+
+
+def resolve_source_page(google_url: str, timeout: int = 10):
+    """구글 뉴스 RSS의 link는 실제 기사가 아니라 구글의 중간 링크인
+    경우가 많다. 다음 순서로 실제 기사 URL을 찾는다:
+      1) 토큰 자체를 base64 디코딩 (구버전 형식이면 요청 없이 바로 성공)
+      2) 안 되면 구글의 batchexecute API로 디코딩 (신버전 형식, 요청 2번)
+      3) 그래도 안 되면 구글 링크를 직접 열어 리디렉션/본문 속 URL을 찾는다
+    (실제 기사 URL, 그 페이지 HTML, 사유) 튜플을 돌려준다."""
+    token_url = decode_google_token(google_url)
+    via_api = False
+    reason_prefix = ""
+    if not token_url:
+        api_url, api_reason = decode_google_token_via_api(google_url, timeout=timeout)
+        if api_url:
+            token_url = api_url
+            via_api = True
+        else:
+            reason_prefix = api_reason + "|"
+
+    if token_url:
+        try:
+            req = urllib.request.Request(token_url, headers=HTTP_HEADERS)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                ok_reason = "ok_api_decode" if via_api else "ok_local_decode"
+                return token_url, resp.read().decode("utf-8", errors="ignore"), ok_reason
+        except Exception as e:
+            return token_url, None, f"article_fetch_error:{type(e).__name__}"
+
+    try:
+        req = urllib.request.Request(google_url, headers=HTTP_HEADERS)
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             final_url = resp.geturl()
             raw = resp.read().decode("utf-8", errors="ignore")
     except Exception as e:
-        return None, None, f"google_fetch_error:{type(e).__name__}"
+        return None, None, f"{reason_prefix}google_fetch_error:{type(e).__name__}"
 
     if any(d in final_url for d in TARGET_DOMAINS):
         return final_url, raw, "ok_direct_redirect"
 
-    # 구글 페이지 안에 이스케이프된 슬래시(\/)로 박혀 있는 경우도 있어 풀어준다
-    unescaped = raw.replace("\\/", "/").replace("&amp;", "&")
-    m = _DOMAIN_PATTERN.search(unescaped)
+    text = _normalize_page_text(raw)
+    m = _DOMAIN_PATTERN.search(text)
     if not m:
-        return None, None, "no_real_url_found_in_page"
-    real_url = m.group(0)
+        return None, None, f"{reason_prefix}no_real_url_found_in_page"
+    real_url = _normalize_candidate_url(m.group(0))
 
     try:
-        req2 = urllib.request.Request(real_url, headers=headers)
+        req2 = urllib.request.Request(real_url, headers=HTTP_HEADERS)
         with urllib.request.urlopen(req2, timeout=timeout) as resp2:
             return real_url, resp2.read().decode("utf-8", errors="ignore"), "ok_via_embedded_url"
     except Exception as e:
@@ -203,13 +314,13 @@ def verify_recent_date(it: dict):
     if (datetime.utcnow() - g_dt).days > RECENT_VERIFY_WINDOW_DAYS:
         return "skip_not_recent"
 
-    real_url, html, reason = resolve_source_page(it["url"])
+    real_url, html_text, reason = resolve_source_page(it["url"])
     if real_url:
         it["url"] = real_url  # 클릭했을 때 구글 대신 실제 기사로 바로 가도록 교체
-    if html is None:
+    if html_text is None:
         return reason
 
-    real_dt = extract_date_from_html(html)
+    real_dt = extract_date_from_html(html_text)
     if real_dt is None:
         return "date_pattern_not_found"
 
@@ -268,6 +379,7 @@ def merge_items(existing: dict, source_id: str, label: str, items: list, limit: 
             if old.get("pub_date") != record["pub_date"] or old.get("date_estimated") != record["date_estimated"]:
                 old["pub_date"] = record["pub_date"]
                 old["date_estimated"] = record["date_estimated"]
+                old["url"] = record["url"]
                 if record["summary"]:
                     old["summary"] = record["summary"]
                 count_fixed += 1
