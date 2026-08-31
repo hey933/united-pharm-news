@@ -236,7 +236,10 @@ def decode_google_token_via_api(google_url: str, timeout: int = 10):
     except Exception as e:
         return None, f"api_call_error:{type(e).__name__}"
 
-    m = re.search(r'"(https?://[^"\\]+)"', resp_text)
+    m = re.search(r'\\?"(https?://[^"\\]+)\\?"', resp_text)
+    if not m:
+        unescaped = resp_text.replace('\\"', '"').replace("\\\\", "\\").replace("\\/", "/")
+        m = re.search(r'"(https?://[^"]+)"', unescaped)
     if not m:
         return None, "api_response_no_url"
     return m.group(1), "ok"
@@ -473,6 +476,45 @@ def run_backfill(existing: dict):
         print(f">> {label} 총 신규 {total_new}건 / 갱신 {total_fixed}건")
 
 
+MANUAL_DATES_FILE = "manual_dates.json"
+
+
+def load_manual_corrections():
+    """manual_dates.json이 있으면 {"제목에 포함된 문자열": "YYYY-MM-DD"} 형태로
+    읽어서, 자동 수집으로 못 고친 기사의 날짜를 강제로 맞춰주는 최후의
+    안전장치로 쓴다. 파일이 없으면 그냥 빈 채로 넘어간다."""
+    try:
+        with open(MANUAL_DATES_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+    except Exception as e:
+        print(f"[경고] {MANUAL_DATES_FILE} 읽기 실패: {e}")
+        return {}
+
+
+def apply_manual_corrections(existing: dict, corrections: dict) -> int:
+    if not corrections:
+        return 0
+    applied = 0
+    for record in existing.values():
+        title = record.get("title", "")
+        for needle, date_str in corrections.items():
+            if needle.startswith("_"):
+                continue
+            if needle in title:
+                try:
+                    dt = datetime.strptime(date_str, "%Y-%m-%d")
+                except ValueError:
+                    print(f"[경고] manual_dates.json 날짜 형식 오류: {date_str} (YYYY-MM-DD여야 함)")
+                    continue
+                record["pub_date"] = to_rss_str(dt)
+                record["date_estimated"] = False
+                applied += 1
+                break
+    return applied
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["daily", "backfill"], default="daily")
@@ -487,6 +529,11 @@ def main():
         run_backfill(existing)
     else:
         run_daily(existing)
+
+    corrections = load_manual_corrections()
+    applied = apply_manual_corrections(existing, corrections)
+    if applied:
+        print(f"manual_dates.json으로 수동 보정 {applied}건 적용")
 
     all_articles = sorted(existing.values(), key=sort_key, reverse=True)
 
