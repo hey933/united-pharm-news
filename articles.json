@@ -1,6 +1,56 @@
 {
-  "updated_at": "2026-08-31T06:11:57.217117+00:00",
+  "updated_at": "2026-08-31T06:22:51.144584+00:00",
   "articles": [
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "강덕영 사장,‘CEO 그랑프리’ 본상 수상 - 약업신문",
+      "summary": "강덕영 사장,‘CEO 그랑프리’ 본상 수상&nbsp;&nbsp;약업신문",
+      "url": "http://m.yakup.com/news/index.html?mode\\u003dview\\u0026pmode\\u003d\\u0026cat\\u003dall\\u0026cat2\\u003d\\u0026cat3\\u003d\\u0026nid\\u003d137136\\u0026num_start\\u003d187568",
+      "pub_date": "Sun, 30 Aug 2026 10:45:54 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-08-31T06:19:29.439532+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드제약 항혈전제 '클라빅신듀오캡슐',식약처 특허 등재 - 약업신문",
+      "summary": "유나이티드제약 항혈전제 '클라빅신듀오캡슐',식약처 특허 등재&nbsp;&nbsp;약업신문",
+      "url": "http://m.yakup.com/news/index.html?mode\\u003dview\\u0026pmode\\u003d\\u0026cat\\u003dall\\u0026cat2\\u003d1\\u0026cat3\\u003d\\u0026nid\\u003d239030\\u0026num_start\\u003d31296",
+      "pub_date": "Sun, 30 Aug 2026 05:22:15 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-08-31T06:19:29.439085+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드제약,1Q 매출 4% 감소-영업익 11.3% 증가 - 약업신문",
+      "summary": "유나이티드제약,1Q 매출 4% 감소-영업익 11.3% 증가&nbsp;&nbsp;약업신문",
+      "url": "http://m.yakup.com/news/index.html?mode\\u003dview\\u0026pmode\\u003d\\u0026cat\\u003d12\\u0026cat2\\u003d\\u0026cat3\\u003d\\u0026nid\\u003d244282\\u0026num_start\\u003d50064",
+      "pub_date": "Sat, 29 Aug 2026 15:03:56 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-08-31T06:19:29.439425+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드제약 강덕영 대표, 전남대약대 객원교수 임명 - 약업신문",
+      "summary": "유나이티드제약 강덕영 대표, 전남대약대 객원교수 임명&nbsp;&nbsp;약업신문",
+      "url": "http://m.yakup.com/news/index.html/mode\\u003dview\\u0026cat\\u003d14?mode\\u003dview\\u0026pmode\\u003d\\u0026cat\\u003dall\\u0026cat2\\u003d2\\u0026cat3\\u003d\\u0026nid\\u003d200109\\u0026num_start\\u003d69280",
+      "pub_date": "Sat, 29 Aug 2026 11:03:05 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-08-31T06:19:29.439145+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드제약, 천연물 항암제 신약 日 특허 등록 - 약업신문",
+      "summary": "유나이티드제약, 천연물 항암제 신약 日 특허 등록&nbsp;&nbsp;약업신문",
+      "url": "http://m.yakup.com/news/index.html?mode\\u003dview\\u0026pmode\\u003d\\u0026cat\\u003d12\\u0026cat2\\u003d\\u0026cat3\\u003d\\u0026nid\\u003d257675\\u0026num_start\\u003d46896",
+      "pub_date": "Fri, 28 Aug 2026 05:14:33 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-08-31T06:19:29.439215+00:00"
+    },
     {
       "source": "dailypharm",
       "label": "데일리팜",
@@ -211,6 +261,16 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ZcVdLQ1JrQVpkeDlnYzdLMGdESDFkUVAteGJORGZjWVFNU2J5cU4zR0hXUTlFUTFEQ0FHNGdGT0FvWEp6ampZa0lKTlVmQURL?oc=5",
       "pub_date": "Fri, 31 Jul 2026 07:00:00 GMT",
       "collected_at": "2026-08-29T00:09:29.758861+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "떨어진 주가에 증여 타이밍?…제약사 2·3세 승계 속도 - v.daum.net",
+      "summary": "떨어진 주가에 증여 타이밍?…제약사 2·3세 승계 속도&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260731120014304?f\\u003dp",
+      "pub_date": "Fri, 31 Jul 2026 07:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:51.552169+00:00",
       "date_estimated": false
     },
     {
@@ -574,16 +634,6 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "떨어진 주가에 증여 타이밍?…제약사 2·3세 승계 속도 - v.daum.net",
-      "summary": "떨어진 주가에 증여 타이밍?…제약사 2·3세 승계 속도&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260731120014304",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552169+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
       "title": "열정으로 물든 행주산성 '제19회 머니투데이도전청춘가요제' 성료 - v.daum.net",
       "summary": "열정으로 물든 행주산성 '제19회 머니투데이도전청춘가요제' 성료&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/20260831115948926",
@@ -836,6 +886,16 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05NXBORl82Wi1QaUt4QllWZEhTVWhWa1ZDd1o5VHhFR05CM0kyUFJPclpmRUo1djBSQ1d1cV9Eam5HVFdtOExGY2FZdnp5X1ZjY2pjNENzakFpUlQ4QXlyaHAzZ0lwQQ?oc=5",
       "pub_date": "Thu, 23 Apr 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:50:30.779506+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조 - 약업신문",
+      "summary": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조&nbsp;&nbsp;약업신문",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUUt3ZVIwMllfSURnVHNKN1BYVFNMY0NwVnFiallWb0thZktPaTdMczhLZkpOd1NTdDlwRGV4RTFkNVA5V09Dc3VwRXo2MC1VNXM1WWpHVl9PX1lhY1kyZXN4bGtYU1loSl9NRS1sQUFwc2FJTjRoQVNwTGJsZVNYQWtqR0h3WmRPVVVFN1lEWXhEU0tXd25fWmkza3BmWEFTanRLSGtn?oc=5",
+      "pub_date": "Mon, 20 Apr 2026 15:55:20 GMT",
+      "collected_at": "2026-08-26T07:48:46.041246+00:00",
       "date_estimated": false
     },
     {
@@ -2195,8 +2255,8 @@
       "label": "약업신문",
       "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사 - 약업신문",
       "summary": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5od0xfbjE5N2dZMHh4bTM2Z3U1Ym1mcnBOdXc0dXN0d0h1SjVCb3lQVEJtRjJRZjRxMk1jZTg4SXIzWkY0WE5oYXZUeDNmdnlzbW9FT3JkLXJuVTVObzlxWDhzMnZFVDVwUm1uRk1CWVN4bXQxS2s2dW1qOA?oc=5",
-      "pub_date": "Sun, 22 Dec 2024 06:52:09 GMT",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ObUdoZTV6WlJVa3A5a04xRFVZVk1XdG1iVER6S3FYMHdIdTNvR0pBeHl5Wkg5Mld0emNDanBWSWktNEstSlU3RGIzQWg2Zk1PNGhxUVdGQ0tyRVN5S3hDVzQ3V2lBLUx2a0xiX2JOeEJuU2ZhWVRKWEI2VQ?oc=5",
+      "pub_date": "Mon, 23 Dec 2024 00:25:49 GMT",
       "collected_at": "2026-08-28T02:10:10.587271+00:00",
       "date_estimated": false
     },
@@ -3350,16 +3410,6 @@
     {
       "source": "yakup",
       "label": "약업신문",
-      "title": "부작용 줄이고 복용편이성 높인 소염진통제 개량신약 - 약업신문",
-      "summary": "부작용 줄이고 복용편이성 높인 소염진통제 개량신약&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QMFVQaERZb3ZZYVhISEttRE5Zc0hUUjhuU1daYkIwSkV6S2dvSDk3Mnd5SnJSZERRWGxmaElpYmFaalkzRmJKd2pSV0ZFOENPNEZSbTNsS1RFVlZJc3NtaTVYLS1mQQ?oc=5",
-      "pub_date": "Tue, 16 Aug 2022 21:25:34 GMT",
-      "collected_at": "2026-08-26T07:50:30.779473+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
       "title": "경기도 광주 유나이티드 히스토리 캠퍼스는 어떤 곳 - 약업신문",
       "summary": "경기도 광주 유나이티드 히스토리 캠퍼스는 어떤 곳&nbsp;&nbsp;약업신문",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92NV9uT053MVlVb3M0c3ZLanI5QTVQVWFsWUpRSGhCUHh2YTg0MFlIaWxsdFNLMTRCSHlpVFJwR2hQczJtdEdxMjJiaE4xNWE5b2RVZFpPb29pMVZCeDh2R0RsSTlQdw?oc=5",
@@ -4389,16 +4439,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조 - 약업신문",
-      "summary": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUUt3ZVIwMllfSURnVHNKN1BYVFNMY0NwVnFiallWb0thZktPaTdMczhLZkpOd1NTdDlwRGV4RTFkNVA5V09Dc3VwRXo2MC1VNXM1WWpHVl9PX1lhY1kyZXN4bGtYU1loSl9NRS1sQUFwc2FJTjRoQVNwTGJsZVNYQWtqR0h3WmRPVVVFN1lEWXhEU0tXd25fWmkza3BmWEFTanRLSGtn?oc=5",
-      "pub_date": "Mon, 01 Jan 2019 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:46.041246+00:00",
-      "date_estimated": true
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
@@ -4959,6 +4999,16 @@
     {
       "source": "yakup",
       "label": "약업신문",
+      "title": "부작용 줄이고 복용편이성 높인 소염진통제 개량신약 - 약업신문",
+      "summary": "부작용 줄이고 복용편이성 높인 소염진통제 개량신약&nbsp;&nbsp;약업신문",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1LQXVHSlF0NEZYMnMweHIzcTNHNGZKSFEydnVlNzVSeVBrZ2lpMmpOc0NPT081emFjeFBLVnZVZmdyVkVHSVpXaGxjRVlCdElBT043MHZLSmJnNXh1LUdtSDJOdw?oc=5",
+      "pub_date": "Mon, 24 Mar 2014 07:00:00 GMT",
+      "collected_at": "2026-08-26T07:50:30.779473+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
       "title": "유나이티드제약,cGMP공장 준공 3천억 교두보 마련 - 약업신문",
       "summary": "유나이티드제약,cGMP공장 준공 3천억 교두보 마련&nbsp;&nbsp;약업신문",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0zNkJJR2tzLVY1SFIzdkJicFVoM2ZhZ0g4MVhkcFEzcGlfR3g0cTFKZkxRX0ZySjVSY3VCVkVZUVRuRFp5djM4RWtaQnFPcVFRR0xlanBEcw?oc=5",
@@ -5002,7 +5052,8 @@
       "summary": "항혈전 개량신약 ‘실로스탄CR정‘&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Qd0YwVTltdV9Rd1dCbXgtbWNKbmc2ZF8yUll2T2pFeFJSSnBSMEdQV3BIWWhfakI2LWw3NWxONUg3UzQ3TERfd0VyRGQ5V3I3Z0l0RWFLV0hXMTdUTjVtLW5kbnU3a2pVUlNN?oc=5",
       "pub_date": "Wed, 27 Mar 2013 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:34.502434+00:00"
+      "collected_at": "2026-08-26T07:50:34.502434+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -5288,7 +5339,7 @@
       "label": "다음뉴스",
       "title": "언론사뷰 - v.daum.net",
       "summary": "언론사뷰&nbsp;&nbsp;v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pbV91X3c4cUNkbVZzaC1ESTRDNmV4ckFYVWNlSUtYQTA4ZkRQVEZ2Rjh1SmZxTzhIUWhJOE5tdXI0MndraUYwTDZvU2RsY29FajJMVTlBbGZyRFlyZ3ZLdQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sQk9saVJiUVA4STFpWGZrTm50ZXVkMFltczQxOTZtWGVWbGRXbWpQanNVTEVlc28xN0RxWGJBbno0a1hmc0VsQlZpdDdlM2prMEVoRXh3aUhQQlRlM193ag?oc=5",
       "pub_date": "Mon, 02 Aug 2004 07:00:00 GMT",
       "collected_at": "2026-08-31T00:11:59.204341+00:00",
       "date_estimated": false
