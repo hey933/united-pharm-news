@@ -477,6 +477,7 @@ def run_backfill(existing: dict):
 
 
 MANUAL_DATES_FILE = "manual_dates.json"
+MANUAL_EXCLUDE_FILE = "manual_exclude.json"
 
 
 def load_manual_corrections():
@@ -515,6 +516,33 @@ def apply_manual_corrections(existing: dict, corrections: dict) -> int:
     return applied
 
 
+def load_manual_excludes():
+    """manual_exclude.json이 있으면 [\"제목에 포함된 문자열\", ...] 형태로
+    읽어서, 그 문구가 제목에 들어간 기사를 결과에서 아예 빼버린다.
+    (날짜가 틀렸는데 자동으로 못 고친 기사를 임시로 화면에서 지울 때 사용.)"""
+    try:
+        with open(MANUAL_EXCLUDE_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return [s for s in data if not str(s).startswith("_")]
+    except FileNotFoundError:
+        return []
+    except Exception as e:
+        print(f"[경고] {MANUAL_EXCLUDE_FILE} 읽기 실패: {e}")
+        return []
+
+
+def apply_manual_excludes(existing: dict, needles: list) -> int:
+    if not needles:
+        return 0
+    to_remove = [
+        key for key, record in existing.items()
+        if any(needle in record.get("title", "") for needle in needles)
+    ]
+    for key in to_remove:
+        del existing[key]
+    return len(to_remove)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["daily", "backfill"], default="daily")
@@ -534,6 +562,11 @@ def main():
     applied = apply_manual_corrections(existing, corrections)
     if applied:
         print(f"manual_dates.json으로 수동 보정 {applied}건 적용")
+
+    excludes = load_manual_excludes()
+    removed = apply_manual_excludes(existing, excludes)
+    if removed:
+        print(f"manual_exclude.json으로 {removed}건 제외")
 
     all_articles = sorted(existing.values(), key=sort_key, reverse=True)
 
