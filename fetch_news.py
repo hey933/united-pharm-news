@@ -160,54 +160,64 @@ def resolve_source_page(google_url: str, timeout: int = 10):
     페이지인 경우가 많다. 1) HTTP 리디렉션으로 이미 실제 도메인에
     도착했으면 그 페이지를 그대로 쓰고, 2) 아니면 구글 페이지 본문 안에
     텍스트로 박혀 있는 실제 기사 URL을 찾아 한 번 더 들어간다.
-    (실제 기사 URL, 그 페이지 HTML) 튜플을 돌려주고, 실패하면 (None, None)."""
+    (실제 기사 URL, 그 페이지 HTML, 실패사유) 튜플을 돌려준다."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
+    }
     try:
-        req = urllib.request.Request(google_url, headers={"User-Agent": "Mozilla/5.0"})
+        req = urllib.request.Request(google_url, headers=headers)
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             final_url = resp.geturl()
             raw = resp.read().decode("utf-8", errors="ignore")
-    except Exception:
-        return None, None
+    except Exception as e:
+        return None, None, f"google_fetch_error:{type(e).__name__}"
 
     if any(d in final_url for d in TARGET_DOMAINS):
-        return final_url, raw
+        return final_url, raw, "ok_direct_redirect"
 
-    m = _DOMAIN_PATTERN.search(raw)
+    # 구글 페이지 안에 이스케이프된 슬래시(\/)로 박혀 있는 경우도 있어 풀어준다
+    unescaped = raw.replace("\\/", "/").replace("&amp;", "&")
+    m = _DOMAIN_PATTERN.search(unescaped)
     if not m:
-        return None, None
+        return None, None, "no_real_url_found_in_page"
     real_url = m.group(0)
 
     try:
-        req2 = urllib.request.Request(real_url, headers={"User-Agent": "Mozilla/5.0"})
+        req2 = urllib.request.Request(real_url, headers=headers)
         with urllib.request.urlopen(req2, timeout=timeout) as resp2:
-            return real_url, resp2.read().decode("utf-8", errors="ignore")
-    except Exception:
-        return real_url, None
+            return real_url, resp2.read().decode("utf-8", errors="ignore"), "ok_via_embedded_url"
+    except Exception as e:
+        return real_url, None, f"article_fetch_error:{type(e).__name__}"
 
 
 def verify_recent_date(it: dict):
     """구글이 준 pubDate가 최근으로 찍혀 있으면, 실제 기사 페이지에
-    들어가 진짜 게재일과 비교해 어긋나면 바로잡는다. 실패하면 조용히
-    넘어간다 - 구글 값보다 더 나쁘게 만들지는 않는다."""
+    들어가 진짜 게재일과 비교해 어긋나면 바로잡는다. 실패해도 구글 값은
+    그대로 두되, 진단을 위해 사유 문자열을 돌려준다."""
     g_dt = parse_rss_dt(it["pub_date"])
     if g_dt is None:
-        return
+        return "skip_no_pubdate"
     if (datetime.utcnow() - g_dt).days > RECENT_VERIFY_WINDOW_DAYS:
-        return  # 이미 과거로 찍혀 있으면 검증 불필요 (요청 수 절약)
+        return "skip_not_recent"
 
-    real_url, html = resolve_source_page(it["url"])
+    real_url, html, reason = resolve_source_page(it["url"])
     if real_url:
         it["url"] = real_url  # 클릭했을 때 구글 대신 실제 기사로 바로 가도록 교체
     if html is None:
-        return
+        return reason
 
     real_dt = extract_date_from_html(html)
     if real_dt is None:
-        return
+        return "date_pattern_not_found"
 
     if abs((real_dt - g_dt).days) >= 3:
         it["pub_date"] = to_rss_str(real_dt)
         it["date_estimated"] = False
+        return "fixed"
+    return "confirmed_same"
 
 
 def dedup_key(source_id: str, title: str) -> str:
@@ -267,18 +277,28 @@ def merge_items(existing: dict, source_id: str, label: str, items: list, limit: 
     return count_new, count_fixed
 
 
-def verify_items(items: list) -> int:
+def verify_items(items: list):
+    """반환값: (고쳐진 건수, 사유별 집계 dict) - 로그로 어디서 막히는지
+    바로 보이게 하기 위함."""
     fixed = 0
+    reasons = {}
     for it in items:
-        before = it["pub_date"]
         try:
-            verify_recent_date(it)
-        except Exception:
-            pass
-        if it["pub_date"] != before:
-            fixed += 1
+            reason = verify_recent_date(it)
+        except Exception as e:
+            reason = f"unexpected_error:{type(e).__name__}"
+        if reason:
+            reasons[reason] = reasons.get(reason, 0) + 1
+            if reason == "fixed":
+                fixed += 1
         time.sleep(PAGE_FETCH_DELAY_SEC)
-    return fixed
+    return fixed, reasons
+
+
+def format_reasons(reasons: dict) -> str:
+    if not reasons:
+        return ""
+    return " [" + ", ".join(f"{k}:{v}" for k, v in reasons.items()) + "]"
 
 
 def run_daily(existing: dict):
@@ -290,10 +310,10 @@ def run_daily(existing: dict):
             print(f"[경고] {label} 수집 실패: {e}")
             continue
 
-        verified = verify_items(items)
+        verified, reasons = verify_items(items)
         n, fixed = merge_items(existing, source_id, label, items, limit=MAX_ITEMS_PER_SOURCE)
         note = f" / 원문 대조로 날짜 보정 {verified}건 / 갱신 {fixed}건" if (verified or fixed) else ""
-        print(f"{label}: 신규 {n}건 (후보 {len(items)}건){note}")
+        print(f"{label}: 신규 {n}건 (후보 {len(items)}건){note}{format_reasons(reasons)}")
         time.sleep(REQUEST_DELAY_SEC)
 
 
@@ -314,7 +334,7 @@ def run_backfill(existing: dict):
                 continue
 
             # 1단계: 최근으로 찍힌 항목만 원문 대조 (당해 연도 검색에서만 해당)
-            verified = verify_items(items)
+            verified, reasons = verify_items(items)
 
             # 2단계: 그래도 검색 연도와 크게 어긋나면 검색 연도로 강제 보정
             year_fixed = 0
@@ -336,7 +356,7 @@ def run_backfill(existing: dict):
             if fixed:
                 parts.append(f"기존 항목 갱신 {fixed}건")
             note = f" ({', '.join(parts)})" if parts else ""
-            print(f"{label} {year}년: 신규 {n}건 (후보 {len(items)}건){note}")
+            print(f"{label} {year}년: 신규 {n}건 (후보 {len(items)}건){note}{format_reasons(reasons)}")
             time.sleep(REQUEST_DELAY_SEC)
         print(f">> {label} 총 신규 {total_new}건 / 갱신 {total_fixed}건")
 
