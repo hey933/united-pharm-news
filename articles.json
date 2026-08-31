@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T06:22:51.144584+00:00",
+  "updated_at": "2026-08-31T06:29:05.492462+00:00",
   "articles": [
     {
       "source": "yakup",
@@ -69,6 +69,16 @@
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4xYjJFZWJGWWtySnhnQ01lc2FkR1lUZlZrTUdNSUFLT2JiU0ZfSV84QXlJRjU3dDlHYnFTMGJJOEhnYUNzdG5CQmtaUQ?oc=5",
       "pub_date": "Tue, 25 Aug 2026 20:55:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552131+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "한미·SK바사·유한·대웅·종근당 5곳 R&D 1천억원 이상 투입 - v.daum.net",
+      "summary": "한미·SK바사·유한·대웅·종근당 5곳 R&D 1천억원 이상 투입&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260824060004732?f\\u003dp",
+      "pub_date": "Sun, 23 Aug 2026 21:00:04 GMT",
+      "collected_at": "2026-08-26T07:49:51.552117+00:00",
       "date_estimated": false
     },
     {
@@ -207,6 +217,16 @@
       "date_estimated": false
     },
     {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "“호흡기 질환은 겨울에만?”…폭염에 커지는 천식·COPD 관리 중요성 - v.daum.net",
+      "summary": "“호흡기 질환은 겨울에만?”…폭염에 커지는 천식·COPD 관리 중요성&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260807060312512?f\\u003dp",
+      "pub_date": "Fri, 07 Aug 2026 07:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:51.552180+00:00",
+      "date_estimated": false
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "바이오노트, ‘원숭이두창바이러스 신속항원 검출 키트’ 특허 등록 - 팜뉴스",
@@ -261,16 +281,6 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ZcVdLQ1JrQVpkeDlnYzdLMGdESDFkUVAteGJORGZjWVFNU2J5cU4zR0hXUTlFUTFEQ0FHNGdGT0FvWEp6ampZa0lKTlVmQURL?oc=5",
       "pub_date": "Fri, 31 Jul 2026 07:00:00 GMT",
       "collected_at": "2026-08-29T00:09:29.758861+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "떨어진 주가에 증여 타이밍?…제약사 2·3세 승계 속도 - v.daum.net",
-      "summary": "떨어진 주가에 증여 타이밍?…제약사 2·3세 승계 속도&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260731120014304?f\\u003dp",
-      "pub_date": "Fri, 31 Jul 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552169+00:00",
       "date_estimated": false
     },
     {
@@ -634,6 +644,16 @@
     {
       "source": "daum",
       "label": "다음뉴스",
+      "title": "떨어진 주가에 증여 타이밍?…제약사 2·3세 승계 속도 - v.daum.net",
+      "summary": "떨어진 주가에 증여 타이밍?…제약사 2·3세 승계 속도&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260731120014304",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:51.552169+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
       "title": "열정으로 물든 행주산성 '제19회 머니투데이도전청춘가요제' 성료 - v.daum.net",
       "summary": "열정으로 물든 행주산성 '제19회 머니투데이도전청춘가요제' 성료&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/20260831115948926",
@@ -649,16 +669,6 @@
       "url": "https://v.daum.net/v/20260826104003881",
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552129+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "한미·SK바사·유한·대웅·종근당 5곳 R&D 1천억원 이상 투입 - v.daum.net",
-      "summary": "한미·SK바사·유한·대웅·종근당 5곳 R&D 1천억원 이상 투입&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260824060004732",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552117+00:00",
       "date_estimated": false
     },
     {
@@ -719,16 +729,6 @@
       "url": "https://v.daum.net/v/20260811000235580",
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552166+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "“호흡기 질환은 겨울에만?”…폭염에 커지는 천식·COPD 관리 중요성 - v.daum.net",
-      "summary": "“호흡기 질환은 겨울에만?”…폭염에 커지는 천식·COPD 관리 중요성&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/KxgroF3Gjo",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552180+00:00",
       "date_estimated": false
     },
     {
@@ -886,16 +886,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05NXBORl82Wi1QaUt4QllWZEhTVWhWa1ZDd1o5VHhFR05CM0kyUFJPclpmRUo1djBSQ1d1cV9Eam5HVFdtOExGY2FZdnp5X1ZjY2pjNENzakFpUlQ4QXlyaHAzZ0lwQQ?oc=5",
       "pub_date": "Thu, 23 Apr 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:50:30.779506+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조 - 약업신문",
-      "summary": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUUt3ZVIwMllfSURnVHNKN1BYVFNMY0NwVnFiallWb0thZktPaTdMczhLZkpOd1NTdDlwRGV4RTFkNVA5V09Dc3VwRXo2MC1VNXM1WWpHVl9PX1lhY1kyZXN4bGtYU1loSl9NRS1sQUFwc2FJTjRoQVNwTGJsZVNYQWtqR0h3WmRPVVVFN1lEWXhEU0tXd25fWmkza3BmWEFTanRLSGtn?oc=5",
-      "pub_date": "Mon, 20 Apr 2026 15:55:20 GMT",
-      "collected_at": "2026-08-26T07:48:46.041246+00:00",
       "date_estimated": false
     },
     {
@@ -2255,8 +2245,8 @@
       "label": "약업신문",
       "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사 - 약업신문",
       "summary": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ObUdoZTV6WlJVa3A5a04xRFVZVk1XdG1iVER6S3FYMHdIdTNvR0pBeHl5Wkg5Mld0emNDanBWSWktNEstSlU3RGIzQWg2Zk1PNGhxUVdGQ0tyRVN5S3hDVzQ3V2lBLUx2a0xiX2JOeEJuU2ZhWVRKWEI2VQ?oc=5",
-      "pub_date": "Mon, 23 Dec 2024 00:25:49 GMT",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5od0xfbjE5N2dZMHh4bTM2Z3U1Ym1mcnBOdXc0dXN0d0h1SjVCb3lQVEJtRjJRZjRxMk1jZTg4SXIzWkY0WE5oYXZUeDNmdnlzbW9FT3JkLXJuVTVObzlxWDhzMnZFVDVwUm1uRk1CWVN4bXQxS2s2dW1qOA?oc=5",
+      "pub_date": "Sun, 22 Dec 2024 06:52:09 GMT",
       "collected_at": "2026-08-28T02:10:10.587271+00:00",
       "date_estimated": false
     },
@@ -4437,6 +4427,16 @@
       "pub_date": "Mon, 21 Jan 2019 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:21.494709+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조 - 약업신문",
+      "summary": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조&nbsp;&nbsp;약업신문",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUUt3ZVIwMllfSURnVHNKN1BYVFNMY0NwVnFiallWb0thZktPaTdMczhLZkpOd1NTdDlwRGV4RTFkNVA5V09Dc3VwRXo2MC1VNXM1WWpHVl9PX1lhY1kyZXN4bGtYU1loSl9NRS1sQUFwc2FJTjRoQVNwTGJsZVNYQWtqR0h3WmRPVVVFN1lEWXhEU0tXd25fWmkza3BmWEFTanRLSGtn?oc=5",
+      "pub_date": "Mon, 01 Jan 2019 00:00:00 GMT",
+      "collected_at": "2026-08-26T07:48:46.041246+00:00",
+      "date_estimated": true
     },
     {
       "source": "dailypharm",
