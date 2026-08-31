@@ -12,9 +12,17 @@
                      돌려주기 때문에, 연도별로 나눠 질의해야 과거 기사를 더 많이
                      모을 수 있다. 처음 한 번(또는 가끔) 수동으로 돌리는 용도.
 
+날짜 보정:
+  구글 뉴스 RSS의 pubDate는 가끔 '실제 발행일'이 아니라 '구글이 그 링크를
+  최근에 다시 색인한 날짜'로 나온다. 특히 오래된 기사를 연도별 검색으로
+  찾을 때 이 문제가 두드러진다 (예: 2010년 검색인데 pubDate는 오늘 날짜).
+  이를 막기 위해, 검색한 연도와 실제 pubDate의 연도가 크게 어긋나면 구글
+  값을 버리고 검색 연도로 보정한 뒤 date_estimated=True로 표시한다.
+
 사용 예:
-  python fetch_news.py                # 평소 daily 모드
-  python fetch_news.py --mode backfill   # 10년치 백필
+  python fetch_news.py                  # 평소 daily 모드
+  python fetch_news.py --mode backfill  # 10년치 백필 (재실행하면 잘못된
+                                          # 날짜도 다시 검사해 고쳐진다)
 """
 
 import argparse
@@ -41,6 +49,8 @@ MAX_ITEMS_PER_SOURCE = 60   # daily 모드에서 파일이 무한정 커지지 �
 REQUEST_DELAY_SEC = 1.5     # 구글에 너무 빨리 연속 요청하지 않기 위한 딜레이
 YEARS_BACK = 10             # backfill 모드에서 몇 년 전까지 거슬러 올라갈지
 
+RSS_DATE_FMT = "%a, %d %b %Y %H:%M:%S %Z"
+
 
 def build_rss_url(keyword: str, domain: str, start: str = None, end: str = None) -> str:
     query = f'"{keyword}" site:{domain}'
@@ -64,15 +74,37 @@ def parse_items(xml_bytes: bytes):
         link = (item.findtext("link") or "").strip()
         pub_date = (item.findtext("pubDate") or "").strip()
         desc_raw = (item.findtext("description") or "").strip()
-        # 구글 뉴스 description은 HTML 스니펫이라 태그만 제거
         desc = re.sub(r"<[^>]+>", "", desc_raw).strip()
         items.append({
             "title": title,
             "url": link,
             "pub_date": pub_date,
             "summary": desc,
+            "date_estimated": False,
         })
     return items
+
+
+def pub_year(pub_date: str):
+    try:
+        return datetime.strptime(pub_date, RSS_DATE_FMT).year
+    except Exception:
+        return None
+
+
+def sort_key(a):
+    try:
+        return datetime.strptime(a["pub_date"], RSS_DATE_FMT)
+    except Exception:
+        return datetime.min
+
+
+def dedup_key(source_id: str, title: str) -> str:
+    """같은 소스에서 제목이 완전히 같으면 같은 기사로 본다.
+    (예전엔 제목+발행일시로 판정했는데, 날짜 보정 때문에 같은 기사의
+    pubDate 값이 실행마다 달라질 수 있어 제목 기준으로 바꿨다.)"""
+    norm_title = re.sub(r"\s+", " ", title).strip()
+    return f"{source_id}||{norm_title}"
 
 
 def load_existing():
@@ -83,31 +115,50 @@ def load_existing():
         return {"updated_at": None, "articles": []}
 
 
-def dedup_key(title: str, pub_date: str) -> str:
-    """제목+발행일시가 완전히 같으면 같은 기사로 간주한다.
-    (구글 뉴스가 같은 기사를 다른 추적 링크로 두 번 주는 경우가 있어서
-    URL이 아니라 이 값으로 중복을 판단한다.)"""
-    norm_title = re.sub(r"\s+", " ", title).strip()
-    return f"{norm_title}||{pub_date.strip()}"
+def build_existing_index(data: dict):
+    """articles.json을 dedup_key 기준으로 다시 인덱싱한다. 같은 키가
+    여럿이면(예전 방식으로 저장돼 중복이던 것) 날짜가 추정이 아닌 쪽을
+    우선 남긴다."""
+    existing = {}
+    removed_dup = 0
+    for a in data.get("articles", []):
+        key = dedup_key(a.get("source", ""), a.get("title", ""))
+        if key in existing:
+            removed_dup += 1
+            if existing[key].get("date_estimated") and not a.get("date_estimated"):
+                existing[key] = a
+            continue
+        existing[key] = a
+    return existing, removed_dup
 
 
 def merge_items(existing: dict, source_id: str, label: str, items: list, limit: int = None):
     count_new = 0
+    count_fixed = 0
     for it in (items[:limit] if limit else items):
-        key = dedup_key(it["title"], it["pub_date"])
-        if key in existing:
-            continue
-        existing[key] = {
+        key = dedup_key(source_id, it["title"])
+        record = {
             "source": source_id,
             "label": label,
             "title": it["title"],
             "summary": it["summary"],
             "url": it["url"],
             "pub_date": it["pub_date"],
+            "date_estimated": it.get("date_estimated", False),
             "collected_at": datetime.now(timezone.utc).isoformat(),
         }
+        if key in existing:
+            old = existing[key]
+            if old.get("pub_date") != record["pub_date"] or old.get("date_estimated") != record["date_estimated"]:
+                old["pub_date"] = record["pub_date"]
+                old["date_estimated"] = record["date_estimated"]
+                if record["summary"]:
+                    old["summary"] = record["summary"]
+                count_fixed += 1
+            continue
+        existing[key] = record
         count_new += 1
-    return count_new
+    return count_new, count_fixed
 
 
 def run_daily(existing: dict):
@@ -118,8 +169,9 @@ def run_daily(existing: dict):
         except Exception as e:
             print(f"[경고] {label} 수집 실패: {e}")
             continue
-        n = merge_items(existing, source_id, label, items, limit=MAX_ITEMS_PER_SOURCE)
-        print(f"{label}: 신규 {n}건 (후보 {len(items)}건)")
+        n, fixed = merge_items(existing, source_id, label, items, limit=MAX_ITEMS_PER_SOURCE)
+        note = f" / 갱신 {fixed}건" if fixed else ""
+        print(f"{label}: 신규 {n}건 (후보 {len(items)}건){note}")
         time.sleep(REQUEST_DELAY_SEC)
 
 
@@ -128,6 +180,7 @@ def run_backfill(existing: dict):
     years = range(current_year - YEARS_BACK + 1, current_year + 1)
     for source_id, (label, domain) in SOURCES.items():
         total_new = 0
+        total_fixed = 0
         for year in years:
             start = f"{year}-01-01"
             end = f"{year + 1}-01-01"
@@ -137,18 +190,25 @@ def run_backfill(existing: dict):
             except Exception as e:
                 print(f"[경고] {label} {year}년 수집 실패: {e}")
                 continue
-            n = merge_items(existing, source_id, label, items)
+
+            date_fixed_count = 0
+            for it in items:
+                y = pub_year(it["pub_date"])
+                # 이번 검색은 {year}년으로 범위를 좁힌 결과다. 돌아온 pubDate가
+                # 그 연도(혹은 다음 연도 1월 초까지)를 크게 벗어나면 구글이
+                # 재색인 날짜를 준 것으로 보고, 검색 연도로 보정한다.
+                if y is None or y < year or y > year + 1:
+                    it["pub_date"] = f"Mon, 01 Jan {year} 00:00:00 GMT"
+                    it["date_estimated"] = True
+                    date_fixed_count += 1
+
+            n, fixed = merge_items(existing, source_id, label, items)
             total_new += n
-            print(f"{label} {year}년: 신규 {n}건 (후보 {len(items)}건)")
+            total_fixed += fixed
+            note = f" (날짜 보정 {date_fixed_count}건 / 기존 항목 갱신 {fixed}건)" if (date_fixed_count or fixed) else ""
+            print(f"{label} {year}년: 신규 {n}건 (후보 {len(items)}건){note}")
             time.sleep(REQUEST_DELAY_SEC)
-        print(f">> {label} 총 신규 {total_new}건")
-
-
-def sort_key(a):
-    try:
-        return datetime.strptime(a["pub_date"], "%a, %d %b %Y %H:%M:%S %Z")
-    except Exception:
-        return datetime.min
+        print(f">> {label} 총 신규 {total_new}건 / 갱신 {total_fixed}건")
 
 
 def main():
@@ -157,19 +217,7 @@ def main():
     args = parser.parse_args()
 
     data = load_existing()
-
-    # 기존 articles.json을 새 중복 판정 기준(제목+발행일시)으로 다시 키를 매겨
-    # 불러온다. 이전 방식(URL 기준)으로 저장돼 이미 중복이 들어있던 기사도
-    # 여기서 한 번에 정리된다. 같은 키가 여럿이면 먼저 나온 것(대개 더 먼저
-    # 수집된 것)을 유지한다.
-    existing = {}
-    removed_dup = 0
-    for a in data.get("articles", []):
-        key = dedup_key(a.get("title", ""), a.get("pub_date", ""))
-        if key in existing:
-            removed_dup += 1
-            continue
-        existing[key] = a
+    existing, removed_dup = build_existing_index(data)
     if removed_dup:
         print(f"기존 데이터에서 중복 {removed_dup}건 정리")
 
@@ -192,4 +240,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
