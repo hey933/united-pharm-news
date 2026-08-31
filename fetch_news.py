@@ -127,6 +127,13 @@ DATE_META_PATTERNS = [
     r'name=["\']pubdate["\']\s+content=["\']([^"\']+)["\']',
 ]
 
+# 실제 언론사 도메인 목록 (구글 리디렉션 페이지 안에서 이 도메인이 포함된
+# URL을 찾아 실제 기사로 한 번 더 들어가기 위함)
+TARGET_DOMAINS = ["yakup.com", "dailypharm.com", "pharmnews.com", "v.daum.net", "daum.net"]
+_DOMAIN_PATTERN = re.compile(
+    r'https?://[^\s"\'<>\\]*(?:' + "|".join(re.escape(d) for d in TARGET_DOMAINS) + r')[^\s"\'<>\\]*'
+)
+
 
 def extract_date_from_html(html: str):
     for pattern in DATE_META_PATTERNS:
@@ -148,23 +155,53 @@ def extract_date_from_html(html: str):
     return None
 
 
+def resolve_source_page(google_url: str, timeout: int = 10):
+    """구글 뉴스 RSS의 link는 실제 기사가 아니라 구글의 중간 리디렉션
+    페이지인 경우가 많다. 1) HTTP 리디렉션으로 이미 실제 도메인에
+    도착했으면 그 페이지를 그대로 쓰고, 2) 아니면 구글 페이지 본문 안에
+    텍스트로 박혀 있는 실제 기사 URL을 찾아 한 번 더 들어간다.
+    (실제 기사 URL, 그 페이지 HTML) 튜플을 돌려주고, 실패하면 (None, None)."""
+    try:
+        req = urllib.request.Request(google_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            final_url = resp.geturl()
+            raw = resp.read().decode("utf-8", errors="ignore")
+    except Exception:
+        return None, None
+
+    if any(d in final_url for d in TARGET_DOMAINS):
+        return final_url, raw
+
+    m = _DOMAIN_PATTERN.search(raw)
+    if not m:
+        return None, None
+    real_url = m.group(0)
+
+    try:
+        req2 = urllib.request.Request(real_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req2, timeout=timeout) as resp2:
+            return real_url, resp2.read().decode("utf-8", errors="ignore")
+    except Exception:
+        return real_url, None
+
+
 def verify_recent_date(it: dict):
-    """구글이 준 pubDate가 최근으로 찍혀 있으면, 원문 페이지에 들어가
-    실제 게재일과 비교해 어긋나면 바로잡는다. (오래된 기사가 최근 날짜로
-    잘못 재색인되는 문제를 여기서 잡는다.) 실패하면 조용히 넘어간다 -
-    구글 값보다 더 나쁘게 만들지는 않는다."""
+    """구글이 준 pubDate가 최근으로 찍혀 있으면, 실제 기사 페이지에
+    들어가 진짜 게재일과 비교해 어긋나면 바로잡는다. 실패하면 조용히
+    넘어간다 - 구글 값보다 더 나쁘게 만들지는 않는다."""
     g_dt = parse_rss_dt(it["pub_date"])
     if g_dt is None:
         return
     if (datetime.utcnow() - g_dt).days > RECENT_VERIFY_WINDOW_DAYS:
         return  # 이미 과거로 찍혀 있으면 검증 불필요 (요청 수 절약)
 
-    try:
-        html = http_get(it["url"], timeout=10).decode("utf-8", errors="ignore")
-        real_dt = extract_date_from_html(html)
-    except Exception:
-        real_dt = None
+    real_url, html = resolve_source_page(it["url"])
+    if real_url:
+        it["url"] = real_url  # 클릭했을 때 구글 대신 실제 기사로 바로 가도록 교체
+    if html is None:
+        return
 
+    real_dt = extract_date_from_html(html)
     if real_dt is None:
         return
 
