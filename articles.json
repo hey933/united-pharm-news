@@ -1,36 +1,6 @@
 {
-  "updated_at": "2026-09-03T00:17:39.913568+00:00",
+  "updated_at": "2026-09-03T00:26:29.919126+00:00",
   "articles": [
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약 김태식 전무, 탈북청소년 방문 위로 - 약업신문",
-      "summary": "유나이티드제약 김태식 전무, 탈북청소년 방문 위로&nbsp;&nbsp;약업신문",
-      "url": "http://m.yakup.com/news/index.html?mode\\u003dview\\u0026pmode\\u003d\\u0026cat\\u003dall\\u0026cat2\\u003d2\\u0026cat3\\u003d\\u0026nid\\u003d182437\\u0026num_start\\u003d80208",
-      "pub_date": "Mon, 31 Aug 2026 17:13:26 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090430+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약-아주대 약대,제약산업 이해 ·진로 탐색 제조현장 견학 - 약업신문",
-      "summary": "유나이티드제약-아주대 약대,제약산업 이해 ·진로 탐색 제조현장 견학&nbsp;&nbsp;약업신문",
-      "url": "http://m.yakup.com/news/index.html?mode\\u003dview\\u0026pmode\\u003dclist\\u0026cat\\u003d12\\u0026cat2\\u003d\\u0026cat3\\u003d\\u0026nid\\u003d311568\\u0026num_start\\u003d10558",
-      "pub_date": "Mon, 31 Aug 2026 16:35:40 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090667+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약, 강남구청서 감사장 받아 - 약업신문",
-      "summary": "한국유나이티드제약, 강남구청서 감사장 받아&nbsp;&nbsp;약업신문",
-      "url": "http://m.yakup.com/news/index.html?mode\\u003dview\\u0026pmode\\u003dclist\\u0026cat\\u003d12\\u0026cat2\\u003d\\u0026cat3\\u003d\\u0026nid\\u003d258412\\u0026num_start\\u003d43040",
-      "pub_date": "Mon, 31 Aug 2026 12:49:01 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090373+00:00"
-    },
     {
       "source": "dailypharm",
       "label": "데일리팜",
@@ -44,21 +14,21 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "청구액 늘어난 약제 85품목 내달 PVA 약가변동·인하 - v.daum.net",
-      "summary": "청구액 늘어난 약제 85품목 내달 PVA 약가변동·인하&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260826055511489?f\\u003dp",
-      "pub_date": "Tue, 25 Aug 2026 20:55:11 GMT",
-      "collected_at": "2026-08-26T07:49:51.552131+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
       "title": "한미·SK바사·유한·대웅·종근당 5곳 R&D 1천억원 이상 투입 - v.daum.net",
       "summary": "한미·SK바사·유한·대웅·종근당 5곳 R&D 1천억원 이상 투입&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/20260824060004732?f\\u003dp",
       "pub_date": "Mon, 24 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552117+00:00",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:26:28.414839+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라 - v.daum.net",
+      "summary": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/QmHwvHx2t9?f\\u003dp",
+      "pub_date": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "collected_at": "2026-08-31T00:11:59.204372+00:00",
       "date_estimated": false
     },
     {
@@ -68,8 +38,8 @@
       "summary": "코스피 오너家 승계 본격화…‘주인 교체’ 뒤 지배구조 재편 속도 [투자360]&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/20260820164150168?f\\u003dp",
       "pub_date": "Thu, 20 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552099+00:00",
-      "date_estimated": false
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:26:28.414806+00:00"
     },
     {
       "source": "pharmnews",
@@ -85,10 +55,10 @@
       "label": "다음뉴스",
       "title": "파마리서치·휴젤 2개사 매출원가율 20%대 기록 - v.daum.net",
       "summary": "파마리서치·휴젤 2개사 매출원가율 20%대 기록&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/P8WCAGQ9SP?f\\u003dp",
+      "url": "https://v.daum.net/v/20260820060012327?f\\u003dp",
       "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-31T00:11:59.204380+00:00",
-      "date_estimated": false
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:26:28.414854+00:00"
     },
     {
       "source": "daum",
@@ -97,8 +67,8 @@
       "summary": "‘제약 이익률 2%로 뚝’…SK케미칼, R&D 승부수 통할까&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/p8YunQhDrV?f\\u003dp",
       "pub_date": "Mon, 17 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:16.139167+00:00",
-      "date_estimated": false
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:26:28.414943+00:00"
     },
     {
       "source": "daum",
@@ -113,11 +83,11 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "[제약가 상속자들⑦] 지분 넘겨받은 강원호…유나이티드제약 '2세 시대' 활짝 - v.daum.net",
-      "summary": "[제약가 상속자들⑦] 지분 넘겨받은 강원호…유나이티드제약 '2세 시대' 활짝&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/yThMmN1yHo?f\\u003dp",
-      "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-31T00:11:59.204285+00:00",
+      "title": "경영 이어 지분까지…제약 오너家 세대교체 속도 - v.daum.net",
+      "summary": "경영 이어 지분까지…제약 오너家 세대교체 속도&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260812055503432?f\\u003dp",
+      "pub_date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:51.552148+00:00",
       "date_estimated": false
     },
     {
@@ -133,12 +103,32 @@
     {
       "source": "daum",
       "label": "다음뉴스",
+      "title": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지 - v.daum.net",
+      "summary": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260811000235580?f\\u003dp",
+      "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:51.552166+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "[제약가 상속자들⑦] 지분 넘겨받은 강원호…유나이티드제약 '2세 시대' 활짝 - v.daum.net",
+      "summary": "[제약가 상속자들⑦] 지분 넘겨받은 강원호…유나이티드제약 '2세 시대' 활짝&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/yThMmN1yHo?f\\u003dp",
+      "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:26:28.414692+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
       "title": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료 - v.daum.net",
       "summary": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/fAC0I2V7ww?f\\u003dp",
       "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552135+00:00",
-      "date_estimated": false
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:26:28.414714+00:00"
     },
     {
       "source": "pharmnews",
@@ -374,16 +364,6 @@
       "collected_at": "2026-08-26T07:49:33.991623+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오 1Q 평균 부채비율 코스피 77.52%·코스닥 61.28% - 약업신문",
-      "summary": "상장 제약·바이오 1Q 평균 부채비율 코스피 77.52%·코스닥 61.28%&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xWTJJcWIzcFFmMXR0cFRrR1ZCdVV6dTdBUFpPUzd2dlQ0VGROMXZFbU1zbFVCMFVSOTY2WGtQM3NaNTZodl9JZFVQd3QxS1VYR1plb25WZmVhMjJob0hIUW9PTWhNZw?oc=5",
-      "pub_date": "Wed, 08 Jul 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395032+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "daum",
       "label": "다음뉴스",
       "title": "한국유나이티드제약, 개량신약 성장에 2분기 실적 기대감↑ - v.daum.net",
@@ -411,16 +391,6 @@
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1PNU84MDlGX25lSGRIc25GTTJ2T1BMYVcwNVBsazVyZGtlWndRdVdoWS1EQlV1dDlaVnh2M2tsZ1F4S2tqSkE?oc=5",
       "pub_date": "Tue, 07 Jul 2026 07:00:00 GMT",
       "collected_at": "2026-08-30T00:11:17.769683+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오 1Q 평균 유보율 코스피 2324.16%·코스닥 2549.03% - 약업신문",
-      "summary": "상장 제약·바이오 1Q 평균 유보율 코스피 2324.16%·코스닥 2549.03%&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRM0o4YkluX2VUYnp6Nm9zYmFmZ2dUckZkYmxaMHBNZGRJaFp6OHlRUmhqUWdhV2tncDZPTHhLWjRTV3BaWjFidDgwVUJqaFNpYVk0MEd3YWVWUmhOdDQ1M295LVVEZw?oc=5",
-      "pub_date": "Tue, 07 Jul 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395033+00:00",
       "date_estimated": false
     },
     {
@@ -504,16 +474,6 @@
     {
       "source": "yakup",
       "label": "약업신문",
-      "title": "상장 제약·바이오사 1Q 평균 R&D비용 코스피 184억원, 코스닥 31억원 달성 - 약업신문",
-      "summary": "상장 제약·바이오사 1Q 평균 R&D비용 코스피 184억원, 코스닥 31억원 달성&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KZC02bmVtdXROZ0ZNYi1QeGFCM0NBXzBaUVRPT2xlZTgyY2ZOMm1ndWNUNWFPTFJOUVZ3QjNGWjJVMi1MZElfU0R1eWNnWkpPRkhrQS0tNW5xejNxU25FZmx0aFdWQQ?oc=5",
-      "pub_date": "Tue, 16 Jun 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395050+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
       "title": "상장 제약·바이오사 1Q 평균 R&D비용 코스피 184억원, 코스닥 31억원 달성",
       "summary": "",
       "url": "https://www.yakup.com/news/index.html?mode=view&nid=328519",
@@ -562,32 +522,12 @@
     {
       "source": "yakup",
       "label": "약업신문",
-      "title": "상장 제약·바이오사 1Q 평균 순이익 코스피 294억, 코스닥 72억 달성 - 약업신문",
-      "summary": "상장 제약·바이오사 1Q 평균 순이익 코스피 294억, 코스닥 72억 달성&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NdTF3eFRVLW9xY3Fnamt0cUJKNlBqTEhiSlNDa2FWTnU4cV9hbzVUVDZEeHVMUHI2b3h3cVNSMkVqVk5nSTAxOWl2SkNxdXdRY3BJcExZZjlUbVdvZXhSeElVSHJrUQ?oc=5",
-      "pub_date": "Sun, 14 Jun 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395042+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
       "title": "상장 제약·바이오사 1Q 평균 순이익 코스피 294억, 코스닥 72억 달성",
       "summary": "",
       "url": "https://www.yakup.com/news/index.html?mode=view&nid=328345",
       "pub_date": "Thu, 11 Jun 2026 21:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-03T00:14:08.859462+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오사 1Q 평균 영업이익 코스피 299억, 코스닥 64억 달성 - 약업신문",
-      "summary": "상장 제약·바이오사 1Q 평균 영업이익 코스피 299억, 코스닥 64억 달성&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MV0psWDM1WnFfZURzTUNtY0VVUjlvUkFCcXVja0dVaEFySjNKZDF5aVVWdFQtNS1rdFNXRFhaeXEtaHptOGtrZkhkNGZndVJLUlJQY3lkdjhLSlJ4cE9JUFk0aFF6dw?oc=5",
-      "pub_date": "Thu, 11 Jun 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395047+00:00",
-      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -607,15 +547,6 @@
       "pub_date": "Wed, 10 Jun 2026 21:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-03T00:14:08.859467+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오사 1Q 평균 매출총이익 코스피 897억, 코스닥 271억 달성 - 약업신문",
-      "summary": "상장 제약·바이오사 1Q 평균 매출총이익 코스피 897억, 코스닥 271억 달성&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TejJRT3VMVWFxNF9KQTU0YWpIOTc0MzZuaGdfQU1SR2hGSm9DajV0OWhsc0xqU253SkxzUlVkY3hUVFVSbmJ4OHZVXzZIWlU1VFVrNVE4U1lXcEtONEF3a3dHVm9Idw?oc=5",
-      "pub_date": "Wed, 10 Jun 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395044+00:00"
     },
     {
       "source": "daum",
@@ -678,16 +609,6 @@
       "collected_at": "2026-09-03T00:14:08.859476+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약 ‘클란자CR정’, 러시아서 무기한 품목허가 승인 - 약업신문",
-      "summary": "한국유나이티드제약 ‘클란자CR정’, 러시아서 무기한 품목허가 승인&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wMXFWZWtIbThWMDBEUFdEYzMzSmxFR0hfU0RKVEVxMnl1aXdsQjNyazFYRnBtQ2pHV3RnajFYaUQ0UkFSTWxqcEUwa2pHN096VmlqTDdmOEJ3MXFKRHlSRFFVcHVZdw?oc=5",
-      "pub_date": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395026+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "241억 분쟁 승소한 유나이티드, R&D실탄 확보…언제 받을까 - 데일리팜",
@@ -726,16 +647,6 @@
       "pub_date": "Thu, 04 Jun 2026 02:35:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-03T00:14:08.859481+00:00"
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라 - v.daum.net",
-      "summary": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/QmHwvHx2t9",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-31T00:11:59.204372+00:00",
-      "date_estimated": false
     },
     {
       "source": "daum",
@@ -820,42 +731,12 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "경영 이어 지분까지…제약 오너家 세대교체 속도 - v.daum.net",
-      "summary": "경영 이어 지분까지…제약 오너家 세대교체 속도&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/GyRcBh9UsG",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552148+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지 - v.daum.net",
-      "summary": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/BfUSibKpoC",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552166+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
       "title": "상반기 보수 1위 '76억' 윤상현 부회장…서정진 회장 '22억' 육박 - v.daum.net",
       "summary": "상반기 보수 1위 '76억' 윤상현 부회장…서정진 회장 '22억' 육박&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/3W4PaT6bXZ",
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-02T00:31:37.565890+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약 라베듀오정, UAE 첫 수출…중동 시장 확대 본격화 - 약업신문",
-      "summary": "한국유나이티드제약 라베듀오정, UAE 첫 수출…중동 시장 확대 본격화&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5yOG04a3pzcEszaTZxYlpsQnRwb0xuaDE3UndtOEV6TjQ5blpCVkQ1dk4xNjdZR1F5UXh0aFdNOEtmZ1VWdGR5R1RzZ0psblpNdDZtNGVOcXZNS1lPQklHdlVBaVFjMVY1dUVNYlJSbU5zMDRvRVZJ?oc=5",
-      "pub_date": "Mon, 01 Jun 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395012+00:00",
-      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -927,26 +808,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약 \"필리핀 항암제 시장 잡는다\"…글로벌 파트너십 스킨십 강화 - 약업신문",
-      "summary": "한국유나이티드제약 \"필리핀 항암제 시장 잡는다\"…글로벌 파트너십 스킨십 강화&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUVd5Um9LenNfWlpLV05jRmZtTFM4OWdSOFJqQXlJbV9vRUhfdXFZT2lqNlhVZ3JxVXpiUkdabWZKSE90QkVaRzg4R1FTeGlfb1FpYzBwY1hOYkc3UjhoaHlWc3NNamc3YnJmUk5FWnR5RHhZV1NQZ2JoOEVPajEyTEk2Y1RrdW94N3RMRWlQbnRHU3Z4NUxsWnRsYnQ?oc=5",
-      "pub_date": "Mon, 11 May 2026 23:47:59 GMT",
-      "collected_at": "2026-08-26T07:48:58.395028+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오 2025년 총차입금 코스피 2895억원·코스닥 640억원 - 약업신문",
-      "summary": "상장 제약·바이오 2025년 총차입금 코스피 2895억원·코스닥 640억원&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2STByUHZPZWdkZ211YThmUndtel9DUHgwWTBDVW1wNWhDRG5EX2tVaTZudHl5dFBGMjQ0RFU1NS1qMG9HRGtwNDRMMnFHaVBtUjVSbHhyWGpTeXdid2xBTmJ3aDRkQQ?oc=5",
-      "pub_date": "Sun, 10 May 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395040+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "동아제약, 올해 15회째 사랑나눔 바자회 진행 - 팜뉴스",
@@ -954,16 +815,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQcDlBcXlhNUxhdXVUdm93QnpuVElIN2tPRW9LSE9wMkJxYlB4dnlRZUl1U3ZOb0tLVTFDanVVRkREaHdoTV8tV2hrUjRHeDFwY0NvaTlmTFpxZUJacF91aXc5Yy1jdUg0NmxzZg?oc=5",
       "pub_date": "Thu, 07 May 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:33.991634+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오 2025년 총차입금의존도 코스피 23.53%·코스닥 21.04% - 약업신문",
-      "summary": "상장 제약·바이오 2025년 총차입금의존도 코스피 23.53%·코스닥 21.04%&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2a0Z5WFV1T3U1aVF4VTJmZG5lQnRTZDBNQ2QxQS1WLXNmeGhkTTlYMGVXb3VidWdpam4wN0FNT1VKclFfZ0w3ZFhoMTRta3N5S0I1YnBpRHNJZkc5akcwQmdfMHF5UQ?oc=5",
-      "pub_date": "Wed, 06 May 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395037+00:00",
-      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -986,46 +837,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오 2025년 누적 이자비용 코스피 94억원·코스닥 27억원 - 약업신문",
-      "summary": "상장 제약·바이오 2025년 누적 이자비용 코스피 94억원·코스닥 27억원&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mZGZCdElGRi01VjlCWG42TGg3Zmdnc1JIVDJlN0p4QnB6NTVQd2YtVjdEWlRsMWpDdDM5eFNjc1ZZRTNUamVMeXpUTlFwa2tSc3hTZE1STjg5ZE1JWVdGdWU1dW55QQ?oc=5",
-      "pub_date": "Mon, 04 May 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395043+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오 2025년 평균 부채비율 코스피 88.13%·코스닥 64.01% - 약업신문",
-      "summary": "상장 제약·바이오 2025년 평균 부채비율 코스피 88.13%·코스닥 64.01%&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05NXBORl82Wi1QaUt4QllWZEhTVWhWa1ZDd1o5VHhFR05CM0kyUFJPclpmRUo1djBSQ1d1cV9Eam5HVFdtOExGY2FZdnp5X1ZjY2pjNENzakFpUlQ4QXlyaHAzZ0lwQQ?oc=5",
-      "pub_date": "Thu, 23 Apr 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779506+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조 - 약업신문",
-      "summary": "유나이티드제약, 국내 최초 ‘심리스’ 연질캡슐 기술로 제조&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUUt3ZVIwMllfSURnVHNKN1BYVFNMY0NwVnFiallWb0thZktPaTdMczhLZkpOd1NTdDlwRGV4RTFkNVA5V09Dc3VwRXo2MC1VNXM1WWpHVl9PX1lhY1kyZXN4bGtYU1loSl9NRS1sQUFwc2FJTjRoQVNwTGJsZVNYQWtqR0h3WmRPVVVFN1lEWXhEU0tXd25fWmkza3BmWEFTanRLSGtn?oc=5",
-      "pub_date": "Mon, 20 Apr 2026 15:55:20 GMT",
-      "collected_at": "2026-08-26T07:48:46.041246+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오 2025년 평균 R&D비 코스피 724억원·코스닥 133억원 - 약업신문",
-      "summary": "상장 제약·바이오 2025년 평균 R&D비 코스피 724억원·코스닥 133억원&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rSzV3MVQzWlFrQTJGVkNBWFBjZ0ZVRGhZVldyZlllLXBIRVBaYTU4S1VCVWN0LUViZ1QxN3YzOUtaeU80eEpNbFB3elhFR2FaS216QTlJdVJqRGx1bldxMFllYTM0QQ?oc=5",
-      "pub_date": "Mon, 13 Apr 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395049+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "에스티팜, 자체 플랫폼 이온화 지질 'STP1244' 일본 특허 등록 - 팜뉴스",
@@ -1033,16 +844,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HSE9ucXhHbVp1Z0hzRkI2R1ZFOHBNczQ3cmNwRXJ1ZmhEZFQ0OUNyd0VjSTRwVlFKWlAycTJ2R0tNTnA2VkZsQWUzUkNKcTkweDhhVnVCY1RQRUJwc0lOS0M2SWtPcl9YcTdNVQ?oc=5",
       "pub_date": "Mon, 13 Apr 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:33.991617+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약·바이오 2025년 누적 평균 영업이익 코스피 1084억·코스닥 229억 - 약업신문",
-      "summary": "상장 제약·바이오 2025년 누적 평균 영업이익 코스피 1084억·코스닥 229억&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82anlFa3UyMWctOUo0Y1ZsRTBBdEN3bWsxZzV3XzFfMi1BRjRYUVFtT05MOFNZVGZTSWxLWGtIMko2ZW5VS1R5TDQwbS1OektrcVg1SS11RGNWaVVnWDdobXFobU5kUQ?oc=5",
-      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395035+00:00",
       "date_estimated": false
     },
     {
@@ -1063,16 +864,6 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CTDhjaEE0R2VmaTRkVG8xZFhZTU5qZUluOFZ5U0htNDJRcFdwSkNEUHp3U2dQZ2pWQzZZemk0Uk9yZ3pXUGpXSDJuQlo1UFE?oc=5",
       "pub_date": "Wed, 08 Apr 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552142+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "강덕영 대표, 마르퀴즈 후즈 후 2년 연속 등재 - 약업신문",
-      "summary": "강덕영 대표, 마르퀴즈 후즈 후 2년 연속 등재&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNnhUMHl0ZHdpU3JlM2JZNzdmbXAyQVJJVXhQZkhITUpXbFlSejBCa1A1TElYS2FUTmh2QnNYVVBSRGNwTXdhTnJ5Q0FLWG55R2pVMTZQTnVVak1fSk91V0g4bnNaUWloQXEtaWJxWWNZTkVRR0V5YmVtT1RaOTFaSEphUlpNbXF3X0ZCVVJPMGtPaWM3ZTlqT0dacFFPc1Bx?oc=5",
-      "pub_date": "Thu, 02 Apr 2026 08:58:11 GMT",
-      "collected_at": "2026-08-26T07:50:30.779437+00:00",
       "date_estimated": false
     },
     {
@@ -1175,16 +966,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "미국·이란 확전 장기화 우려… 제약바이오업계, '원가 폭등·투자 한파' 덮치나 - 약업신문",
-      "summary": "미국·이란 확전 장기화 우려… 제약바이오업계, '원가 폭등·투자 한파' 덮치나&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1na3Z2ZkpTa0R2Zy1MdWNySndJQ053NkJmc1dWVnk5ekNDcjhlMm1ONTB6N3I2V25VbnhuQTRpN2RHVlNIVkNfZkd3eXBLcDBlZUJLdW9ndDM4cUIzZGd2QW9XLVhCZw?oc=5",
-      "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-08-31T00:48:33.848443+00:00"
-    },
-    {
       "source": "daum",
       "label": "다음뉴스",
       "title": "상법개정안 시행...자사주 많은 제약바이오사, 소각 언제하나 - v.daum.net",
@@ -1264,16 +1045,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "수출 100억 불 쾌거에도 웃지 못한 제약업계… \"약가 인하 파고 막아야\" - 약업신문",
-      "summary": "수출 100억 불 쾌거에도 웃지 못한 제약업계… \"약가 인하 파고 막아야\"&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aMUxKY1R3MVdIUDMxWmY5RVpUTWZnZlhINFdXRlBkOV9YOFRoM1hiTzVGRmIzUkxuOFNYdmZnX2hfeXNPU2dzenR4VHJ1ODFlSjAyRDVGVU1IRVdmWmRRSlFhaV9jdw?oc=5",
-      "pub_date": "Tue, 24 Feb 2026 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395046+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "권기범 제약협회 이사장 “정부, 현장 목소리 귀 기울여 달라” - 데일리팜",
@@ -1304,16 +1075,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약, 순이익 624억 '껑충'… 전년비 92.4%↑ - 약업신문",
-      "summary": "한국유나이티드제약, 순이익 624억 '껑충'… 전년비 92.4%↑&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lTk1QT00yTUlNVXNJTmZOaHp2V3ZLb2R6NnlESVhwYjJVM3VSdnhwY1JWYWZGNzYyWGJFZmZEclVkOEdhSy04Vl9MTEtBbUFxMzdvWWl1bkw3dEhfN0prSDlFcmZLUWlXVklPMU5Lbw?oc=5",
-      "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090730+00:00"
-    },
-    {
       "source": "daum",
       "label": "다음뉴스",
       "title": "정부 ‘혁신형제약기업’ 새 기준 이달 발표…종근당-JW중외제약 다시 합류할까 - v.daum.net",
@@ -1321,16 +1082,6 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQNHBkaHJ4dEtDSi05OW1mbWE2ak11cktFRmJCYjBUM0g5MjY2MEFaQXVBQ012R0JCajN1TUF0b19haEx0dExfQXRMS0tIQmc?oc=5",
       "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552154+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약 ‘실로듀오’ 흥행 돌풍 “복약편의성·효과 탁월” - 약업신문",
-      "summary": "한국유나이티드제약 ‘실로듀오’ 흥행 돌풍 “복약편의성·효과 탁월”&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1iNTIxM04xQXhYQVd2WGlmdGtSWjdFMkNENnFRNXpiU2lxLWtybWVLTTYxSnlwSEZYbmkzUnVRalJfSzA2ZXJLTnE2S21xVDIwQ3NYbDhWZU1NUzVqSHlQbndiVk0ycXR6cXJOS21yVEFKN0sxeWow?oc=5",
-      "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779452+00:00",
       "date_estimated": false
     },
     {
@@ -1364,26 +1115,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약, 글로벌 공공조달 시장서 '항암제'로 승부수 - 약업신문",
-      "summary": "한국유나이티드제약, 글로벌 공공조달 시장서 '항암제'로 승부수&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1M29wM0JwbUxjZllnX3BsOU0xNllERE9qc1BCSVpSOVlFRVluZXJRS2FGdlVwSmxNT3RqcUJZM3Yzdml6UzNBb3k2NGk5LUlubG00aEZMVWNFM0FKTXNEamdDdVpnUQ?oc=5",
-      "pub_date": "Mon, 09 Feb 2026 08:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090695+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약, ‘개량신약 60%’ 정조준… “3300억 매출 달성 목표” - 약업신문",
-      "summary": "한국유나이티드제약, ‘개량신약 60%’ 정조준… “3300억 매출 달성 목표”&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QcTJpWG1JY21ocU1jQXQ3anFPTENpNUFYSzZTVTdFaGNDS2xzTUdCTVZLbjA1LW1yTWpVUTQ2T0lodEFKM3NzTlZORWhyV2VZVTZFVk4yTFBrLXhvOTd3MWc5SXpGQQ?oc=5",
-      "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395030+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "강덕영 대표 \"약가인하 타격 불가피…개량신약으로 돌파\" - 데일리팜",
@@ -1401,16 +1132,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxSjdPUjhMd1VSZWFTWDFtYk44MkoyNDdUX1JKbnBlWTBLZl96NWVPVTNyNzE5eUxBUkpyeUJ0MmZIbUxacWFMR1UtblpzQWozWkxRRmVSbzZCbDVROTYzTjVfYXdJLVkyVzRaYw?oc=5",
       "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:33.991598+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "AZ, 中 제약사와 제휴 월 1회 비만 주사제 수혈 - 약업신문",
-      "summary": "AZ, 中 제약사와 제휴 월 1회 비만 주사제 수혈&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94OXNUZ0R2SEtSNHpDYnRDd3VFd25NbzUxVnp5THQ1dkg3bFNaSmtFN19hMXNwSkNvbFI4LUhYQ2d4ZDNyYTVyUy05aGNTcThzb0gwRlpKbHJiMndmdERSc3NWcDdWZThzZnJLOVNZaUJuRnc?oc=5",
-      "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395051+00:00",
       "date_estimated": false
     },
     {
@@ -1433,16 +1154,6 @@
       "collected_at": "2026-08-26T07:49:16.186041+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "코스피 제약바이오 평균 부채비율 79.3%...전년比 감소-코스닥 70.1%, '증가' - 약업신문",
-      "summary": "코스피 제약바이오 평균 부채비율 79.3%...전년比 감소-코스닥 70.1%, '증가'&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yb0dQd2lIRXFkWjlOUl9IUXA3UkNqS1J0eHR2cXlXWHQzMkcxa1Z3dDZKcTBkX3dJUC1yY180UWpTRWFkcHZDMEh1VXlxel83WEJKcHVtTHZ5SENvb1NWSlIxTEludw?oc=5",
-      "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:58.395039+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "daum",
       "label": "다음뉴스",
       "title": "동일 성분 없는데…부광약품 협심증·알레르기 약 줄줄이 공급 중단 - v.daum.net",
@@ -1451,15 +1162,6 @@
       "pub_date": "Mon, 19 Jan 2026 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552146+00:00",
       "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약바이오기업 3Q 누적 평균 유보율… 코스피 2081.02‰, 코스닥 2599.89% - 약업신문",
-      "summary": "상장 제약바이오기업 3Q 누적 평균 유보율… 코스피 2081.02‰, 코스닥 2599.89%&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16UVI1aGp2TVJMcGhGem1WeG1EV2ZWU1NkZ24zOTEzcUJLOGpvSW5XVkdoLUdjLTlxSTk2R0lqTEV6cWt2a0prS1BJaXAwS3lZY1d6blFpeEZsMTRPeGdEVjA3dk5zQQ?oc=5",
-      "pub_date": "Fri, 16 Jan 2026 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779509+00:00"
     },
     {
       "source": "dailypharm",
@@ -1542,16 +1244,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약바이오기업 3Q 평균 매출총이익...전년비 코스피 23.6%, 코스닥 16.2%↑ - 약업신문",
-      "summary": "상장 제약바이오기업 3Q 평균 매출총이익...전년비 코스피 23.6%, 코스닥 16.2%↑&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MNlVuWDFWUmdsQkdJQlF4U3dMb2t3eGgzNlhPUU91TWgwYU0wMVdvM0RCU0QxYU1VTkM1VHVPbVk4dktyU2ZZaUVNSUJueUhEVklxV1FTS20xOXVmZW1fQWpTbXVSUQ?oc=5",
-      "pub_date": "Mon, 08 Dec 2025 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:56.618044+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "데일리팜 - 데일리팜",
@@ -1592,25 +1284,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국약제학회 2025 국제학술대회, 역대 최대 규모로 위상 제고 - 약업신문",
-      "summary": "한국약제학회 2025 국제학술대회, 역대 최대 규모로 위상 제고&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMN1hjMmk4eEwxSzM1VVdtbVBWb18xN2xxeHVmaXRwc3lCbERvdm9nYmFNYVdCLVg0dUNZcjFwdWVDV1NrbnFaUnNCUVpOMWNvVE9ZVFYwRmFHZExaS1NIbFkxSzRXZw?oc=5",
-      "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:56.618041+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, '클라빅신듀오캡슐' 몽골시장 본격 공략 - 약업신문",
-      "summary": "유나이티드제약, '클라빅신듀오캡슐' 몽골시장 본격 공략&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YZlhFdDhDVHJuMUpZOGtvQzNleDM5LXRYVTZoZzZUUWkwWGEyUjBzN1JySUwzLVBHSjZyZGNzMkxxYW4yS2ZRb2tLVjQ4TGdETGJtS0pPTjVqTExfcmZtLVo4VTFhSFQybndIM2JBRFR6VldOUklZ?oc=5",
-      "pub_date": "Tue, 25 Nov 2025 08:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:10.587209+00:00"
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "엘앤케이바이오메드, 3분기 매출 101억원…\"글로벌 사업 확대\" - 팜뉴스",
@@ -1627,16 +1300,6 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1nUkgyeHRrRjM4VlR1ZE80NXAwQ2lWc3NaclBsUVotUHRFY0sxcFdKOGoyazdPN3JvdEUxQ2xiS0ViS2JXUWV3Z0xxWmdDa1g2c1dQU216UEdXUmV3V2hMTzBwR2xtYkh1a041c3hmUjJpbHg1R2ctM1NYQQ?oc=5",
       "pub_date": "Mon, 17 Nov 2025 08:00:00 GMT",
       "collected_at": "2026-08-26T07:50:32.620177+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약 ‘아트맥콤비젤’·‘로수맥콤비젤’, 다수 특허 장벽 유지 - 약업신문",
-      "summary": "한국유나이티드제약 ‘아트맥콤비젤’·‘로수맥콤비젤’, 다수 특허 장벽 유지&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1xZUw4aWdPVUxMTE05SjlYdVJ1SXdDXzZxZldycC1obnlxVEJIXzdRd1ZtZXh0dkZmRFNXMlpVaFhjeGFXWmdPZjRKRHRtOFItb2JQcThRWjlTLVkyNDdObk9JYkxVcUpwYV9CZDd1RS05NEJlTGdN?oc=5",
-      "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:56.618020+00:00",
       "date_estimated": false
     },
     {
@@ -1685,16 +1348,6 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82UnV3QXBzcXp6enotS19xaVZHWFc1SmNDT1hpRVIxbzNHQVpRZVNubVhhYWEwc2tPNk8zNmdKdG9WUWw4S0diaHpWaXpGTXRNSXJ2aWJQZDdZdnpfaHk2WnBWSlV4cmp1VDc1YXZ3?oc=5",
       "pub_date": "Thu, 30 Oct 2025 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:14.390594+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, ‘월드클래스 300’ 선정-금융 경영 지원 - 약업신문",
-      "summary": "유나이티드제약, ‘월드클래스 300’ 선정-금융 경영 지원&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV0JlN3dyTFZ1cmdvQ1NnQnhzakxuZUt1VHFRLVJPNlFxVzJrTVlZRmhhVlpQRXVYWDhScUFxeEdKS05fVEx2WDlFNklFbElJZHZIdmEwT3RianI5ZGpKQVNxVjVHRW5jazIzRUdMOS1ZLVNScTNXeUwybEVqLXVvYVQ0ekN0TW5PMXNPajlRYzN5SDZ3aGtsQkRzUC1TWGVJ?oc=5",
-      "pub_date": "Wed, 29 Oct 2025 22:23:38 GMT",
-      "collected_at": "2026-08-26T07:50:30.779457+00:00",
       "date_estimated": false
     },
     {
@@ -1756,16 +1409,6 @@
       "collected_at": "2026-08-26T07:50:34.502430+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "만성폐쇄성폐질환, 고령화 최대 블루오션…제약바이오 총공세 - 약업신문",
-      "summary": "만성폐쇄성폐질환, 고령화 최대 블루오션…제약바이오 총공세&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5wSFYyWHE3cmw5US1qRjlhdHhsaUdEN3kwRW15Yzl3RnJ0SmJrb1RoQm5xd09icTVNTWVONUpMbGZteUNqenE5eEUwZDFrX1NsMHZSQnhXZ2t0Umd5ZGVKUmxZMWV6QTVBejBDaGxOWQ?oc=5",
-      "pub_date": "Wed, 01 Oct 2025 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:56.618036+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "반전은 없었다...콜린 환수계약 무효소송도 패소 - 데일리팜",
@@ -1803,16 +1446,6 @@
       "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-08-31T00:48:49.729487+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "상장 제약바이오,고환율 직격탄..상반기 '환율변동손익' '적자전환' - 약업신문",
-      "summary": "상장 제약바이오,고환율 직격탄..상반기 '환율변동손익' '적자전환'&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wTTh3cGRTM3d6UHFVWHN1dGdtLW1RaFBoelB5WWpheFdkbk9wRE5LZV8ycWRyUUpHa2s2SGFBVlU5Wmo0T3d1YWp3RXZra1haUGx3VU0zSEFxQUN6MkxkN09YZTNOQQ?oc=5",
-      "pub_date": "Mon, 15 Sep 2025 07:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-08-31T00:48:32.085828+00:00"
     },
     {
       "source": "pharmnews",
@@ -1933,16 +1566,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "AI 기반 의약품 전주기 혁신…김주은 교수 \"원클릭 통합 플랫폼으로 글로벌 도전\" - 약업신문",
-      "summary": "AI 기반 의약품 전주기 혁신…김주은 교수 \"원클릭 통합 플랫폼으로 글로벌 도전\"&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4ySEg0SjF5QjNscXRmT1lkZ08teGdVem5UZ1dCRlJvbXhTNVZXbTlJRWtxZXZPelptUV9TUjFhdXk2S2MtemhTTXpVSUtNd241YmE1U2I1TERVbkRhd3hWaFhJQTFMZw?oc=5",
-      "pub_date": "Thu, 24 Jul 2025 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:56.618040+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "전주기 AI 신약개발, 대한민국이 '표준' 선도한다 - 팜뉴스",
@@ -1979,16 +1602,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41MGFBTjhCb3BGaDRwcmlHNFdVOGpVdXlkUEw0dnI2VzVKLVpDSVJmdDByaVU4N2JtaV93NXRGSnV4UERVRk03OE10SV9kblIxS05ySlpBVTc5SF9tbS0zQkI4cW5TTXFpSVZyUA?oc=5",
       "pub_date": "Wed, 16 Jul 2025 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:32.182414+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "퀀텀인텔리전스, 산업부 AI 바이오 국책과제 최종 선정 - 약업신문",
-      "summary": "퀀텀인텔리전스, 산업부 AI 바이오 국책과제 최종 선정&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1rbGE0OVhwT01nQl9iX0hELTNHT3llV0Q4QUFsSjlCRWtNcjBBYUFQSmdBRnNvdlRzc1ltQThUcnRtNUplUjlQN1RGUjQ5dDc2Z05BTFBTLTJ0a2VLYnFKalNSQzA4UzNJNTFMMGNjdw?oc=5",
-      "pub_date": "Fri, 11 Jul 2025 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:56.618043+00:00",
       "date_estimated": false
     },
     {
@@ -2047,25 +1660,6 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zRTNGREhaYXZkTE5oMjREWURvRXNHb3NjN1dPZC1iOUlBcTBkclJpOTV6NTJiSnh4Qk5UQk85am05N0JDQkktNW85a1I3VjFMMDRtOWlrRThQWFli?oc=5",
       "pub_date": "Wed, 25 Jun 2025 04:31:56 GMT",
       "collected_at": "2026-08-26T07:49:03.688665+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국바이오협회-국민대 김주은 교수,산자부 ‘AI기반 의약품전주기 기술개발사업’ 수주 - 약업신문",
-      "summary": "한국바이오협회-국민대 김주은 교수,산자부 ‘AI기반 의약품전주기 기술개발사업’ 수주&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xaHlRREtoR0Z5NUNDNHNpdDZuV0x3akRQdkMxREswSFhyX1otRG52MmZEc0wxd0htbGk1UzZPbmo5bjdZZXJJWXhkT3pHOUpOUWhUaVdPWkk1b1RhSXhPYm01eVNQUQ?oc=5",
-      "pub_date": "Tue, 24 Jun 2025 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:56.618038+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드문화재단, 행복나눔음악회 개최…클래식 음악 대중화 - 약업신문",
-      "summary": "유나이티드문화재단, 행복나눔음악회 개최…클래식 음악 대중화&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tNTdnVnNnem5kd0pTSlFwWkNoTlhTSFdmSEgxcHJKWGYyV1lxTThzUWh6V2FQR1N4UGhwVEpNU3NYa3RMbXRSc3UwX05nSnZxR21SWm96NDkya3pld0dnVlJSS1BCaUtwcnItdXVuT3ZSX0VfSEtJ?oc=5",
-      "pub_date": "Mon, 23 Jun 2025 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779482+00:00",
       "date_estimated": false
     },
     {
@@ -2165,16 +1759,6 @@
       "pub_date": "Mon, 19 May 2025 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:49.708822+00:00",
       "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "대한간호조무사협회, '인구문제 인식개선 릴레이 캠페인' 동참 - 약업신문",
-      "summary": "대한간호조무사협회, '인구문제 인식개선 릴레이 캠페인' 동참&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMNmRWVmZCWnVGMTk5QjJYemRJeVpaTXo0cDVFNFR5YW5kWlBObU9pd0w4UkQwcDBqM0Zjb2xQMnEtZHZSLWk4Y0tLWjd5RkZqRnFIQlcxSkwtWTJSRWU1bl9NTTR1UFhpekotSXJRbTE?oc=5",
-      "pub_date": "Wed, 14 May 2025 07:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-08-31T00:48:32.085841+00:00"
     },
     {
       "source": "pharmnews",
@@ -2303,16 +1887,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "[인터뷰] 한국유나이티드제약, 신약 개발·스마트 공장으로 5000억원 매출 도전 - 약업신문",
-      "summary": "[인터뷰] 한국유나이티드제약, 신약 개발·스마트 공장으로 5000억원 매출 도전&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oZWk0QkJCMXI3YmhEQ0NwS1J3TXdIQ2l4NFNqVF82aWFXLVBCdm1jbTlpLVd1dEhUVjFGeTVua1QzUDFBM3M1bG9COVZhaUZWRlpKRGlCQ0s4Q3lkMmpBOHZNQ0owdw?oc=5",
-      "pub_date": "Mon, 24 Feb 2025 08:00:00 GMT",
-      "collected_at": "2026-08-29T00:09:27.803668+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "동아·동구, 아프레밀라스트 제품 등재 두 달만에 인하 - 데일리팜",
@@ -2418,16 +1992,6 @@
       "collected_at": "2026-08-26T07:49:30.393409+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사 - 약업신문",
-      "summary": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ObUdoZTV6WlJVa3A5a04xRFVZVk1XdG1iVER6S3FYMHdIdTNvR0pBeHl5Wkg5Mld0emNDanBWSWktNEstSlU3RGIzQWg2Zk1PNGhxUVdGQ0tyRVN5S3hDVzQ3V2lBLUx2a0xiX2JOeEJuU2ZhWVRKWEI2VQ?oc=5",
-      "pub_date": "Mon, 23 Dec 2024 00:25:49 GMT",
-      "collected_at": "2026-08-28T02:10:10.587271+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "[동정] 한국유나이티드제약, 강남구청장 감사장 수상 - 팜뉴스",
@@ -2454,16 +2018,6 @@
       "pub_date": "Wed, 20 Nov 2024 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-08-31T00:48:47.968170+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약, 세종시와 함께 대규모 투자 나선다 - 약업신문",
-      "summary": "한국유나이티드제약, 세종시와 함께 대규모 투자 나선다&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmR25MY2FWWDgzN0lQN1VLSG81TGVTRi1vTU55Q1ZkQ3JEODJxdzZaY0pMSlUzX2t4cUh6RHRsc3pybk1JeWRoM2hiNDRLQ3VZUEwyUFZiVGpUT0s2TlJrSGVsX1Rjdw?oc=5",
-      "pub_date": "Fri, 15 Nov 2024 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779411+00:00",
-      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -2513,16 +2067,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JWWQya21KNG9CSEE4b25fdlVpemJPclRDMzZUam8tZ1BlSXRiejVNbTIwQWNVV3cyRXktRnd5QzJsemx4TEh5a2xvNDNBS3JKakMwaS1WMTVfNkZfWTlDNG5Oa1kzMnJtdFdJMA?oc=5",
       "pub_date": "Mon, 23 Sep 2024 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:30.393371+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국약제학회, \"첨단 제형화 기술-연구, 제약사·연구자 공유\" - 약업신문",
-      "summary": "한국약제학회, \"첨단 제형화 기술-연구, 제약사·연구자 공유\"&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5zblh2ZlZ5SUJmUDNZYzZwZzZVNHNhRE9QMHpmb3I2WTN4dEJaWC12bjJmQ2J6TGUwUkRWZjFuV2ZaODgxX1pBTmhrZ0N5aHF6V1NtOFNnX1JZX1FFSVhMX2pzTU5KaGU5UXpXNTkyTC0zUmdueXA3aGVCdUk0UQ?oc=5",
-      "pub_date": "Fri, 20 Sep 2024 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:54.851880+00:00",
       "date_estimated": false
     },
     {
@@ -2751,16 +2295,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "“10조원 시장 정조준” 태국노리는 K-제약바이오·에스테틱 - 약업신문",
-      "summary": "“10조원 시장 정조준” 태국노리는 K-제약바이오·에스테틱&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CQ3RGdHpaZS11SW5hRWRqeWhzX0w0NzlKU0tiWmdOMzR4QUJlcHNyTndBdG1wWTIzWmpiSS1yWktaUmNwYXRYTE5EQjBBaGNhTFRISm1CTEM5X2tUTFBPVDRkb1FEQQ?oc=5",
-      "pub_date": "Wed, 13 Mar 2024 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:54.851881+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "급여시장 신규진출 단 24개…라피듀오, 새 조합 눈길 - 데일리팜",
@@ -2817,16 +2351,6 @@
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QY1JxY2lNRGd5YkVfWFhGdk5WaFFyU0EwTUxjNTJzV1J4YnRncF91R2VMM3hTUzZUQXliUm90OWZmWF8tV1V6SmVoaHlRb0RnRWc?oc=5",
       "pub_date": "Mon, 08 Jan 2024 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:12.603980+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "\"갑진년, 기대해용\" 龍띠오너, 제약업계 이끈다 - 약업신문",
-      "summary": "\"갑진년, 기대해용\" 龍띠오너, 제약업계 이끈다&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1RQy1YSGllZDA4eUY2QmZLaHpRQXlYWUdOWnBUdTN2SmlzUkQ1LU1LZ1JuM1lrUjFyWmZCWXdpRnc3NWhQRXZ5b2Eyc1BBdEJZQ05palpLYXB6OVcyUkxJQjdZbGNXQQ?oc=5",
-      "pub_date": "Thu, 04 Jan 2024 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:54.851864+00:00",
       "date_estimated": false
     },
     {
@@ -2947,16 +2471,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약 이강래 대외협력실장 빙모 - 약업신문",
-      "summary": "한국유나이티드제약 이강래 대외협력실장 빙모&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNElzNFY0c19lZnJ2X0o4ZkdaSEZyRExQbmVsaUN4d0x2U1lrY3FwajRvTmx3dElOb2xMV21abUdkWEFHYkh4VV84NmVSTXl5aWgxSTR5OHF5MUtBTTZwOVVWVk1pM3ZFdFV6SWptc21mT0ZBYlh6Wi1SNENHLXRMaVA4TWUtMWVQZE00?oc=5",
-      "pub_date": "Tue, 10 Oct 2023 10:59:25 GMT",
-      "collected_at": "2026-08-26T07:50:30.779435+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "\"언제 결론날까\"...콜린 급여축소·환수명령 소송 장기전 - 데일리팜",
@@ -2974,16 +2488,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hbFhvMEUxeE1Pd0xEQU9oV192a3dxOHpVMHZyV0hjSXRKMURXXzFxMlYyajFxcmoyVHlyNmNhWWZONGZnU0Qzd1pvMW04TWNxcDVlbFJ2YkFaZVNLMEd6ZXZORm1kTV9WanFBeg?oc=5",
       "pub_date": "Fri, 15 Sep 2023 07:00:00 GMT",
       "collected_at": "2026-08-26T07:50:34.502423+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드, GBPP 참석해 글로벌 진출 확대 논의 및 수출계약 체결 - 약업신문",
-      "summary": "한국유나이티드, GBPP 참석해 글로벌 진출 확대 논의 및 수출계약 체결&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWFUycngyQTNOT2UtcEJIYW1LOU1WQkQwcjJCaWVVSUN4Y1Jhak1obEpPWWZlWXUwOXI2azJGMnluWVJzQkdTRS1IdndKOEl6a0gxc3Ryekw5dm5mR3llVDZKM193cmpKeEJTcElVMzZ3bTBTcE1kY3Bpa05LRTk1eHQtZU8tVzA3dS0wT3JQUkRIR1JVdU13c21rLTVvVVd0?oc=5",
-      "pub_date": "Fri, 15 Sep 2023 07:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090594+00:00"
     },
     {
       "source": "dailypharm",
@@ -3022,16 +2526,6 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzZVhDd1ViMFpTRTFLR1pBVkRUX3p3aHhiUzh4cUtvNW51QlRuRG03MXllTmhUQmF6M0dURlRPTk9wVENfdktxZzUxakRyWk0?oc=5",
       "pub_date": "Tue, 05 Sep 2023 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:10.822403+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "제약업계, 동남아 진출 러시...\"파머징마켓 잡아라\" - 약업신문",
-      "summary": "제약업계, 동남아 진출 러시...\"파머징마켓 잡아라\"&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WTUtDZG0xLTN5SHNTeF9YaFpHRWhMd1JDWlNIc19kdlN6SDVNSmdKaUtHTTBNSm1zbDJNMGdvU3pKM015aTBaSHNvQ0d4dWM4OUhiNmY1S21CdkZuOXhUT3RQWEF5dw?oc=5",
-      "pub_date": "Mon, 04 Sep 2023 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:53.085192+00:00",
       "date_estimated": false
     },
     {
@@ -3092,16 +2586,6 @@
       "collected_at": "2026-08-26T07:50:32.620223+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약, 제13회 KUP자녀학습프로그램 개최 - 약업신문",
-      "summary": "한국유나이티드제약, 제13회 KUP자녀학습프로그램 개최&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYVlfMXRNUUJvSE9IRjFQQ000MFBzal8wOVdEdlNUaVhpZ2xPOFZScU5DUkprdXNjZFduYmFKWmM1R0pzS2dTWDdhM2tTQWJjS2p4aGN3Nmk3Rjhuek42NEtWQkRhVExMVURlYmx3dW9OQ3ptWGgwLUxQdHRjR0tWcnh1Njl5T1l5dWZqSmh0U3NPTkJuY2FHNFBnZV8tQQ?oc=5",
-      "pub_date": "Thu, 27 Jul 2023 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:53.085170+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약, '제13회 KUP 자녀학습프로그램' 시행 - 팜뉴스",
@@ -3109,16 +2593,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95VXZjc3BlZmdBVFh3dldXX1hGYWZpdUNVQ3pRV2gzSTIwZnMyb2VYR1lMVUllS0ZQMVBSNzNxVTRtVTNSdHZHNVktcW5JMVVTN01TZ2pPY3ZKZGFEdDdXWkdTNjlyLUlZa3VlWA?oc=5",
       "pub_date": "Thu, 27 Jul 2023 07:00:00 GMT",
       "collected_at": "2026-08-26T07:50:34.502464+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "약가인하 예고됐던 ‘아트맥콤비젤’, 내년 2월까지 기존 금액 유지 - 약업신문",
-      "summary": "약가인하 예고됐던 ‘아트맥콤비젤’, 내년 2월까지 기존 금액 유지&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrX3o4TzdHRmhNNm12cTdkTHNJMHlQMlhyS1pTbnVnbUZBcVlZdlE5MFNQTEl6RHYyelB6OFZDbEpUazdfbGMxcVNjeU1lQVVjNXR6Vk9IbVc5VlVkTGtpUUVoUVo3dw?oc=5",
-      "pub_date": "Tue, 18 Jul 2023 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779479+00:00",
-      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -3149,16 +2623,6 @@
       "collected_at": "2026-08-26T07:49:28.594139+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드문화재단, 히스토리 캠퍼스서 '힘 페스티벌 시즌8' 개최 - 약업신문",
-      "summary": "유나이티드문화재단, 히스토리 캠퍼스서 '힘 페스티벌 시즌8' 개최&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMmQ0SEdQVTB3eEdESzFKMGdIVmZleGZkYzg1cEUtb0tZVEQwdkRmTVh0T0NObGhqUWxMZG1laS1oRUpVTGxWdl9hQ195Uk04bk5fMkZOX3IwQ1FUMS11ZHFnNzJxWHhZeWZrSFBZaTVZNk5sTDBQdE1wRS1fWHI4VFl3UDdVck93Z1BPejI2V2x6b0NIR1Z4SjBBVFRjOUF4bnFjYWp1Z200VFJ6RUllR1NFeWU1VlJDc3BIUw?oc=5",
-      "pub_date": "Tue, 27 Jun 2023 07:00:00 GMT",
-      "collected_at": "2026-08-29T00:09:27.803779+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드제약, 시클로포스파미드 주사제 ‘싸이크람주’ 미국 특허 등록결정 - 팜뉴스",
@@ -3167,25 +2631,6 @@
       "pub_date": "Mon, 26 Jun 2023 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:28.594130+00:00",
       "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "‘클란자CR정’ 1천만 달러 규모 해외 수출 계약 - 약업신문",
-      "summary": "‘클란자CR정’ 1천만 달러 규모 해외 수출 계약&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtX01wY3hJQUllTjgtaWVKMGU0UmpOVXEzS0lUZGpGSU5WU1NPenV6Z1FQWjlLRGlucjAwYVo2MHdpM2xNc29CVUllVTU2Sm5KRTI2dV95V2U?oc=5",
-      "pub_date": "Sun, 18 Jun 2023 14:43:46 GMT",
-      "collected_at": "2026-08-26T07:50:30.779465+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "강덕영 대표 외대 총동문회장으로 재선 - 약업신문",
-      "summary": "강덕영 대표 외대 총동문회장으로 재선&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMnlVTFBpZGxBN1NiWGstSFJqdjV1eEFpMS1ETzM3V3hUejd2MWU4R0FKdjVCMXpWcVdUakNSWTRKYzJDTWx0ZU01NVFPOWs0NkwwcmxubUpBRjNQOXlsT1NEZU9NOGg3S25xb01hR0s2UzNlaUV6anBWSmFxOFpsQjRB?oc=5",
-      "pub_date": "Fri, 16 Jun 2023 15:28:25 GMT",
-      "collected_at": "2026-08-28T02:10:10.587309+00:00"
     },
     {
       "source": "pharmnews",
@@ -3215,16 +2660,6 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00M2dua0taMXZSejVRdzFEQlFDc1pFdTdIRF9EaVB4bHE1S3FWSFVFTFlBNUZ4X3dPcUJ2ME9EbkJUQnlhQ2JjRmRpc0JRNXM?oc=5",
       "pub_date": "Fri, 09 Jun 2023 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:10.822408+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드, 세파클로르 서방정 특허 - 약업신문",
-      "summary": "유나이티드, 세파클로르 서방정 특허&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ObDNrdzdsRUhWa0xuMlg4WEVMLWpYTVI0ZzlBYVA0TGtmcVJNQW5INmhkQWZsQUR5OU5xazloSGhubV85MW9FbGNOdlhnSVo4b0tRTEZ0bTh2cGgzZ016bk13VFE?oc=5",
-      "pub_date": "Thu, 08 Jun 2023 23:02:49 GMT",
-      "collected_at": "2026-08-26T07:50:30.779487+00:00",
       "date_estimated": false
     },
     {
@@ -3352,16 +2787,6 @@
       "collected_at": "2026-08-28T02:10:12.454683+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "[포토] 한국제약바이오협회, 제4회 대한민국 약업대상 시상식 - 약업신문",
-      "summary": "[포토] 한국제약바이오협회, 제4회 대한민국 약업대상 시상식&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4ydlpzcENMc19pd3k2NDk5aXgxcFJwVUZINnVvZWIwTzEyTmRJcWRPZkl4MjhFZWU2QlBMcmZPM05XSm1zd3otdjdLaVpzczRNM0REUHdZODFvUnhIcEM0YzhQUXFpQQ?oc=5",
-      "pub_date": "Wed, 22 Feb 2023 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:53.085186+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약,사우디 수출 계약 체결...중동 진출 교두보 마련 - 팜뉴스",
@@ -3387,16 +2812,6 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MWmxWakVXZExZYXJFZEQtX2ZlMGhyRF9IQ2czOEdzNENzVUVNRUE4ZDN3aGYxM1VCOUdxdDNwcFhkQUNreEFRLXdGd1QwZDA?oc=5",
       "pub_date": "Thu, 26 Jan 2023 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:10.822392+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "실효성 논란에도 혁신형 제약기업 4개사 신규 인증 - 약업신문",
-      "summary": "실효성 논란에도 혁신형 제약기업 4개사 신규 인증&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00ZGhLMmNOVWx3RnVKWUhFdFQxZ1oxVEpHZHBzQWpDUmc0M25mZzZROEpNZU9haF85MGNrWW9FS0pwVGg0alFOWnFHS29BaEdSMXBsd3JOcTNETGdZaEJOUlNvOUFHWXI0bldnSlI4Yw?oc=5",
-      "pub_date": "Fri, 20 Jan 2023 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:53.085188+00:00",
       "date_estimated": false
     },
     {
@@ -3528,16 +2943,6 @@
       "collected_at": "2026-08-31T00:49:02.012778+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, ‘가스티인CR정 세계적 제품 육성' - 약업신문",
-      "summary": "유나이티드제약, ‘가스티인CR정 세계적 제품 육성'&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4xd0xRb2hqYldGRG5US1NwZ0h5ZlpPNEVDXzRsZmttSUNSdFNnZ2ExR3NHZjAyUHFjTm1oSWptZnBSdDRuclp5cXdpRlp0MFVyTVh4cV8ybGF4cG5sd0s5YXZhQjAyQQ?oc=5",
-      "pub_date": "Tue, 25 Oct 2022 17:35:36 GMT",
-      "collected_at": "2026-08-26T07:50:30.779443+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드제약, MRI 조영제 필리핀 수출 - 데일리팜",
@@ -3598,26 +3003,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "경기도 광주 유나이티드 히스토리 캠퍼스는 어떤 곳 - 약업신문",
-      "summary": "경기도 광주 유나이티드 히스토리 캠퍼스는 어떤 곳&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92NV9uT053MVlVb3M0c3ZLanI5QTVQVWFsWUpRSGhCUHh2YTg0MFlIaWxsdFNLMTRCSHlpVFJwR2hQczJtdEdxMjJiaE4xNWE5b2RVZFpPb29pMVZCeDh2R0RsSTlQdw?oc=5",
-      "pub_date": "Mon, 25 Jul 2022 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:51.325026+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "대세는 유전자치료제…'AAV 벡터' 무한 가능성② - 약업신문",
-      "summary": "대세는 유전자치료제…'AAV 벡터' 무한 가능성②&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwNzBXbEM2UlNXY0h3ckZ4eTVJVHZJRFdmWkxQSlE3YzFUTFI5ZG5jT1JxMjVacEJxOFZpQURiTkltZHJWSnhGMkQyMGRudzVXNU5ZRVozN0J2MnJqSlBJX1JnZ29TUnBYd3FzbDI4WHQ1a1dYaVhMNkxIVm9qZw?oc=5",
-      "pub_date": "Wed, 20 Jul 2022 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:51.325047+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "제약사 회계 담당자에게 묻습니다. 장부 관리 '깔끔하게' 하십니까? - 팜뉴스",
@@ -3672,16 +3057,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NSXVxRkNoSXFwN05nSU1OdmY0U1dHSWJvZ1lZSFVGaW1pd2FYUUxJbTdWeWpQc1lYSTdRMnBXRjJLcTFMV2k2ckFEeVJUUUV5T1ZRWk5LMDlNQjJ2OVpRRzZFSXp6S2VmeUg2Ug?oc=5",
       "pub_date": "Thu, 28 Apr 2022 07:00:00 GMT",
       "collected_at": "2026-08-26T07:50:34.502426+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 개량신약 ‘클란자CR정’ 발매 - 약업신문",
-      "summary": "유나이티드제약, 개량신약 ‘클란자CR정’ 발매&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBCX2RwcmQzT1R2b19zX3o4N2JrV1dBdVdRSnpTczZHd2RtTGxzUWZydm1rUXVkQVNrQ3pNVkJkWU80ZTlVbGtZTU96U25nU1p1czR3YXc5VjM?oc=5",
-      "pub_date": "Mon, 04 Apr 2022 05:01:01 GMT",
-      "collected_at": "2026-08-26T07:50:30.779441+00:00",
       "date_estimated": false
     },
     {
@@ -3743,16 +3118,6 @@
       "collected_at": "2026-08-26T07:50:34.502457+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "오그멕스 듀오 건조시럽 - 약업신문",
-      "summary": "오그멕스 듀오 건조시럽&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qUlpfVUJEX1U2RE5lVmpuRjV6SXdYdVNEMXdOMkZEY2R1R0pYMHZXbnJfODZYZXZQdHJ6RGsxclRNVUlvMXVvbWpCZ1FJbk9XeWMtU2VJU0ZsVDJ1bTRVU2U1VXgycUp5YThJUGVtSDBodw?oc=5",
-      "pub_date": "Sun, 06 Feb 2022 00:40:35 GMT",
-      "collected_at": "2026-08-26T07:50:30.779474+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "'라베프라졸+탄산수소나트륨' 인기…유나이티드 가세 - 데일리팜",
@@ -3783,16 +3148,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "제약 1세대 오너들의 연륜 경영 - 약업신문",
-      "summary": "제약 1세대 오너들의 연륜 경영&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11ZWNPN25BaTBJNEFpRXFwOVcyeUxXVmJSZHF6Z1RCS2RwdUZCcjVHaXdmTDdFbVFmRXdDMUlxdWY5UzNHYzJfOTYzamVpQ3duaU1tMnloLUtwNHBtem9ZNUM4c0RjcHZHNDhZUm9aTQ?oc=5",
-      "pub_date": "Mon, 10 Jan 2022 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:51.325043+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "멕시코, 공공조달 확대-제네릭 성장 주도...국내 제약기업 진출 기회 - 팜뉴스",
@@ -3800,16 +3155,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCVUhCUmlKd2VkNDNydGRGUHk0elZLU1Q2TWh1dll2ZHdzLVBpTW90cTItNW85dlhSUmxoRXB1VVFfSmZvbThmRDBiRTdWRFR4ME5ldHNKZmkwTUtwY044Ymg5cUo2YzFJQmFCeQ?oc=5",
       "pub_date": "Mon, 10 Jan 2022 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:26.803972+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "건일제약, 이한국 신임 대표이사 임명 - 약업신문",
-      "summary": "건일제약, 이한국 신임 대표이사 임명&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEaWlBSmFtblZFNjJIalhGSkRpM25uTno0bU8wYXVPbUNqY1lINVZzeXZFMVlwSWZ4Q2R2Uk1iOWpHLWtiSWtaZ2xfN19wZlF2V2RTblUxUTNaamhGV0lvaEhpOW9UNGNKNTB5ZlZPWQ?oc=5",
-      "pub_date": "Mon, 03 Jan 2022 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:51.325041+00:00",
       "date_estimated": false
     },
     {
@@ -3830,26 +3175,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJR1Qyblhpd2hENkJaWW1qUXFDYXJaeTZZZlNkUzV1emtEYnZhQ3FUVm9VUTJ3T3k4OVdpbm1oSk92Z3A3dGVfeTZxZm1NX095WGxIeVhqNWN5OFUyVld3Q3JnY0VhYXJ6a2puZQ?oc=5",
       "pub_date": "Mon, 03 Jan 2022 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:26.803966+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 항혈전 복합제제 국내 최초 허가 취득 - 약업신문",
-      "summary": "유나이티드제약, 항혈전 복합제제 국내 최초 허가 취득&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iQTZIOG1CNVh2dzl0YUNiTFA3NGxoQ2I2WWwzNHNRejdxbU5EMlktdDFhT2o5LWVPanFIaFVjTWhfakZPYk1ZNkFwSHNueDVwdTZ6NC1JUzA?oc=5",
-      "pub_date": "Fri, 31 Dec 2021 04:24:23 GMT",
-      "collected_at": "2026-08-26T07:50:30.779468+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "엘도테인 캡슐 - 약업신문",
-      "summary": "엘도테인 캡슐&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tRWxxMGJiV1g5ZEMxV3RBbUJacHNOMWYzdHgzXzV6N3FISHdyQ1FYYlhRNnRETTlvTU9zZk9sWWNYS3lfa2lwTDNDemtacjEtanVkZ1YzWWp3Sk9VenN5X0NJUjJzVnhxbkJ5UF80WXZIUQ?oc=5",
-      "pub_date": "Thu, 25 Nov 2021 19:17:56 GMT",
-      "collected_at": "2026-08-26T07:50:30.779491+00:00",
       "date_estimated": false
     },
     {
@@ -3978,25 +3303,6 @@
       "pub_date": "Tue, 29 Jun 2021 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:07.269775+00:00",
       "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "“코로나19 백신 개발 끝까지 진행, 임상경험을 축적하는 것 매우 중요 ” - 약업신문",
-      "summary": "“코로나19 백신 개발 끝까지 진행, 임상경험을 축적하는 것 매우 중요 ”&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1DemV3Zkx0Z1NUNXgzWmdfTWZVdDJWdHg5NWppMmV5X3NMcEMtSG13V1F5S0RyRFUyMkpSWkdJeUNxT2RKaUQyNEk4aE9HVFJZLTA3Z1Uwb2RLeGdOT25KQW5pZFdmUQ?oc=5",
-      "pub_date": "Thu, 24 Jun 2021 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:49.564873+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 5,400만불 규모 멕시코 항암제 수출 - 약업신문",
-      "summary": "유나이티드제약, 5,400만불 규모 멕시코 항암제 수출&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWm54MWNLNmg5eXRJRmNGcGQzMlRJVjdWVHVYcHVsMmdLY2Q0d1o5aWV1TFJmY2FHUEFtWmhkanhyYWl2a3kyVzJiQjJwV09MTVZVOThIQUNvR0pQa01tQTVnSHZwLUdNRy1mZXJmRTFST2tDTGgtR0VlUTBMenlrMUZSVVJsYnZjUl9uenIzVGRMdDNYY0ZyOUxwYUxNdw?oc=5",
-      "pub_date": "Mon, 21 Jun 2021 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779470+00:00"
     },
     {
       "source": "pharmnews",
@@ -4176,16 +3482,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한미약품,스틱형 급성기관지염 치료제 ‘펠라움에스시럽’출시 - 약업신문",
-      "summary": "한미약품,스틱형 급성기관지염 치료제 ‘펠라움에스시럽’출시&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oVDFQRFFFaVJ6WDZocXBicjZfMHJXbkhVV2hXNHY1NEVNaGkzMzhSQlVuQ19UbElCZWhVeW9icHhlTHk2d0Yyd3U3X0pSb3VUTmpEN0ptN3R1cnhTQldYZzIxb29SQQ?oc=5",
-      "pub_date": "Thu, 24 Sep 2020 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:47.811745+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한미, 스틱형 급성기관지염 치료제 ‘펠라움에스시럽’ 출시 - 팜뉴스",
@@ -4232,16 +3528,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iUDh3U1kyUmF1d181NFdhY0JEYlJ0RkJ2ME12T3pueU9WcGlfYkwwVjd1NUUwS2dwUFBMWnozbkg4Q296amNDc0FwektCbXBuRzNheUpWVFE1YjFsZkxQQTBoRGREOTV0d1k2Mw?oc=5",
       "pub_date": "Wed, 17 Jun 2020 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:23.277195+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,급성기관지염 복합제 ‘로민콤프시럽’ 특허 등재 - 약업신문",
-      "summary": "유나이티드제약,급성기관지염 복합제 ‘로민콤프시럽’ 특허 등재&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObFYxUzBWR0pCek5LU1c2X0Vxa0F3X3hpRUhtVFZPdmdlelBEc3dzTXZWYVZZYlU0UXdnMy1uU1dTNmxIUVR3bnllMC1fTTRiVUJzUWlYTm9RVEgwSTFXZHR3dG9xNHBydUhab2p6UlJyYkpvZHl5Sm14b2VqdExjN2NsdTFPazV5TUxlZEdrZ1dQaG5FM1YyTjZZQ0hSczczR3JPRTAwUmp4RWlaR2stcW45bkVudFJzcm84OHpMem1VUWZ5bnU2VnpFdlE?oc=5",
-      "pub_date": "Wed, 17 Jun 2020 07:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090639+00:00"
     },
     {
       "source": "dailypharm",
@@ -4324,26 +3610,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,차세대 간치료 물질 미국 일본 특허 등록 - 약업신문",
-      "summary": "유나이티드제약,차세대 간치료 물질 미국 일본 특허 등록&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZzFWWk9PYndMbmRlWFEtdkJ3eFFXZ01wZkhfWEZqV0ktWTM5NDJ6VHl5N1M0bjFsSm9kZ043bHA0Uk15MXlvMjk0RnRJWDFoRThoSTZiUTB0dnZqcktSdmVJN29ySDVPZTRoMEc3cFJrcUdYZDI3Yl9yaUhNVGR0bm5fQlVCdm4wQ3ZuUzA4SEc1azRwVDZqOFQxNDBNQzA?oc=5",
-      "pub_date": "Mon, 16 Mar 2020 07:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090673+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약 강덕영사장 “항암제공장 하반기 완공 미국 진출\" - 약업신문",
-      "summary": "유나이티드제약 강덕영사장 “항암제공장 하반기 완공 미국 진출\"&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hbXBSaEtucHBGUXNKR2lEYVhSZE80VVpJTjRRRFRqVjhobHkzWVc4LVcwYXpwa3hfNFlRWlJTal9LMTJMRWxYNUxzM040bjhHazVqUjBYbjZBbXN5YzY2QmEzSXNlZw?oc=5",
-      "pub_date": "Mon, 24 Feb 2020 08:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:10.587238+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "제약, 내근직 재택근무도 확산…'언제까지 해야하나' - 데일리팜",
@@ -4361,16 +3627,6 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XVUFOelJNanhTMGhqLW9yVVhoMkZMUkN2NDdhVXdINHc4MlF0N2pRczcyQTlmWmNYSHA3SlhmSXowWG9EQ1lzWGZPQnA4MXM?oc=5",
       "pub_date": "Mon, 01 Jan 2020 00:00:00 GMT",
       "collected_at": "2026-08-26T07:49:05.481216+00:00",
-      "date_estimated": true
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "면역억제제 '미코페놀레이트모페틸' 이상반응에 '골수부전' 추가 - 약업신문",
-      "summary": "면역억제제 '미코페놀레이트모페틸' 이상반응에 '골수부전' 추가&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92djJGUU5NNTR2cmh1UFh1VzFDWFBBSzBHZVBEQ05WcU1nbkU3LWhfR09HOFc3dWRybnhfbU9XLXFWcFNnNUM4SVJ6b0pHSUQta0t1Rk91djBlYlJPRmtfeGl3ZHZzdw?oc=5",
-      "pub_date": "Mon, 01 Jan 2020 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:47.811764+00:00",
       "date_estimated": true
     },
     {
@@ -4454,25 +3710,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "- 약업신문",
-      "summary": "&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzYjhtaGpuS2RBQ1pzREJnWW9xSWtLVWdQS3lTdms3N09hY0t4YVBWb2NzOG80R0NVb21hMjZhX1lCS3lSMW5Xb2NhelNFSmU3UmJMUDJVRlI?oc=5",
-      "pub_date": "Mon, 21 Oct 2019 00:36:01 GMT",
-      "collected_at": "2026-08-30T00:11:12.114920+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약 필수의약품 공급,복지부 적극행정 우수사례 선정 - 약업신문",
-      "summary": "유나이티드제약 필수의약품 공급,복지부 적극행정 우수사례 선정&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbnExSFZYeUVWTEZTLXFXdm5OcjBGLWtqaXA3YlowblNxdWRPejgwcUx2YjFZQjktQkdoNFNyRWZ6bktXdU5SYW1hTmdwT01EeU5QTURPUTJVRHd6M0Y1NVYwSzVFT0VpQmZsWTJuNl9mTjdUdEk4ZkZld3BMbGJBX1M1MmxwcWwxYXBqUE01RlVCbWpRLU1KTXV4RkFJV3dpN2pZMDYtblJsaEZxRU9sVmFxb2dXMzNHaFhmVDl6Z253dEF5RXF6LWZR?oc=5",
-      "pub_date": "Fri, 18 Oct 2019 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779446+00:00"
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "다가오는 결산시즌…‘확 바뀐’ 회계기준에 업계 ‘비상’ - 팜뉴스",
@@ -4542,15 +3779,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,국내 최초 천식/COPD 흡입기 치료제 국산화 추진 - 약업신문",
-      "summary": "유나이티드제약,국내 최초 천식/COPD 흡입기 치료제 국산화 추진&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1KakZWSW5UVlFaWFRpXzZRWkQwMEdoWmJIS0QxZ3lKQTNxNFd4cjdncFRuY0lUNnE1SU1jeDBvNkRIQ3I1VnR4dVV3MTg1LWt1Ujl5eW55MA?oc=5",
-      "pub_date": "Mon, 15 Jul 2019 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779449+00:00"
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드 '페노피브릭산' 정제 우판권 획득 - 데일리팜",
@@ -4569,35 +3797,6 @@
       "pub_date": "Thu, 27 Jun 2019 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:03.688667+00:00",
       "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "'도네페질' 성분 의약품 '혈관성 치매증상 개선 증상' 효능 삭제 - 약업신문",
-      "summary": "'도네페질' 성분 의약품 '혈관성 치매증상 개선 증상' 효능 삭제&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BT2Z2ZW5scHZNaUl6OVd0UEtNY3VDenFHQTJNUV9NNmZab3huaHJfR1E2eGdJMEJ3Nl9BbHBRR2ZuZnpyVnM4b2Q5dXIweVFlLXhIV1BrTQ?oc=5",
-      "pub_date": "Fri, 10 May 2019 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:46.041266+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,이상지질혈증 치료제 ‘오메틸큐티렛연질캡슐’ 허가 - 약업신문",
-      "summary": "유나이티드제약,이상지질혈증 치료제 ‘오메틸큐티렛연질캡슐’ 허가&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53WjlnMUVlMWl3WjJNSmpfeHdtanhmOWN1YVBOSGRNQ3cxWElfMEVmQkRsRGViVWU0dV9UTzFVVlRtc2h4enQ4U0NhVHZlOXlkTnNCM1dQUG1nY2ZKeU90VXFlaVFiZw?oc=5",
-      "pub_date": "Wed, 24 Apr 2019 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:46.041262+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 남아공 항암제시장 진출- 개량신약 진출도 추진 - 약업신문",
-      "summary": "유나이티드제약, 남아공 항암제시장 진출- 개량신약 진출도 추진&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY2dMOGUzcTBxclp3ZTJ6Y1VEVFVRSm1hTGh3LUcwLU50VHU2YTcwem5HVlk2Wnl5R25xYzFUU3c5cUVHN2RVcVVFNHZxUW5ZSjd2YzVSZ3ZWczF4ckZBV0UxbEZfQ3FQREJwQkhzM0lGanNKS1o4OGJJa1VZNWFoallQbW9tRzRHTnFoSUFlTUxRV05wczk2Q1ZPbXV0ZDA?oc=5",
-      "pub_date": "Thu, 11 Apr 2019 07:00:00 GMT",
-      "collected_at": "2026-08-30T00:11:12.114849+00:00"
     },
     {
       "source": "dailypharm",
@@ -4690,16 +3889,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드문화재단, ‘제16회 행복 나눔 음악회’ 개최 - 약업신문",
-      "summary": "유나이티드문화재단, ‘제16회 행복 나눔 음악회’ 개최&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VRzZKTHZmX1FrLWZHRHRuNEdaS3JIUEJuanhNbHVWZUlzTGFTU2p2OU5kVFY0NWZtRDdNNVVYbmZOVW1SVmQyaENNR2w1VEQ5YXhULUpncjZFelhnYW5Tekc3SQ?oc=5",
-      "pub_date": "Mon, 05 Nov 2018 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:44.286244+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "대웅-유나이티드 특허분쟁…양사 모두 '무효' 치명타 - 데일리팜",
@@ -4779,45 +3968,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "‘카발린’·‘실로스탄 씨알’ 삼성서울병원 입성 - 약업신문",
-      "summary": "‘카발린’·‘실로스탄 씨알’ 삼성서울병원 입성&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VT2w0b3R4VGtzaFlZT2d3cjU5bmhDVlBHSDdBMEpiaUhhLUtmcHhSeUxtRnNzWk1BcTZESWF3bjY1azRMdFFxN0M1VWp3REV0WUl3S0xGbXdXZ3dkakxlODJPWQ?oc=5",
-      "pub_date": "Mon, 16 Jul 2018 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:44.286261+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "식약처, '임무나캡슐' 등 13개사 18개 품목 임상재평가 실시 - 약업신문",
-      "summary": "식약처, '임무나캡슐' 등 13개사 18개 품목 임상재평가 실시&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMGNEeHRMSVRqb1N6dWI5ZVRzWGtOWGpkLWJGWjY1eGtBeU5IRnVUbGZ0dnlVa3hKRUdrc0xMWWw5N0FMbUZ0am9oSTNDeDJjZ1lqMWNPRGZMOWd2SHJkbnN4ZkVpbDVIaHoyWXEtRUlxX2htTTc4UllpRVJiY1NEVUhMaXVVUGRqdnpPN2ZCalhmcTVCMzVfTGZJcWdpNXUy?oc=5",
-      "pub_date": "Wed, 04 Jul 2018 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779511+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "강덕영 대표, “투명한 기업경영, 매출 증대로 이어져\" - 약업신문",
-      "summary": "강덕영 대표, “투명한 기업경영, 매출 증대로 이어져\"&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TcW8yUVRfVkJ4VHpYMTJNVEYwMWRPNTNZSUQ2V056Z0RjeFMwd0FfTTVoWmVPZXBGZ2xtYVYyd09RZzU5Z3prMm9neFdyMW5nTEt5eWs5ZmQ3S1VBRzRQTkpn?oc=5",
-      "pub_date": "Fri, 15 Jun 2018 07:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090532+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드문화재단, 노년층·장애인 초청 음악회 개최 - 약업신문",
-      "summary": "유나이티드문화재단, 노년층·장애인 초청 음악회 개최&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcU1MZkhjLUk2TE9vSGFHZlRZa3NXVXVYV1dNaXY1VVB4RnpTMkxDRy1YdEFqVWk2XzRsb2duOHpnUVRqNW9jN0JQMnNFNkN6dlplT2VrajBwNzhGLW5JQkxBZ2JjZUNKWllGVEJOZUNDTi0xdGZIdTVOS3RzbGF2SkQzU3NCeE84czhTaVlfSjlvRTZuRGVUb09hVmk3ZUU3?oc=5",
-      "pub_date": "Wed, 16 May 2018 07:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:10.587278+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드, 선진 GMP 인증 본격 '시동' - 팜뉴스",
@@ -4826,15 +3976,6 @@
       "pub_date": "Wed, 11 Apr 2018 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-02T00:30:17.564427+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한-베트남 제약협회, 호혜적 교류·협력 프로그램 가동 - 약업신문",
-      "summary": "한-베트남 제약협회, 호혜적 교류·협력 프로그램 가동&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zWEFGOUZzRVU2dmpyQkhkQ2xwZXVQMS1OUUlLT0pTUk15dWJ2QUVrQ2ZSSV9ZeEdjZW8wNGZCMzNDZ250QVpPam1TdG9RazI4bUd5cGNENHBXeVJVXzBEd0tUbw?oc=5",
-      "pub_date": "Mon, 09 Apr 2018 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779514+00:00"
     },
     {
       "source": "dailypharm",
@@ -4895,35 +4036,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "국내 제약사,올해 미국 시장 진출 '총력전'...'누가 앞서나' - 약업신문",
-      "summary": "국내 제약사,올해 미국 시장 진출 '총력전'...'누가 앞서나'&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnU2M05uT2ZUQm1wZVkyWV9lcHpfN2QwSGZnOUpoSjFVZENUUklSUDJYY3BmUENpQThSVXNmZjVtd1U3dU5UWi0zbm5Wakk4MVJKR2FRTXNaUWJTN0tkSnZtT3o1Q1VkMkNDNHFWR2hsMExjNDFQc21VR1B5OG1CdnIzWndxYl84Tnh4Ujh6T01XVU9sRFRCQ3BSeENuVmF6RUlHbHdEMFNMT29CNnNNM3FGVThmdlc4YVJ1ZDZrX0dQYVhFQXMxT3p6WXdkSmpjX1hWM0tWSldtcEJnMjdzaA?oc=5",
-      "pub_date": "Mon, 01 Jan 2018 00:00:00 GMT",
-      "date_estimated": true,
-      "collected_at": "2026-08-31T00:48:19.829233+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드갤러리,발달장애 예술가 기획전시회 ‘울림’ 개최 - 약업신문",
-      "summary": "유나이티드갤러리,발달장애 예술가 기획전시회 ‘울림’ 개최&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0UnR4dE55eUc2NVpGTjlvQkRMSnBLRndVR3NWcGdJaW9mSVFyaTQtbFJVdWZlazZOdGpia29NZXM0SExOQ3pUS0FkelkwOXVkNTEtOUxQSU5EYnpVay1uT2JtOA?oc=5",
-      "pub_date": "Thu, 28 Dec 2017 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:42.503172+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드문화재단,베트남서 ‘유나이티드유스합창단’ 창단 - 약업신문",
-      "summary": "유나이티드문화재단,베트남서 ‘유나이티드유스합창단’ 창단&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VZ3B5OVBpbEl5SXIyU2xvaUpIN2dLNFZ6dms4ekdRclRUNlpZeTh1ZnFtYUMzMXhBRmt2OTAzZHktei1zVmc4eF90NXdFVllCSW0zRWpvZ2FHTG53SVo3Vk42VQ?oc=5",
-      "pub_date": "Tue, 12 Dec 2017 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:42.503169+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "대웅제약, ‘가스모틴SR정’ 식약처 허가 - 팜뉴스",
@@ -4931,26 +4043,6 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoMVdJb2M0WHpVaWxBU3lHdWFQLTZYVFBjQk9WeDVWcEcxYWxuWmNTb0p4SVFIeS0wSmxLRHpRcjY0OWpPQklGYnMzZUg4VWg3Z3EwdU5OQVlmeFhnb3o4UWVOS1kwdjVEMFdN?oc=5",
       "pub_date": "Tue, 05 Dec 2017 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:17.950197+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약 창립 30주년... '히스토리 캠퍼스 ' 준공 - 약업신문",
-      "summary": "유나이티드제약 창립 30주년... '히스토리 캠퍼스 ' 준공&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qZnJVejY0bWIxdUlOZURKRVlsN0tsVXM0REo0UnYxR2ZzWHRCRUlFZjVXbFNOQ21ZVTZ0MGMxYXRrU2JoTkJEZER5a253OWVWRUpfT0ZaYnB5eFJNWjh1c255RQ?oc=5",
-      "pub_date": "Mon, 30 Oct 2017 07:00:00 GMT",
-      "collected_at": "2026-08-30T00:11:12.114816+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "약제학회,‘cGMP 실사-개량신약 등록 사례’ 워크숍 성료 - 약업신문",
-      "summary": "약제학회,‘cGMP 실사-개량신약 등록 사례’ 워크숍 성료&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qZ3JIV3FMMUJBUGQwRW94Uk9YU243cmdibnJTb1lKWjluSjFhZUtLSUxDeTBER2hndE5QZThsbEI2RDlzZTVhbEZjTDRBSElNUTJXNkhxVlNuNlpnY3VxNFY2VQ?oc=5",
-      "pub_date": "Fri, 15 Sep 2017 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779489+00:00",
       "date_estimated": false
     },
     {
@@ -4984,26 +4076,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드문화재단, 중동중·고등학교와 교류음악회 개최 - 약업신문",
-      "summary": "유나이티드문화재단, 중동중·고등학교와 교류음악회 개최&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sRThNVVlETDBFQWNXYkJtTGJXUHlJT3IwM1p0X192X1lJSDBFVUhBeEhJZEtTRGJBYUJaVTNDQ0xhUUZ6TW9ZWnpCQTlKX1EzTFc2cVlWVTFVVGg1TnlBTmxyUQ?oc=5",
-      "pub_date": "Tue, 25 Jul 2017 07:00:00 GMT",
-      "collected_at": "2026-08-30T00:11:12.114953+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 서울대 산학협력단과 표적항암제 기술이전 계약 - 약업신문",
-      "summary": "유나이티드제약, 서울대 산학협력단과 표적항암제 기술이전 계약&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUeEpsc2xTdW1CRWNUT2U2dE9EWlBrT2Rqb1lSWFhITkJ1aGlqS3NKS2lRcVhMMFBPQklIWTY0UngtWlBhMjhfd05maFlMcjlldTB4RXRmUkh0ZTJmQnpmRlo5TQ?oc=5",
-      "pub_date": "Tue, 18 Jul 2017 07:00:00 GMT",
-      "collected_at": "2026-08-31T00:11:53.480480+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "법원, 리리카 제네릭사 특허침해…손해배상 선고 - 데일리팜",
@@ -5024,26 +4096,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 매출 9% 영업익 18% 증가-순이익 감소 - 약업신문",
-      "summary": "유나이티드제약, 매출 9% 영업익 18% 증가-순이익 감소&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX1NrSXdPVGRITlN3OW5xdUswa0dWbk8zdTM4TjN0ZXh3TGk5WlgxS1ZqemVnTGs0bXRxM3V1VGNsSHZUX093MVNab3c1YkVaQnRudEdXdzRqRkE4bkxXVlU5dkNuS0t4U3I0MVZGZDhsYkxub0JUV09zZTBqbmJLQk9xMS1RNlNTSXJRMDhyRlg5ZUtCQ3l2X05iN3N0VGhza3prYmRyLTRKSkZ3bkVJeDNQRTJ3RlJqQ1ltTHZtMEZhLWxuYUF0dVRQSks?oc=5",
-      "pub_date": "Mon, 13 Mar 2017 07:00:00 GMT",
-      "collected_at": "2026-08-30T00:11:12.114913+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "종근당 ‘듀비메트 서방정’ 개발로 신약개발 기술상 수상 - 약업신문",
-      "summary": "종근당 ‘듀비메트 서방정’ 개발로 신약개발 기술상 수상&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxRGhEUXdZLWNfcklsSlVBS1hoM0hwdHNGTk9WVFdMRlJyemY3UjhuUWZDcmFIMjIyNHhNQWxSN0w4aTBzSmFsNnV3WXZLTDlPTHV4RTRlTnZ3ZGIxUEZ0YkRHMA?oc=5",
-      "pub_date": "Tue, 28 Feb 2017 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:42.503175+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드, 프레탈 특허도전 성공…실로스탄CR 호재 - 데일리팜",
@@ -5051,36 +4103,6 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4YTJ0eDV2RHgyWHViSzUtTjlKU1JBdzFDLUo2MUF4RFNFX2w3bUMtaUstcU9NZHJ6OHRCNjE0clo1dDUzY3pHdy1jQ2dxZ1dl?oc=5",
       "pub_date": "Fri, 03 Feb 2017 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:00.173715+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "제약바이오사업개발연,성균관대 이재현교수 초대회장 선출 - 약업신문",
-      "summary": "제약바이오사업개발연,성균관대 이재현교수 초대회장 선출&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15UER0bEtidlFWR2k0VVA0ZlN2Y1Zvb042S3ZycEw1TlNRbWE2Mld5RE1GS2FwMkphQjVicmhMUjhtQkgtT0E3dkpHcGRwaW1yTXB5UnQ4empOQU82MTB0TDJPNVEyVkNhN1JDVWxRUQ?oc=5",
-      "pub_date": "Mon, 01 Jan 2017 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:48:42.503173+00:00",
-      "date_estimated": true
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "신약조합,지난해 제약사 R&D-글로벌진출 지원 성과 'Good' - 약업신문",
-      "summary": "신약조합,지난해 제약사 R&D-글로벌진출 지원 성과 'Good'&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLW9OMXNlLVF3Z2FDMlMxdWY3bVlCS24zTS0yR2ZpcGFPb1pQWnZwNlUtMXdqbnhWTTU3blJodWZpcjRyc2Zidk9lY25mdUhwV3FjZko5VUxrMWU3MTNSNHlVUnJCNWlDOTlWVGhicXFwQ3JoUFZVOXpjUl9hZzJNRTFWV1J5ck1TcmFKclBPWE81QjFCUFROZlJmQmh3Y09hMFlHLVRxZ1J5RDBNSGpGYmJvSGxSWnc?oc=5",
-      "pub_date": "Mon, 01 Jan 2017 00:00:00 GMT",
-      "date_estimated": true,
-      "collected_at": "2026-08-31T00:48:18.082517+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,필리핀 바이오파마에 조영제 수출 - 약업신문",
-      "summary": "유나이티드제약,필리핀 바이오파마에 조영제 수출&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbHdnVzdrZkN6X2EwaXl1TndKSUl4RWJrT21QU1JKbklJTEdRZnZDRVNiY2V4ZkgtSnJYRVFidExhRGRNakNmRWVONDRjMHNmVlM5U3JiM0ppU3EwTjJzRG1IR2RZYUd1eW9BaXdPUzEtaGpaUHpaVXpaNV9YQmw5MWlndVNKajlRYXpTZWhwelBpZ2RwUllVUnptRnpkUkJI?oc=5",
-      "pub_date": "Tue, 25 Oct 2016 07:00:00 GMT",
-      "collected_at": "2026-08-30T00:11:12.114888+00:00",
       "date_estimated": false
     },
     {
@@ -5094,16 +4116,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,'가스티인CR정'으로 개량신약 라인업 강화 - 약업신문",
-      "summary": "유나이티드제약,'가스티인CR정'으로 개량신약 라인업 강화&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3cEs0eTFqMmROa1dPUUJYZE90MVY2ZnRKc2lVNlpXaVdKdHJTeHJMZHI1SHBYMEFWaXJ5QTBTbnRINjh4Tk1IbGhHa2U0NHNaYjNMVzQ3amREenVkaUlPTUFqTQ?oc=5",
-      "pub_date": "Tue, 26 Jul 2016 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779462+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드ㆍ광동ㆍJW, 개량신약 공동개발 - 팜뉴스",
@@ -5111,16 +4123,6 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JY0gyQVBlMUdvaHVsWE1MS1p2bHc0b2JoTkhSN2RqU3M2VnowSUNUeFJER2lXaVkxVkp0RTRRem04cFlidF9zOEM5YTFLempzNUVDdkhOMWVnYlUyRWg1dkl5cXBybzdxMHh3?oc=5",
       "pub_date": "Fri, 22 Jul 2016 07:00:00 GMT",
       "collected_at": "2026-08-26T07:50:34.502419+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드-광동-JW신약,개량신약 공동개발 손잡았다 - 약업신문",
-      "summary": "유나이티드-광동-JW신약,개량신약 공동개발 손잡았다&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWURyeEwzbDFXaVlweFE0bWZZeXhEMVFVNGVrUFYxYi1SMWdlUDRxbTkzSm83ZGlyZGpZQ05BQnNQUG9aU0p1UTdPUk1uaU9TTjYxVm11UzN4b1dwU0tZR1pPM2xaR0ZRYjA5WVRWWHhxc05TVktDdUc3NUw1czIwOW5aTUtyTUp5dXNYTnVOVXJEc01uNGFrYkljaUtFUmdv?oc=5",
-      "pub_date": "Fri, 22 Jul 2016 07:00:00 GMT",
-      "collected_at": "2026-08-31T00:11:53.480535+00:00",
-      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -5152,45 +4154,6 @@
       "collected_at": "2026-08-26T07:50:34.502481+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,철원 초교생 ‘글로벌 인재 육성 프로그램’ 진행 - 약업신문",
-      "summary": "유나이티드제약,철원 초교생 ‘글로벌 인재 육성 프로그램’ 진행&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNFBiVHEtZGp2STkzWWhfLTUxV0NqbmtmNldPY3A1bUo5Vm5qcGw5ZlpqWkpibXgxWGdTdnpCUFZ1ZzRyZ2dycGtFNnN4UU1jWUsyNlVzRnlIckQwMnRYbF9NVkhETWQ5dnRHU3VHLUN4U3lReVpvdW5TVHRXUDF5YUMwczNhYUJmejhHaVpWRFhOU25WVF9UWEVELVRwa0F3?oc=5",
-      "pub_date": "Mon, 19 Oct 2015 07:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:10.587162+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약, 동덕여대 약대생 산학협력 실습 성료 - 약업신문",
-      "summary": "유나이티드제약, 동덕여대 약대생 산학협력 실습 성료&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvNmM5MEV5c3d4TEUtUmxEbFVmNkRWTnJRNzFJSmJ3RzRaeG9rVl8wRmlLX2swVFBpRlQxUnEtZW1PWFc0YVBLbzFrTFJJN21taW5VMzhRQmg1dzVoUlJ3dnloYw?oc=5",
-      "pub_date": "Mon, 24 Aug 2015 07:00:00 GMT",
-      "collected_at": "2026-08-30T00:11:12.114883+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "김상봉 과장 \"PIC/s 가입 1년, 제약경쟁력 높아졌다\" - 약업신문",
-      "summary": "김상봉 과장 \"PIC/s 가입 1년, 제약경쟁력 높아졌다\"&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DaVA0STMzcHY2NzZ0N3dBcDZuUU1PUnZlb1VYWENrQnYxeWpqYjZxMEZuMkpLeFFaWkJPVk1Za1A5SnNBZTFkLS1saGRWdFpwV1VuU1hpSDZySXEtLTQ4cVZ0Zw?oc=5",
-      "pub_date": "Mon, 29 Jun 2015 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779485+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "두통 부작용 해결,6천억 항혈소판제시장 - 약업신문",
-      "summary": "두통 부작용 해결,6천억 항혈소판제시장&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xR3FzTDRHOEMyY1BqRmlrckYybE5FWmQ5MFdWaTFueTZvdmNrMGR3RHN6c3QxenI5S3JfYkFucmlBanNXekRXS1ZjSW1BWlBmSjRUZkR6SDNpazU5R0FkMC0tUlpWUQ?oc=5",
-      "pub_date": "Tue, 31 Mar 2015 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779466+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "'뉴라펙ㆍ올로스타ㆍ실로스탄CR정' - 팜뉴스",
@@ -5200,83 +4163,6 @@
       "collected_at": "2026-08-26T07:50:34.502428+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,중소기업문화대상 문체부장관상 수상 - 약업신문",
-      "summary": "유나이티드제약,중소기업문화대상 문체부장관상 수상&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yakVaRnhDMndCY3NLeWNkLWQ3ckdaeXZfQUJLY29RYzM5QndKMkU3Q0Fac3g0RXRZSk04dUwtZkdVT2xBQ0p2b3daVmhBc0RESmUtblBzVFlEckJ5QzFVQjMwaw?oc=5",
-      "pub_date": "Tue, 23 Dec 2014 08:00:00 GMT",
-      "collected_at": "2026-08-31T00:11:53.480539+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국약제학회 학술대상,덕성여대 조애리 교수 수상 - 약업신문",
-      "summary": "한국약제학회 학술대상,덕성여대 조애리 교수 수상&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11MjRmMjdjUE53ajVCRU1ZczA1dnNXdnNVamFWSkt6YlFvM0pzRGszbS1PZ2ZTMWlzaVlxWTZ2eGlVZ1Nsc2pSbHZRRnhCQkc4bE1mZjY2Rjd2VEtHWk1sYmdkaw?oc=5",
-      "pub_date": "Thu, 27 Nov 2014 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779504+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,동덕여자대 약대생에 생생한 현장교육 - 약업신문",
-      "summary": "유나이티드제약,동덕여자대 약대생에 생생한 현장교육&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTWVNdTYzWXJvUDZoN1NhRm1USTdkQk9oRlNOSnFOb0FTbkV1ajdCSFZTVmxLVjRNWDZubW9vRW5WQWtsVlg4dDB4NVlpWnhhV1dBd0xaZE5wZXZkRF9DS1JqeTZLZDRpX0toQnExOHFFQ2l3MkJubUszekZnMGZXc0EwdThkOVFmcWwzR05BTnlfc2JkR1ZhZktjbDY4dDRH?oc=5",
-      "pub_date": "Mon, 25 Aug 2014 07:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:10.587190+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "\"유나이티드제약 '한국인이 주인인 다국적제약으로 발전'\" - 약업신문",
-      "summary": "\"유나이티드제약 '한국인이 주인인 다국적제약으로 발전'\"&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03RDg3TTNBaGtzRnNBU2N2cFZic29kWm4xMkJhVno1SlMwMzNRdXdjRGF2a25DUFJKVVdTUWRnSFJ4WTRqN3hwclliZXc2OHZEbW9rWXNiUTZsYUNMbDFyazNNWQ?oc=5",
-      "pub_date": "Wed, 23 Apr 2014 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779439+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "“글로벌 진출, 단계별 진출과 현지화 전략으로” - 약업신문",
-      "summary": "“글로벌 진출, 단계별 진출과 현지화 전략으로”&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ1hpYnQ3OGFpb290RDRJNEZCX0hCTTF0VWNFTnZZclc2Mk5MSXZlVENpNWhDMFlaQ2lTODc3Nzg3aUxhZGNhM3BZU0h1RDRaVy1NLS1xaFNnWWk3dVoyWDBsNGdTY0gxVFdJMTVjcFFtZGs3bFVKTndTM0dpWGhxTl95UXluS0o2YW8zREN1QUhfRXpfTUpuY0c4SFpPSkRl?oc=5",
-      "pub_date": "Fri, 28 Mar 2014 07:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:10.587247+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "부작용 줄이고 복용편이성 높인 소염진통제 개량신약 - 약업신문",
-      "summary": "부작용 줄이고 복용편이성 높인 소염진통제 개량신약&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1LQXVHSlF0NEZYMnMweHIzcTNHNGZKSFEydnVlNzVSeVBrZ2lpMmpOc0NPT081emFjeFBLVnZVZmdyVkVHSVpXaGxjRVlCdElBT043MHZLSmJnNXh1LUdtSDJOdw?oc=5",
-      "pub_date": "Mon, 24 Mar 2014 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779473+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,cGMP공장 준공 3천억 교두보 마련 - 약업신문",
-      "summary": "유나이티드제약,cGMP공장 준공 3천억 교두보 마련&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0zNkJJR2tzLVY1SFIzdkJicFVoM2ZhZ0g4MVhkcFEzcGlfR3g0cTFKZkxRX0ZySjVSY3VCVkVZUVRuRFp5djM4RWtaQnFPcVFRR0xlanBEcw?oc=5",
-      "pub_date": "Tue, 31 Dec 2013 15:39:05 GMT",
-      "collected_at": "2026-08-26T07:50:30.779455+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드갤러리, ‘회원 전시회’ 개최 - 약업신문",
-      "summary": "유나이티드갤러리, ‘회원 전시회’ 개최&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ0lxYmN3WmFnd2FjbWNHMlM2R2IzV25FSU9PZmk2d3ZDVGpFMTBCdWZiX21KZUVWUTRSMVU5N3BEMVdVX3J6dzVrNGpTM3lHQXV5eFZMZWhJTDBEZGpyRWVwQ0xseUNHTDR4NUIyblVsTk84ZTJiNDlPR093Zmo4aEFxN01NdWVHdEVNV1hVZXB1WS03Xzd2RmMxMkt5cFpI?oc=5",
-      "pub_date": "Tue, 10 Sep 2013 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779507+00:00"
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드, 약대생 생생한 현장교육 제공 - 팜뉴스",
@@ -5284,26 +4170,6 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wSnFHWUN6a1NEZFpvS3lMRDctSGs5VGk1MjNrXzRUbUxJc05DLXV6b1RLYTU4dGV0ZHFXRDcwaVFkVTI3NDV1SFpBSjl1dGp2dnpaV1RrLVBuRlRvc3BKdEhkS25iS3hlTWk0?oc=5",
       "pub_date": "Tue, 06 Aug 2013 07:00:00 GMT",
       "collected_at": "2026-08-28T02:10:14.373988+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "글로벌 시장을 무대로 뛰자 - 약업신문",
-      "summary": "글로벌 시장을 무대로 뛰자&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1oazN1aTZZZTAxVUd6ZHlHQ2dJek9TZ2FBYmtIZVRxMzBGOVVIY1Y4UFU4LVQwa1MwSGJwZGpWcHUxTVVtZUJGWlhjTml0UzVTaDhtXzdHcGNuc1d2V3pIYzVxTQ?oc=5",
-      "pub_date": "Mon, 29 Jul 2013 07:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090814+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드갤러리, 젊은 작가 후원 ‘바나나 전’ 개최 - 약업신문",
-      "summary": "유나이티드갤러리, 젊은 작가 후원 ‘바나나 전’ 개최&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMTJKc2p3djRQZmZZeDNvSmxNbVFtNWpQNV9FbE9QSFo5a1dvT012dTlCdmNKOUgxdEY0YlBneWlLS041eEtlQnJvT2IzQlk1YnhPc1A1SFBRdEhiVTkxZHFpUFRqLU5oN0ZQLV9YclBwTTFIZFdSQmw4a0NvcGJhSm92MjBXYzVTNEwzU1ZhS19HYTJrd3llUFFXRXUwd3FN?oc=5",
-      "pub_date": "Wed, 24 Jul 2013 07:00:00 GMT",
-      "collected_at": "2026-08-30T00:11:12.114965+00:00",
       "date_estimated": false
     },
     {
@@ -5336,33 +4202,6 @@
       "collected_at": "2026-08-26T07:50:34.502440+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "신약조합, 중소 중견 제약사 지원 나섰다 - 약업신문",
-      "summary": "신약조합, 중소 중견 제약사 지원 나섰다&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX1dmYnpvV1VNVkVrRTIzaE9NVERkSDVTb0RXNUUyb3kzQjJPdUt4eE5OaTRTS0tHRWRnWlRPUGtObEdqeldyUjd5WUk1bTJIMDVqTzRueWdxRXlIZ0xPWkh3LS1BMldTR3BKWjVwa2c2Z1VaelozZ2RTSTVEWDRWMi1CM3k3UHZSNUtDZm9sVkRFOC1DNm5ZN3B1VVk0T29r?oc=5",
-      "pub_date": "Tue, 04 Dec 2012 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779513+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "스페인 CPHI Worldwide에 25개 제약사 부스 운영 - 약업신문",
-      "summary": "스페인 CPHI Worldwide에 25개 제약사 부스 운영&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZVU0MVZNRXNNaVE5aWxQaEh0MENaT3NILVFfN0hVZExwUjZPc016RlB5S1lQTUtrSFF4R19zZFdYd21uZ1BVWlI5cFEtNGt1b1Framg1VlZRY19TZnlISWQ3V3NId095RTBKSVI5M0FxV0xPT0R1SEZuZllpMWNwVWc5eUJzbkpNTmVoQmI3dWxVeUU3OTZBbWhqc2xwVGhS?oc=5",
-      "pub_date": "Mon, 05 Nov 2012 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779500+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "보건복지부 장관, 유나이티드제약에 격려 서신 - 약업신문",
-      "summary": "보건복지부 장관, 유나이티드제약에 격려 서신&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRHFpZFF2ZDdwN3gxNVRHTkd2UUxlbFFkTXBpTzBmcTY2WGVhSU54Z001V3NnSlhvU2thUWFCLURDdC1PTEF3eG9nUzQzLU9FRDJMcDdYX08zOUxEa1FXeVQ1ajN0RURPaUx5VlVwaXZnQWJaODVnS3FUa2xpNXp5R1JMaHdMUQ?oc=5",
-      "pub_date": "Fri, 28 Sep 2012 07:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:10.587142+00:00"
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드제약, 폴란드 CeFarm사와 MOU 체결 - 데일리팜",
@@ -5371,25 +4210,6 @@
       "pub_date": "Thu, 14 Jun 2012 07:00:00 GMT",
       "collected_at": "2026-08-26T07:50:32.620247+00:00",
       "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "클로피도그렐-아스피린 복합제, 국내 최초 출시 - 약업신문",
-      "summary": "클로피도그렐-아스피린 복합제, 국내 최초 출시&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VRElqdE9uU3lEVUdHWnA4aE5ibzg5NTRWR2dOWElVanhZSjFLZzBXZGh0TzU0NURTdjNGdkY3ZHFfdGdMWGtlZUFUNjJtVlFMem52cGpSSHQ?oc=5",
-      "pub_date": "Mon, 13 Feb 2012 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779477+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "혁신형 제약기업 어디가 유력할까 - 약업신문",
-      "summary": "혁신형 제약기업 어디가 유력할까&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1UYUdpejUzeVhpTE8wUzNvWE1TeEdqcU93bWpwbVp1Znc5Qms2M3N0ZHJ4OXFBU09iVzFRRTRrSDU2UGhqM3pFcy0zUkpmYnhaWlo3VEhkMlFEbmc0bHdmdHRRZw?oc=5",
-      "pub_date": "Tue, 10 Jan 2012 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:30.779502+00:00"
     },
     {
       "source": "pharmnews",
@@ -5441,35 +4261,6 @@
       "date_estimated": false
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "유나이티드제약,초등학생 글로벌 인재양성 앞장 - 약업신문",
-      "summary": "유나이티드제약,초등학생 글로벌 인재양성 앞장&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORnQwQk1HbDlLekJVN3o1R3c2NEZzeE5wYU02T2pIVUhlWWtUbkhLcllXbENaLW9qbVpINHktYzlBZjYwTHJ1MWdDYUtPQjVJTUlGZm0yNzQ4b0tqcF9Za0FOWWNaZlJJMHJOQmJ6OXd4ZXZUVzFyTFZpWWMyVGVZRGVrdUFxdFJMcjFmSHU3VjRreEhCbVZWNEdpR1BxM3hx?oc=5",
-      "pub_date": "Sun, 17 Oct 2010 07:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:10.587167+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "'유나이티드 소녀 방송 합창단' 첫 내한 공연 - 약업신문",
-      "summary": "'유나이티드 소녀 방송 합창단' 첫 내한 공연&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZU9scXdHNHZaaHhIMTVwTVd5X2k2R3BNYWp5ZzZocjZ3ajVGMmM3X1hmVGpWdFM2Uk0zeG5LZW9nSVAxcTA5QmtGV2RsektMa1ZuYk10VXdSRWNHeHRCY2s3NmRhb1R1dUVOSFhMSF9kTHJxREtaMGxNeGttNlNxSFhmQkVvOFV0cExfQzlrM09nMlRXbklzbndTZnY0akY5LVVmRjU1Xzd0LW5nNHNhMVJmUElVWjVLRkY2XzQ5ZFhIM3d4d293LXNUckJhVVNpeVpFalhnMXZHVmdBZ3BZOQ?oc=5",
-      "pub_date": "Sun, 25 Jul 2010 07:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-02T00:28:10.090833+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "\"클란자 CR 통해 유나이티드제약 저력 각인\" - 약업신문",
-      "summary": "\"클란자 CR 통해 유나이티드제약 저력 각인\"&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NbDR1WG9zNE9TYlVBTzdhZ0VoT3lQMkl4VGo2eFd2Q0YzVnVOQ0UxSjQxUUozVVI3aTBPcmVkZU9BRmFKc3NnX2dPTzF2djFfRFhmR1pmS09ENjJMMzZ2Z2JUMA?oc=5",
-      "pub_date": "Thu, 01 Jul 2010 07:00:00 GMT",
-      "collected_at": "2026-08-29T00:09:27.803644+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "제품 출시 10일 만에 재주문 쇄도 - 팜뉴스",
@@ -5509,16 +4300,6 @@
       "collected_at": "2026-09-02T00:29:15.638971+00:00"
     },
     {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "한국유나이티드제약, 임직원 체육대회 개최 - 약업신문",
-      "summary": "한국유나이티드제약, 임직원 체육대회 개최&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc1I4Q3k0RXpSUHNiVFBYcmV0eXFtU0pOdVN6SzVvR1F1TGQtRmJDUHBCZVZ1dm5vVVA5SlRBLWhzZXNrRy1FRU9qNkxJSDNzdFFkNzVNUm5DQ1F5UGFzc3JYNVVXMlRpTDl1dEU3TlBWem1hU2R0d3NyaUtQaGdWMi1OcE92Z3RxX3U1X3dKMWNVNHNQaTQxU2pVRVc3UQ?oc=5",
-      "pub_date": "Tue, 18 Nov 2008 08:00:00 GMT",
-      "collected_at": "2026-08-30T00:11:12.114785+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드 김태식 전무, 경찰청장 감사장 - 데일리팜",
@@ -5527,16 +4308,6 @@
       "pub_date": "Tue, 21 Oct 2008 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-03T00:15:14.800858+00:00"
-    },
-    {
-      "source": "yakup",
-      "label": "약업신문",
-      "title": "‘원료합성의약품’ 부당이익 700억 환수 - 약업신문",
-      "summary": "‘원료합성의약품’ 부당이익 700억 환수&nbsp;&nbsp;약업신문",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IQlFOR3dzOHpZem5lakFacE1OY194OTF1RWRCQjJIUUNGR1lsUy1oeVQ4RmlxbG9LV052Mmxvc1hwcWVDdlk5c1NCcVNjTFpOYl9HNVp1NWt4NDRrdmp4MFZR?oc=5",
-      "pub_date": "Fri, 17 Aug 2007 07:00:00 GMT",
-      "collected_at": "2026-08-31T00:11:53.480596+00:00",
-      "date_estimated": false
     },
     {
       "source": "dailypharm",
