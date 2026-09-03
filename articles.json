@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T00:26:29.919126+00:00",
+  "updated_at": "2026-09-03T00:32:17.167665+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -19,17 +19,7 @@
       "url": "https://v.daum.net/v/20260824060004732?f\\u003dp",
       "pub_date": "Mon, 24 Aug 2026 07:00:00 GMT",
       "date_estimated": false,
-      "collected_at": "2026-09-03T00:26:28.414839+00:00"
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라 - v.daum.net",
-      "summary": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/QmHwvHx2t9?f\\u003dp",
-      "pub_date": "Thu, 20 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-31T00:11:59.204372+00:00",
-      "date_estimated": false
+      "collected_at": "2026-09-03T00:32:15.527481+00:00"
     },
     {
       "source": "daum",
@@ -39,7 +29,7 @@
       "url": "https://v.daum.net/v/20260820164150168?f\\u003dp",
       "pub_date": "Thu, 20 Aug 2026 07:00:00 GMT",
       "date_estimated": false,
-      "collected_at": "2026-09-03T00:26:28.414806+00:00"
+      "collected_at": "2026-09-03T00:32:15.527445+00:00"
     },
     {
       "source": "pharmnews",
@@ -55,10 +45,20 @@
       "label": "다음뉴스",
       "title": "파마리서치·휴젤 2개사 매출원가율 20%대 기록 - v.daum.net",
       "summary": "파마리서치·휴젤 2개사 매출원가율 20%대 기록&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260820060012327?f\\u003dp",
+      "url": "https://v.daum.net/v/P8WCAGQ9SP?f\\u003dp",
       "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "date_estimated": false,
-      "collected_at": "2026-09-03T00:26:28.414854+00:00"
+      "collected_at": "2026-09-03T00:32:15.527499+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "상장제약사, 올 상반기 영업이익률·순이익률 모두 상승 - v.daum.net",
+      "summary": "상장제약사, 올 상반기 영업이익률·순이익률 모두 상승&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260819060016061?f\\u003dp",
+      "pub_date": "Tue, 18 Aug 2026 07:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:51.552119+00:00",
+      "date_estimated": false
     },
     {
       "source": "daum",
@@ -68,7 +68,7 @@
       "url": "https://v.daum.net/v/p8YunQhDrV?f\\u003dp",
       "pub_date": "Mon, 17 Aug 2026 07:00:00 GMT",
       "date_estimated": false,
-      "collected_at": "2026-09-03T00:26:28.414943+00:00"
+      "collected_at": "2026-09-03T00:32:15.527570+00:00"
     },
     {
       "source": "daum",
@@ -78,16 +78,6 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BSnJnQWdrZGJEbkhyMGFzZkt5c0hfeWphOFNwbTVmak9KdVloay1CSkpIZlRsTlRBSGZ4MUlBWTBmWm1RVFNyakh6VUEzeEdnRzJ6Ng?oc=5",
       "pub_date": "Wed, 12 Aug 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552141+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "경영 이어 지분까지…제약 오너家 세대교체 속도 - v.daum.net",
-      "summary": "경영 이어 지분까지…제약 오너家 세대교체 속도&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260812055503432?f\\u003dp",
-      "pub_date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552148+00:00",
       "date_estimated": false
     },
     {
@@ -103,22 +93,12 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지 - v.daum.net",
-      "summary": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260811000235580?f\\u003dp",
-      "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552166+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
       "title": "[제약가 상속자들⑦] 지분 넘겨받은 강원호…유나이티드제약 '2세 시대' 활짝 - v.daum.net",
       "summary": "[제약가 상속자들⑦] 지분 넘겨받은 강원호…유나이티드제약 '2세 시대' 활짝&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/yThMmN1yHo?f\\u003dp",
       "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "date_estimated": false,
-      "collected_at": "2026-09-03T00:26:28.414692+00:00"
+      "collected_at": "2026-09-03T00:32:15.527319+00:00"
     },
     {
       "source": "daum",
@@ -128,7 +108,17 @@
       "url": "https://v.daum.net/v/fAC0I2V7ww?f\\u003dp",
       "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "date_estimated": false,
-      "collected_at": "2026-09-03T00:26:28.414714+00:00"
+      "collected_at": "2026-09-03T00:32:15.527360+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지 - v.daum.net",
+      "summary": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260811000235580?f\\u003dp",
+      "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:32:15.527522+00:00"
     },
     {
       "source": "pharmnews",
@@ -711,16 +701,6 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "상장제약사, 올 상반기 영업이익률·순이익률 모두 상승 - v.daum.net",
-      "summary": "상장제약사, 올 상반기 영업이익률·순이익률 모두 상승&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260819060016061",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552119+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
       "title": "“30년전 친필원고에 담긴 신뢰”… 한국유나이티드제약, 국경 넘은 묵직한 울림 - v.daum.net",
       "summary": "“30년전 친필원고에 담긴 신뢰”… 한국유나이티드제약, 국경 넘은 묵직한 울림&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/VrXS8zjJUu",
@@ -737,6 +717,26 @@
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-02T00:31:37.565890+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "경영 이어 지분까지…제약 오너家 세대교체 속도 - v.daum.net",
+      "summary": "경영 이어 지분까지…제약 오너家 세대교체 속도&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/GyRcBh9UsG",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:32:15.527414+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라 - v.daum.net",
+      "summary": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/QmHwvHx2t9",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:32:15.527471+00:00"
     },
     {
       "source": "pharmnews",
@@ -3382,6 +3382,16 @@
       "pub_date": "Fri, 26 Mar 2021 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:07.269774+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "개량신약 강자 유나이티드제약, 엔젤투자 뛰어든다 - 데일리팜",
+      "summary": "개량신약 강자 유나이티드제약, 엔젤투자 뛰어든다&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05Uzl4OUQ3cG4waHdmSHRUdnZLamFFOGpQSEhPS0NNM3BXUmpJakRNenlIZFV4NWdGcDFvTzQwWnAyNTRHZUE5cVJldlNObTA?oc=5",
+      "pub_date": "Sat, 06 Mar 2021 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:29:45.240179+00:00"
     },
     {
       "source": "pharmnews",
