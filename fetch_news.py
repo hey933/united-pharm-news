@@ -1,23 +1,29 @@
 """
-한국유나이티드제약 뉴스 클리핑 - 구글 뉴스 RSS 수집기
+한국유나이티드제약 뉴스 클리핑 - 뉴스 수집기
 
-약업신문(yakup.com), 데일리팜(dailypharm.com), 팜뉴스(pharmnews.com),
-다음뉴스(v.daum.net)에서 구글 뉴스 RSS의 site: 필터를 이용해
-'한국유나이티드제약' 관련 기사를 모아 articles.json에 누적 저장한다.
+데일리팜(dailypharm.com), 팜뉴스(pharmnews.com), 다음뉴스(v.daum.net)는
+구글 뉴스 RSS의 site: 필터를 이용해 수집한다.
+
+약업신문(yakup.com)은 구글을 거치면 두 가지 문제가 있었다: (1) 오래된
+기사에 최근 날짜를 잘못 붙이는 경우가 있고 (2) 링크가
+news.google.com/rss/articles/... 형태로 암호화돼 있어 실제 원문 주소를
+알아내기가 계속 불안정했다. 그래서 daily(평소 자동 수집)에서는 약업신문만
+구글을 완전히 건너뛰고, 약업신문 자체 검색 페이지
+(www.yakup.com/search/index.html)에서 직접 검색해 실제 링크·제목·날짜를
+가져온다. 이러면 애초에 리다이렉트 자체가 없다. 다만 이 자체 검색은 최근
+기사 위주로만 나오므로, backfill(과거 10년치)에서는 약업신문도 기존대로
+구글 뉴스 site: 필터를 그대로 쓴다.
 
 두 가지 모드:
   - daily (기본값):  최근 기사 위주로 증분 수집. GitHub Actions가 매일 09:00 KST에 실행.
   - backfill:        최근 YEARS_BACK년치를 연도별로 쪼개어 검색 (after:/before: 날짜
                      필터). 처음 한 번(또는 가끔) 수동으로 돌리는 용도.
 
-날짜 보정 (2단계):
+날짜 보정 (backfill의 구글 수집분에 한함):
   1) 최근(RECENT_VERIFY_WINDOW_DAYS일 이내)으로 찍힌 항목만, 실제 기사
-     페이지에 들어가 진짜 게재일을 확인한다. 구글 뉴스 링크는 실제 기사가
-     아니라 news.google.com의 중간 링크인 경우가 많아, 그 안에 인코딩된
-     실제 URL을 먼저 디코딩해서 찾아낸 뒤 그 페이지에서 날짜를 읽는다.
-  2) (backfill 전용) 그래도 남는 이상치를 위해, 검색한 연도와 pubDate의
-     연도가 크게 어긋나면 검색 연도로 강제 보정하고 date_estimated=True로
-     표시한다.
+     페이지에 들어가 진짜 게재일을 확인한다.
+  2) 그래도 남는 이상치를 위해, 검색한 연도와 pubDate의 연도가 크게
+     어긋나면 검색 연도로 강제 보정하고 date_estimated=True로 표시한다.
 
 사용 예:
   python fetch_news.py                  # 평소 daily 모드
@@ -33,17 +39,25 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 KEYWORD = "한국유나이티드제약"
 
 # source_id: (표시 이름, 구글 뉴스 site: 필터에 쓸 도메인)
+# daily 모드에서 구글로 수집하는 소스 - 약업신문은 빠져 있다 (아래 참고)
 SOURCES = {
-    "yakup": ("약업신문", "yakup.com"),
     "dailypharm": ("데일리팜", "dailypharm.com"),
     "pharmnews": ("팜뉴스", "pharmnews.com"),
     "daum": ("다음뉴스", "v.daum.net"),
 }
+
+# backfill(과거 10년치)에서는 약업신문도 구글 뉴스로 수집한다 (자체 검색은
+# 최근 것만 나오기 때문에 과거분 확보용으로는 구글이 필요).
+BACKFILL_SOURCES = {**SOURCES, "yakup": ("약업신문", "yakup.com")}
+
+YAKUP_LABEL = "약업신문"
+YAKUP_SOURCE_ID = "yakup"
+YAKUP_SEARCH_URL = "https://www.yakup.com/search/index.html"
 
 DATA_FILE = "articles.json"
 MAX_ITEMS_PER_SOURCE = 60        # daily 모드에서 소스별 보관 개수 제한
@@ -60,6 +74,105 @@ HTTP_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
 }
+
+
+# ----------------------------------------------------------------------
+# 약업신문 자체 검색 (구글을 거치지 않는 daily 전용 수집 경로)
+# ----------------------------------------------------------------------
+
+_YAKUP_RESULT_LINK_RE = re.compile(
+    r'<a[^>]+href="(/news/index\.html\?[^"]*?nid=(\d+)[^"]*)"[^>]*>(.*?)</a>',
+    re.DOTALL,
+)
+_TAG_RE = re.compile(r"<[^>]+>")
+_YAKUP_TRAILING_DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})")
+_YAKUP_BYLINE_CUT_RE = re.compile(r"\s*[가-힣]{2,4}\s*기자.*$")
+_YAKUP_TITLE_CON_RE = re.compile(r'<div class="title_con"[^>]*>(.*?)</div>', re.DOTALL)
+
+
+def fetch_url_text(url: str) -> str:
+    try:
+        req = urllib.request.Request(url, headers=HTTP_HEADERS)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            raw = resp.read()
+        for enc in ("utf-8", "euc-kr", "cp949"):
+            try:
+                return raw.decode(enc)
+            except UnicodeDecodeError:
+                continue
+        return raw.decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"[경고] 약업신문 검색 페이지 요청 실패: {e}")
+        return ""
+
+
+def fetch_yakup_search_results(keyword: str) -> list:
+    """약업신문 자체 검색(csearch_type=news)에서 (nid, 실제 URL, 제목, 날짜)
+    목록을 가져온다. 구글을 거치지 않으므로 링크 해석 문제 자체가 없다."""
+    results = []
+    params = urllib.parse.urlencode({"csearch_word": keyword, "csearch_type": "news"})
+    url = f"{YAKUP_SEARCH_URL}?{params}"
+    page_html = fetch_url_text(url)
+    if not page_html:
+        return results
+
+    seen_nid = set()
+    for m in _YAKUP_RESULT_LINK_RE.finditer(page_html):
+        nid_str, inner = m.group(2), m.group(3)
+        nid = int(nid_str)
+        # 검색결과 페이지에는 부고/오피니언 등 사이드바 위젯도 같이 실리는데,
+        # 이들은 nid가 완전히 다른(10자리) 체계를 쓴다. 뉴스 기사 nid는
+        # 현재 30만대 수준이므로 넉넉히 범위를 잡아 그 밖은 제외한다.
+        if not (1000 <= nid <= 900000) or nid_str in seen_nid:
+            continue
+
+        raw_text = _TAG_RE.sub("", inner)
+        raw_text = re.sub(r"\s+", " ", raw_text).strip()
+        if not raw_text or len(raw_text) < 4:
+            continue
+
+        # 검색 결과 안의 실제 날짜("2026-09-02 09:29", KST)를 직접 읽는다.
+        # 못 찾으면 추정하지 않고 그냥 건너뛴다 (인기기사 위젯 등 날짜
+        # 정보가 없는 항목일 가능성이 높다).
+        date_m = _YAKUP_TRAILING_DATE_RE.search(raw_text)
+        if not date_m:
+            continue
+        try:
+            dt_kst = datetime.strptime(f"{date_m.group(1)} {date_m.group(2)}", "%Y-%m-%d %H:%M")
+            dt_kst = dt_kst.replace(tzinfo=timezone(timedelta(hours=9)))
+            dt_utc = dt_kst.astimezone(timezone.utc)
+        except Exception:
+            continue
+
+        title_con_m = _YAKUP_TITLE_CON_RE.search(inner)
+        if title_con_m:
+            title = _TAG_RE.sub("", title_con_m.group(1))
+            title = re.sub(r"\s+", " ", title).strip()
+        else:
+            title = _YAKUP_BYLINE_CUT_RE.sub("", raw_text).strip()
+        if not title:
+            title = raw_text
+
+        seen_nid.add(nid_str)
+        link = f"https://www.yakup.com/news/index.html?mode=view&nid={nid}"
+        results.append({
+            "title": title,
+            "url": link,
+            "pub_date": to_rss_str(dt_utc.replace(tzinfo=None)),
+            "summary": "",
+            "date_estimated": False,
+        })
+    return results
+
+
+def collect_yakup_direct(keyword: str) -> list:
+    """약업신문은 구글을 거치지 않고 자체 검색 페이지에서 직접 수집한다.
+    (daily 전용 - backfill은 여전히 구글 뉴스를 쓴다, 위 모듈 설명 참고)"""
+    try:
+        return fetch_yakup_search_results(keyword)
+    except Exception as e:
+        print(f"[경고] 약업신문 직접 수집 실패: {e}")
+        return []
 
 
 def build_rss_url(keyword: str, domain: str, start: str = None, end: str = None) -> str:
@@ -417,6 +530,13 @@ def format_reasons(reasons: dict) -> str:
 
 
 def run_daily(existing: dict):
+    # 약업신문은 구글을 거치지 않고 자체 검색에서 직접 수집한다
+    yakup_items = collect_yakup_direct(KEYWORD)
+    n, fixed = merge_items(existing, YAKUP_SOURCE_ID, YAKUP_LABEL, yakup_items, limit=MAX_ITEMS_PER_SOURCE)
+    note = f" / 갱신 {fixed}건" if fixed else ""
+    print(f"{YAKUP_LABEL}(자체 검색): 신규 {n}건 (후보 {len(yakup_items)}건){note}")
+    time.sleep(REQUEST_DELAY_SEC)
+
     for source_id, (label, domain) in SOURCES.items():
         url = build_rss_url(KEYWORD, domain)
         try:
@@ -435,7 +555,7 @@ def run_daily(existing: dict):
 def run_backfill(existing: dict):
     current_year = datetime.now().year
     years = range(current_year - YEARS_BACK + 1, current_year + 1)
-    for source_id, (label, domain) in SOURCES.items():
+    for source_id, (label, domain) in BACKFILL_SOURCES.items():
         total_new = 0
         total_fixed = 0
         for year in years:
