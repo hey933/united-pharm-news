@@ -663,6 +663,27 @@ def apply_manual_excludes(existing: dict, needles: list) -> int:
     return len(to_remove)
 
 
+def cleanup_corrupted_urls(existing: dict) -> int:
+    """예전에 구글 링크를 잘못 디코딩해서 url에 '\\u003d', '\\u0026' 같은
+    이스케이프 문자가 그대로 박혀버린 항목들을 정리한다. (구버전 구글
+    우회 로직의 잔재 - 새 항목은 이런 문제가 생기지 않는다.)"""
+    bad_markers = ("\\u003d", "\\u0026", "\\u003D", "\\u0026")
+    to_remove = []
+    for key, record in existing.items():
+        url = record.get("url", "")
+        if any(marker in url for marker in bad_markers):
+            to_remove.append(key)
+            continue
+        # 약업신문은 실제 도메인으로 시작하는 정상 URL만 허용한다
+        if record.get("source") == YAKUP_SOURCE_ID and not re.match(
+            r"^https?://(www\.|m\.)?yakup\.com/", url
+        ):
+            to_remove.append(key)
+    for key in to_remove:
+        del existing[key]
+    return len(to_remove)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["daily", "backfill"], default="daily")
@@ -672,6 +693,10 @@ def main():
     existing, removed_dup = build_existing_index(data)
     if removed_dup:
         print(f"기존 데이터에서 중복 {removed_dup}건 정리")
+
+    removed_corrupted = cleanup_corrupted_urls(existing)
+    if removed_corrupted:
+        print(f"깨진 링크(구버전 구글 우회 잔재) {removed_corrupted}건 정리")
 
     if args.mode == "backfill":
         run_backfill(existing)
