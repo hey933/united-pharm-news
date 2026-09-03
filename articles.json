@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T00:31:39.072172+00:00",
+  "updated_at": "2026-09-03T00:17:39.913568+00:00",
   "articles": [
     {
       "source": "yakup",
@@ -57,18 +57,18 @@
       "title": "한미·SK바사·유한·대웅·종근당 5곳 R&D 1천억원 이상 투입 - v.daum.net",
       "summary": "한미·SK바사·유한·대웅·종근당 5곳 R&D 1천억원 이상 투입&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/20260824060004732?f\\u003dp",
-      "pub_date": "Sun, 23 Aug 2026 21:00:04 GMT",
+      "pub_date": "Mon, 24 Aug 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552117+00:00",
       "date_estimated": false
     },
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라 - v.daum.net",
-      "summary": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/QmHwvHx2t9?f\\u003dp",
+      "title": "코스피 오너家 승계 본격화…‘주인 교체’ 뒤 지배구조 재편 속도 [투자360] - v.daum.net",
+      "summary": "코스피 오너家 승계 본격화…‘주인 교체’ 뒤 지배구조 재편 속도 [투자360]&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260820164150168?f\\u003dp",
       "pub_date": "Thu, 20 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-31T00:11:59.204372+00:00",
+      "collected_at": "2026-08-26T07:49:51.552099+00:00",
       "date_estimated": false
     },
     {
@@ -85,7 +85,7 @@
       "label": "다음뉴스",
       "title": "파마리서치·휴젤 2개사 매출원가율 20%대 기록 - v.daum.net",
       "summary": "파마리서치·휴젤 2개사 매출원가율 20%대 기록&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260820060012327?f\\u003dp",
+      "url": "https://v.daum.net/v/P8WCAGQ9SP?f\\u003dp",
       "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "collected_at": "2026-08-31T00:11:59.204380+00:00",
       "date_estimated": false
@@ -133,11 +133,11 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "“호흡기 질환은 겨울에만?”…폭염에 커지는 천식·COPD 관리 중요성 - v.daum.net",
-      "summary": "“호흡기 질환은 겨울에만?”…폭염에 커지는 천식·COPD 관리 중요성&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260807060312512?f\\u003dp",
-      "pub_date": "Fri, 07 Aug 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552180+00:00",
+      "title": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료 - v.daum.net",
+      "summary": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/fAC0I2V7ww?f\\u003dp",
+      "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:51.552135+00:00",
       "date_estimated": false
     },
     {
@@ -215,6 +215,16 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SRGxJTjRhRWw3NERRcllLSTJ3VmVHTU5vWk1Jc0JBTU43TkZHV3kydTByXzFEOXF5cWpOMlRFaUpLX1oxZ3Jsd0c1ckFJeUhXMjlmY3hQSmRnRzNjaUFUUFVkQnNTY0FPQ01yZQ?oc=5",
       "pub_date": "Fri, 31 Jul 2026 05:43:15 GMT",
       "collected_at": "2026-08-26T07:49:33.991621+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "지질강하 복합제 신예 3종, 출시 두 달…커버리지 vs 성장속도",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=330489",
+      "pub_date": "Thu, 30 Jul 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859394+00:00"
     },
     {
       "source": "daum",
@@ -305,6 +315,36 @@
       "date_estimated": false
     },
     {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "상장 제약·바이오 1Q 평균 총차입금의존도 코스피 22.59%·코스닥 20.65%",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=329861",
+      "pub_date": "Wed, 15 Jul 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859410+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "상장 제약·바이오 1Q 평균 총차입금 코스피 2978억원·코스닥 642억원",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=329800",
+      "pub_date": "Wed, 15 Jul 2026 03:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859418+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "상장 제약·바이오 1Q 평균 이자비용 코스피 26억원·코스닥 6억원",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=329745",
+      "pub_date": "Mon, 13 Jul 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859424+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "한국유나이티드제약, 최대주주 강덕영→2세 강원호 변경 예고 - 데일리팜",
@@ -313,6 +353,16 @@
       "pub_date": "Sun, 12 Jul 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:16.186025+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "상장 제약·바이오 1Q 지배지분순이익 코스피 283억원·코스닥 51억원",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=329626",
+      "pub_date": "Thu, 09 Jul 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859428+00:00"
     },
     {
       "source": "pharmnews",
@@ -342,6 +392,16 @@
       "pub_date": "Wed, 08 Jul 2026 07:00:00 GMT",
       "collected_at": "2026-08-30T00:11:17.769558+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "상장 제약·바이오 1Q 평균 부채비율 코스피 77.52%·코스닥 61.28%",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=329526",
+      "pub_date": "Tue, 07 Jul 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859433+00:00"
     },
     {
       "source": "daum",
@@ -374,6 +434,16 @@
       "date_estimated": false
     },
     {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "상장 제약·바이오 1Q 평균 유보율 코스피 2324.16%·코스닥 2549.03%",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=329472",
+      "pub_date": "Tue, 07 Jul 2026 04:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859438+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "애드바이오텍, 100억 규모 온힐 지분 인수…지분 12.28% 확보 - 팜뉴스",
@@ -381,6 +451,16 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GbU84OC12NmdOVnMtN1E1WE1OY3NnQTAtVmRhVTlCM3FHclZKWkROU3plTl90N0IySU9sbVBWVlVXYWNPQnlNZjRGcjdfTGtQdEVGN0tnRnB1Y2J5UktDTU9zNjhPOE9GNl9aUw?oc=5",
       "pub_date": "Mon, 06 Jul 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:33.991620+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드문화재단-강남구, 지역사회 위한 '제25회 행복 나눔 음악회' 열어",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=329080",
+      "pub_date": "Fri, 26 Jun 2026 08:12:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859446+00:00"
     },
     {
       "source": "daum",
@@ -414,12 +494,32 @@
     {
       "source": "yakup",
       "label": "약업신문",
+      "title": "상장 제약·바이오사 1Q 평균 상품매출 코스피 448억, 코스닥 85억 달성",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=328602",
+      "pub_date": "Thu, 18 Jun 2026 04:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859452+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
       "title": "상장 제약·바이오사 1Q 평균 R&D비용 코스피 184억원, 코스닥 31억원 달성 - 약업신문",
       "summary": "상장 제약·바이오사 1Q 평균 R&D비용 코스피 184억원, 코스닥 31억원 달성&nbsp;&nbsp;약업신문",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KZC02bmVtdXROZ0ZNYi1QeGFCM0NBXzBaUVRPT2xlZTgyY2ZOMm1ndWNUNWFPTFJOUVZ3QjNGWjJVMi1MZElfU0R1eWNnWkpPRkhrQS0tNW5xejNxU25FZmx0aFdWQQ?oc=5",
       "pub_date": "Tue, 16 Jun 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:48:58.395050+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "상장 제약·바이오사 1Q 평균 R&D비용 코스피 184억원, 코스닥 31억원 달성",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=328519",
+      "pub_date": "Mon, 15 Jun 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859457+00:00"
     },
     {
       "source": "pharmnews",
@@ -472,6 +572,16 @@
     {
       "source": "yakup",
       "label": "약업신문",
+      "title": "상장 제약·바이오사 1Q 평균 순이익 코스피 294억, 코스닥 72억 달성",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=328345",
+      "pub_date": "Thu, 11 Jun 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859462+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
       "title": "상장 제약·바이오사 1Q 평균 영업이익 코스피 299억, 코스닥 64억 달성 - 약업신문",
       "summary": "상장 제약·바이오사 1Q 평균 영업이익 코스피 299억, 코스닥 64억 달성&nbsp;&nbsp;약업신문",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MV0psWDM1WnFfZURzTUNtY0VVUjlvUkFCcXVja0dVaEFySjNKZDF5aVVWdFQtNS1rdFNXRFhaeXEtaHptOGtrZkhkNGZndVJLUlJQY3lkdjhLSlJ4cE9JUFk0aFF6dw?oc=5",
@@ -491,6 +601,16 @@
     {
       "source": "yakup",
       "label": "약업신문",
+      "title": "상장 제약·바이오사 1Q 평균 영업이익 코스피 299억, 코스닥 64억 달성",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=328344",
+      "pub_date": "Wed, 10 Jun 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859467+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
       "title": "상장 제약·바이오사 1Q 평균 매출총이익 코스피 897억, 코스닥 271억 달성 - 약업신문",
       "summary": "상장 제약·바이오사 1Q 평균 매출총이익 코스피 897억, 코스닥 271억 달성&nbsp;&nbsp;약업신문",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TejJRT3VMVWFxNF9KQTU0YWpIOTc0MzZuaGdfQU1SR2hGSm9DajV0OWhsc0xqU253SkxzUlVkY3hUVFVSbmJ4OHZVXzZIWlU1VFVrNVE4U1lXcEtONEF3a3dHVm9Idw?oc=5",
@@ -506,6 +626,16 @@
       "pub_date": "Wed, 10 Jun 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:50:36.268325+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "상장 제약·바이오사 1Q 평균 매출총이익 코스피 897억, 코스닥 271억 달성",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=328301",
+      "pub_date": "Tue, 09 Jun 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859472+00:00"
     },
     {
       "source": "dailypharm",
@@ -536,6 +666,16 @@
       "pub_date": "Fri, 05 Jun 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-02T00:29:15.639149+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "한국유나이티드제약, 이상지질혈증 2제 복합제 ‘페노듀오캡슐’ 품목허가",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=328144",
+      "pub_date": "Fri, 05 Jun 2026 02:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859476+00:00"
     },
     {
       "source": "yakup",
@@ -578,6 +718,36 @@
       "date_estimated": false
     },
     {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "한국유나이티드제약 ‘클란자CR정’, 러시아서 무기한 품목허가 승인",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=328080",
+      "pub_date": "Thu, 04 Jun 2026 02:35:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:14:08.859481+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라 - v.daum.net",
+      "summary": "코스피도 쏟아지는 ‘주인 교체’...승계·사업재편·M&A 잇따라&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/QmHwvHx2t9",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "collected_at": "2026-08-31T00:11:59.204372+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "“호흡기 질환은 겨울에만?”…폭염에 커지는 천식·COPD 관리 중요성 - v.daum.net",
+      "summary": "“호흡기 질환은 겨울에만?”…폭염에 커지는 천식·COPD 관리 중요성&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/KxgroF3Gjo",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:51.552180+00:00",
+      "date_estimated": false
+    },
+    {
       "source": "daum",
       "label": "다음뉴스",
       "title": "혁신형 제약기업 '높아진 문턱' 재인증 기업도 긴장 - v.daum.net",
@@ -610,16 +780,6 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료 - v.daum.net",
-      "summary": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260811185048914",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552135+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
       "title": "열정으로 물든 행주산성 '제19회 머니투데이도전청춘가요제' 성료 - v.daum.net",
       "summary": "열정으로 물든 행주산성 '제19회 머니투데이도전청춘가요제' 성료&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/20260831115948926",
@@ -635,16 +795,6 @@
       "url": "https://v.daum.net/v/20260826104003881",
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552129+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "코스피 오너家 승계 본격화…‘주인 교체’ 뒤 지배구조 재편 속도 [투자360] - v.daum.net",
-      "summary": "코스피 오너家 승계 본격화…‘주인 교체’ 뒤 지배구조 재편 속도 [투자360]&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/Bn5xDh9UZp",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552099+00:00",
       "date_estimated": false
     },
     {
@@ -682,7 +832,7 @@
       "label": "다음뉴스",
       "title": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지 - v.daum.net",
       "summary": "'저점 증여' 막힌다…제약사 오너가 승계 전략 변화 감지&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260811000235580",
+      "url": "https://v.daum.net/v/BfUSibKpoC",
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552166+00:00",
       "date_estimated": false
@@ -2424,6 +2574,16 @@
       "date_estimated": false
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약, 약대생 개량신약 디테일 콘테스트 진행 - 데일리팜",
+      "summary": "유나이티드제약, 약대생 개량신약 디테일 콘테스트 진행&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90T1VvM3ktdkRuajBocEFfWkFuQmVoNTdPNUdUeHVfbDlud016eVVLUjBmd2s4bXRwNVhTNVVBLTlGa0UyTm84WVRuMFNfWU9wbkROcTZ5aTFqX1Bk?oc=5",
+      "pub_date": "Tue, 23 Jul 2024 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:15:14.801146+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "아이센스, ‘케어센스 에어 X 삼성헬스’ 혈당 관리 서비스 한 단계 도약 - 팜뉴스",
@@ -3934,7 +4094,8 @@
       "summary": "유나이티드제약 강덕영사장 “개량신약 매출비중 50%로 UP”&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rTnd3c29uQmxFZjFfWjVaVlpwZ01FUlFjZ2d1Z3Y2T21rTVpJREJnZ1Yzdkxqa2pkeEZ3Ynk5Wkc0MDduTkFtOWduSnVNT0VxMnRxWFB0Q2poWFMtQUw4My0xdDlUV25kbk8tNw?oc=5",
       "pub_date": "Mon, 22 Feb 2021 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:25.035827+00:00"
+      "collected_at": "2026-08-26T07:49:25.035827+00:00",
+      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -4033,6 +4194,16 @@
       "pub_date": "Thu, 24 Sep 2020 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:23.277175+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 국가필수의약품 닥티노마이신 공급 재개 - 팜뉴스",
+      "summary": "한국유나이티드제약, 국가필수의약품 닥티노마이신 공급 재개&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aQmhlcERodnRNNkFPSzFZQ2ZxaGR5WXl3RnA2V0Y2SktOaEl1amV1ZDBTMER2Nm9iLXZpbks2RzhzYm5nM3BraGlfNThOSjFkY0tzNXpFR3hnb0FYcGNSM2RKTkNtd0N0c1hWVw?oc=5",
+      "pub_date": "Thu, 30 Jul 2020 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:16:16.644577+00:00"
     },
     {
       "source": "pharmnews",
@@ -4570,6 +4741,16 @@
     {
       "source": "pharmnews",
       "label": "팜뉴스",
+      "title": "유나이티드, ‘글로벌 인재 육성 프로그램’ 진행 - 팜뉴스",
+      "summary": "유나이티드, ‘글로벌 인재 육성 프로그램’ 진행&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IczdjMTgtOXZZQ0VyMlNTWHpsYXRfa2R5Z3R4dnc5U1FOTEVQcVRIb3VQN2JjVHpqcFUzd0lnMlVZQXBlTk5uWGV4YmM0WWV1aUduTWJUNFg5djJqTEh6NzFHY1ZNbGpiOVZR?oc=5",
+      "pub_date": "Thu, 18 Oct 2018 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:16:16.644588+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
       "title": "국산 발사르탄 원료, 안전성 ‘이상무’ - 팜뉴스",
       "summary": "국산 발사르탄 원료, 안전성 ‘이상무’&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuOExvUWl3VTgySDMtLVI1cmEzd2t2eW5MWFVqa2FieFF0NWlCbHoxaFlnU2t4R21lSkwxOFZJVG5aZ29qQVFlc3RKY0VKeFFuaTROdU9OZ1FOc19mMkozdU4tWjBRR205eTlJ?oc=5",
@@ -4781,6 +4962,16 @@
       "pub_date": "Tue, 22 Aug 2017 07:00:00 GMT",
       "collected_at": "2026-08-30T00:11:15.987180+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드제약, 자녀 학습 프로그램 10년째 진행 - 데일리팜",
+      "summary": "한국유나이티드제약, 자녀 학습 프로그램 10년째 진행&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01ckNLenBEYXVScHQyN3lyUmd4LVAxck8tVllzLTdFZ1hFUHN6M3cxQ0RqUWkxZnJlZ2lGMG5oLUdJX284ZmJwTHYxWkhLdk1xRHZrbg?oc=5",
+      "pub_date": "Mon, 21 Aug 2017 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:15:14.801092+00:00"
     },
     {
       "source": "dailypharm",
@@ -5128,6 +5319,16 @@
     {
       "source": "pharmnews",
       "label": "팜뉴스",
+      "title": "케냐 보건부로부터 의약품 GMP 인증 - 팜뉴스",
+      "summary": "케냐 보건부로부터 의약품 GMP 인증&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91MklzbUJfOW5ORzc0NEd1WElRYW1JS3ZFOWk4T1R5ZkNrX3dKeHRZd2xpT0Z3akJEamZRSE14cHJHdFIwaHBjRzlSSnk4eWZ5ZWs0REZTcW5Ia0QwR3hNUXlCOGFQVWkxR0Vv?oc=5",
+      "pub_date": "Thu, 17 Jan 2013 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:16:16.644435+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
       "title": "유나이티드, 각국 대사 초청 음악회 - 팜뉴스",
       "summary": "유나이티드, 각국 대사 초청 음악회&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uU2lBOVlvRFNhcVlTOG5jQ3NnQ3FhWlFJMHBhNV9ER3VmVVIxZ3VDVGVxMHM1WnVHLTZabExXS0pRdHNOclprRThhc0p6UHJLQTliS05MY0FQNmt4dVRweG9sV0VoUVJYSGJj?oc=5",
@@ -5168,7 +5369,8 @@
       "summary": "유나이티드제약, 폴란드 CeFarm사와 MOU 체결&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iNF9iTURsN3ZLTy15dWVMQ3doQ2cxLVhIVkRCdmQxOWgzVUJpTUQxUDFHWDdxdElVWjg3ZWJ1SkgtZElDZ1ZWOUhPZENoWWh3?oc=5",
       "pub_date": "Thu, 14 Jun 2012 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:32.620247+00:00"
+      "collected_at": "2026-08-26T07:50:32.620247+00:00",
+      "date_estimated": false
     },
     {
       "source": "yakup",
@@ -5315,6 +5517,16 @@
       "pub_date": "Tue, 18 Nov 2008 08:00:00 GMT",
       "collected_at": "2026-08-30T00:11:12.114785+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 김태식 전무, 경찰청장 감사장 - 데일리팜",
+      "summary": "유나이티드 김태식 전무, 경찰청장 감사장&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVSWNOS1lEbFJKVHlmN2ZoaDNPMkxoaVZwTlpjbG9KTVR3WE5JUlhWM3V6SWNWclZWdkdyYUxiZnk3S3ZVZWlwbkwxS0FnbFpfMVd4YTln?oc=5",
+      "pub_date": "Tue, 21 Oct 2008 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-03T00:15:14.800858+00:00"
     },
     {
       "source": "yakup",
