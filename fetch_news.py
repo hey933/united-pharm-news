@@ -475,6 +475,30 @@ def build_existing_index(data: dict):
     return existing, removed_dup
 
 
+# 제목에 이 문구가 없으면, 본문 어딘가에 회사명이 살짝 언급됐을 뿐인
+# '여러 제약사 종합 기사'일 가능성이 높다고 보고 걸러낸다. (특히
+# 다음뉴스는 여러 회사를 한꺼번에 다루는 업계 종합 기사가 site: 검색에도
+# 자주 걸려서 노이즈가 많다.)
+RELEVANCE_KEYWORD = "유나이티드"
+
+
+def is_relevant_title(title: str) -> bool:
+    return RELEVANCE_KEYWORD in title
+
+
+def filter_relevant(items: list, label: str) -> list:
+    kept = []
+    dropped = 0
+    for it in items:
+        if is_relevant_title(it["title"]):
+            kept.append(it)
+        else:
+            dropped += 1
+    if dropped:
+        print(f"  ({label}: 제목에 '{RELEVANCE_KEYWORD}' 없는 기사 {dropped}건 제외)")
+    return kept
+
+
 def merge_items(existing: dict, source_id: str, label: str, items: list, limit: int = None):
     count_new = 0
     count_fixed = 0
@@ -532,6 +556,7 @@ def format_reasons(reasons: dict) -> str:
 def run_daily(existing: dict):
     # 약업신문은 구글을 거치지 않고 자체 검색에서 직접 수집한다
     yakup_items = collect_yakup_direct(KEYWORD)
+    yakup_items = filter_relevant(yakup_items, YAKUP_LABEL)
     n, fixed = merge_items(existing, YAKUP_SOURCE_ID, YAKUP_LABEL, yakup_items, limit=MAX_ITEMS_PER_SOURCE)
     note = f" / 갱신 {fixed}건" if fixed else ""
     print(f"{YAKUP_LABEL}(자체 검색): 신규 {n}건 (후보 {len(yakup_items)}건){note}")
@@ -545,6 +570,7 @@ def run_daily(existing: dict):
             print(f"[경고] {label} 수집 실패: {e}")
             continue
 
+        items = filter_relevant(items, label)
         verified, reasons = verify_items(items)
         n, fixed = merge_items(existing, source_id, label, items, limit=MAX_ITEMS_PER_SOURCE)
         note = f" / 원문 대조로 날짜 보정 {verified}건 / 갱신 {fixed}건" if (verified or fixed) else ""
@@ -567,6 +593,8 @@ def run_backfill(existing: dict):
             except Exception as e:
                 print(f"[경고] {label} {year}년 수집 실패: {e}")
                 continue
+
+            items = filter_relevant(items, label)
 
             # 1단계: 최근으로 찍힌 항목만 원문 대조 (당해 연도 검색에서만 해당)
             verified, reasons = verify_items(items)
@@ -684,6 +712,15 @@ def cleanup_corrupted_urls(existing: dict) -> int:
     return len(to_remove)
 
 
+def cleanup_irrelevant(existing: dict) -> int:
+    """제목에 '유나이티드'가 없는(=본문에 살짝만 언급된 종합 기사일
+    가능성이 높은) 기존 항목을 정리한다."""
+    to_remove = [key for key, record in existing.items() if not is_relevant_title(record.get("title", ""))]
+    for key in to_remove:
+        del existing[key]
+    return len(to_remove)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["daily", "backfill"], default="daily")
@@ -697,6 +734,10 @@ def main():
     removed_corrupted = cleanup_corrupted_urls(existing)
     if removed_corrupted:
         print(f"깨진 링크(구버전 구글 우회 잔재) {removed_corrupted}건 정리")
+
+    removed_irrelevant = cleanup_irrelevant(existing)
+    if removed_irrelevant:
+        print(f"제목에 '{RELEVANCE_KEYWORD}' 없는 기존 항목 {removed_irrelevant}건 정리")
 
     if args.mode == "backfill":
         run_backfill(existing)
