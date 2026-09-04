@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T01:17:43.452880+00:00",
+  "updated_at": "2026-09-04T01:37:25.923493+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -22,24 +22,14 @@
       "collected_at": "2026-09-04T01:17:01.374773+00:00"
     },
     {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "[바이오 브리핑] 대웅제약, 국제약품, 한국유나이티드제약 - v.daum.net",
-      "summary": "[바이오 브리핑] 대웅제약, 국제약품, 한국유나이티드제약&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260903133725039?f\\u003dp",
-      "pub_date": "Thu, 03 Sep 2026 04:37:25 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-04T01:17:41.949964+00:00"
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약 세종1공장, 우크라이나 GMP 인증 갱신 - 팜뉴스",
       "summary": "한국유나이티드제약 세종1공장, 우크라이나 GMP 인증 갱신&nbsp;&nbsp;팜뉴스",
-      "url": "https://www.pharmnews.com/news/articleView.html?idxno\\u003d306037",
+      "url": "https://www.pharmnews.com/news/articleView.html?idxno=306037",
       "pub_date": "Thu, 03 Sep 2026 04:14:42 GMT",
       "date_estimated": false,
-      "collected_at": "2026-09-04T01:17:36.234678+00:00"
+      "collected_at": "2026-09-04T01:37:17.901007+00:00"
     },
     {
       "source": "yakup",
@@ -347,6 +337,16 @@
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:30:46.030282+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "[바이오 브리핑] 대웅제약, 국제약품, 한국유나이티드제약 - v.daum.net",
+      "summary": "[바이오 브리핑] 대웅제약, 국제약품, 한국유나이티드제약&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260903133725039?f=p",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-04T01:37:24.421221+00:00"
     },
     {
       "source": "pharmnews",
@@ -1162,7 +1162,8 @@
       "summary": "최대 실적 유나이티드, 올해 3000억원 목표 청신호&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hYVlRY2ZSWnRwQlRlMWVjRkVzTmQxOVZDZFd3RURMZWlseHpKa2FLZG5vX1NYc01DWTgzckV2RkJBZUMweGJqdkFHZldSUmx5WmwteThSUGJ6VFVF?oc=5",
       "pub_date": "Tue, 07 Mar 2023 08:00:00 GMT",
-      "collected_at": "2026-08-28T02:10:12.454683+00:00"
+      "collected_at": "2026-08-28T02:10:12.454683+00:00",
+      "date_estimated": false
     },
     {
       "source": "dailypharm",
