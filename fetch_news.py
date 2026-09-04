@@ -278,7 +278,16 @@ _DOMAIN_PATTERN = re.compile(
 )
 
 
+def _unescape_json_unicode(s: str) -> str:
+    """'\\u003d' 같은 JSON 유니코드 이스케이프를 실제 문자('=')로 풀어준다.
+    구글 API 응답이 URL의 '='나 '&'를 이런 식으로 이스케이프해서 주는데,
+    그대로 저장하면 클릭했을 때 존재하지 않는 링크가 된다."""
+    return re.sub(r"\\u([0-9a-fA-F]{4})", lambda m: chr(int(m.group(1), 16)), s)
+
+
 def _normalize_candidate_url(url: str) -> str:
+    url = _unescape_json_unicode(url)
+    url = url.replace("\\/", "/").replace('\\"', "")
     if url.startswith("//"):
         url = "https:" + url
     return url
@@ -355,7 +364,7 @@ def decode_google_token_via_api(google_url: str, timeout: int = 10):
         m = re.search(r'"(https?://[^"]+)"', unescaped)
     if not m:
         return None, "api_response_no_url"
-    return m.group(1), "ok"
+    return _normalize_candidate_url(m.group(1)), "ok"
 
 
 def _normalize_page_text(raw: str) -> str:
@@ -693,13 +702,14 @@ def apply_manual_excludes(existing: dict, needles: list) -> int:
 
 def cleanup_corrupted_urls(existing: dict) -> int:
     """예전에 구글 링크를 잘못 디코딩해서 url에 '\\u003d', '\\u0026' 같은
-    이스케이프 문자가 그대로 박혀버린 항목들을 정리한다. (구버전 구글
-    우회 로직의 잔재 - 새 항목은 이런 문제가 생기지 않는다.)"""
-    bad_markers = ("\\u003d", "\\u0026", "\\u003D", "\\u0026")
+    유니코드 이스케이프가 실제 문자로 안 풀린 채 그대로 박혀버린 항목들을
+    정리한다. (구버전 로직의 잔재 - 지금은 저장 전에 항상 풀어주므로 새
+    항목엔 이 문제가 생기지 않는다.)"""
+    escape_pattern = re.compile(r"\\u[0-9a-fA-F]{4}|\\/|\\\"")
     to_remove = []
     for key, record in existing.items():
         url = record.get("url", "")
-        if any(marker in url for marker in bad_markers):
+        if escape_pattern.search(url):
             to_remove.append(key)
             continue
         # 약업신문은 실제 도메인으로 시작하는 정상 URL만 허용한다
