@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T01:37:25.923493+00:00",
+  "updated_at": "2026-09-05T00:29:04.118555+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -107,7 +107,8 @@
       "summary": "한국유나이티드제약, '제16회 KUP 임직원 자녀 학습프로그램' 진행&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FTmJNcG1RRjl3b0o2SldBYk5xaFN2NVgwWlNpaHdvOEczNnp2SzIxTENFTkcxMjVsaFpvMTlqLTRMT3FYWGhfR19IU2JoMkhGZzFaZ2M1NloxLWtOS3VKTVZ0RnV2X1RhS1dScQ?oc=5",
       "pub_date": "Fri, 31 Jul 2026 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:34.502387+00:00"
+      "collected_at": "2026-08-26T07:50:34.502387+00:00",
+      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -347,6 +348,16 @@
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T01:37:24.421221+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "유나이티드제약 세종1공장, 우크라이나 GMP 재인증…동유럽 사업박차 - v.daum.net",
+      "summary": "유나이티드제약 세종1공장, 우크라이나 GMP 재인증…동유럽 사업박차&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/4VOxEYcnuR?f=p",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-05T00:29:02.615997+00:00"
     },
     {
       "source": "pharmnews",
@@ -1244,6 +1255,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "유나이티드 개량신약 신구 조화…실로스탄+아트맥 450억 - 데일리팜",
+      "summary": "유나이티드 개량신약 신구 조화…실로스탄+아트맥 450억&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53VE5jS0VOZlFWcThBYjhVSVc4M0t0ekR1Qmw2cTlSTjNqX0pXaFlQTHo1eGplQ1JhaE1hYkhCMlpXTkNQNkNVaFpQYUlydU5UZTE1VmZ0WTlJTEJET255Q2RxQ2x1aEdQbXhnc1N3?oc=5",
+      "pub_date": "Mon, 28 Nov 2022 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-05T00:28:17.702496+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드, '실로스탄CR정' 베트남 특허 등록결정 - 데일리팜",
       "summary": "유나이티드, '실로스탄CR정' 베트남 특허 등록결정&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QU1ljR0JMOW9jVkNFZ2hBemdCQUpDd0NVaXlJQV91a19EanJjMDZWVUJlRHhBUlNCdkI5Z2h5elhwejJZZnRFNVZXOHdaVVVUSkhqag?oc=5",
@@ -1496,6 +1517,16 @@
       "pub_date": "Mon, 22 Feb 2021 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:25.035827+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 콤비젤 기술 확대…이번엔 로수바스타틴 - 데일리팜",
+      "summary": "유나이티드, 콤비젤 기술 확대…이번엔 로수바스타틴&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTU1NjbWl2X0FKWkUwS0ZyNlVVWndPTkZVNVlVSFVWWDEwSHoydnlORnBGa2lKQjJnOGlVNjlxV3BsZ1NWV2k0WUtscU9pMDhGZFo4VnFyRnpqWUFBNEhnY0VDb3ZCcEViN1hQMTVIXzB5dTRlT0VNc0Zicw?oc=5",
+      "pub_date": "Sat, 06 Feb 2021 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-05T00:28:17.702532+00:00"
     },
     {
       "source": "dailypharm",
@@ -2045,6 +2076,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "유나이티드, 유럽에 아세클로페낙 수출 - 데일리팜",
+      "summary": "유나이티드, 유럽에 아세클로페낙 수출&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmbFY3YWJwTEpkdFpYT1E1NWpyLTQtMElldzNjdkpuODF2emNIdVIxM0R5R3o3ZzR2TjE3TGx4MWE2UUZpTjlpa0pKcExlU2tU?oc=5",
+      "pub_date": "Tue, 28 Aug 2007 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-05T00:28:17.702258+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드, 탈니플루메이트 연질캡슐 특허 - 데일리팜",
       "summary": "유나이티드, 탈니플루메이트 연질캡슐 특허&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TQzcycmdvdGNGbmxiLVE0dlZBRjM2OHh3Y3JlUEVDamlOME1OS0NQc3dYaGVBOE9nYkFFR1UxZ2RWS25nMnpHZGpHMUtkNjV3?oc=5",
@@ -2266,7 +2307,8 @@
       "summary": "유나이티드, 온단세트론 제조법 관련 특허&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE92U1dRU2VUTkJTdFpsbUY0dUtFT1JZNG1wYWVKcmF6S08xSXJnVGg0VnZCYndlcmVLU0hsQnZjRUNld3BqVE9qeEJ4RWVETHZ2?oc=5",
       "pub_date": "Thu, 13 Mar 2003 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:32.620228+00:00"
+      "collected_at": "2026-08-26T07:50:32.620228+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
