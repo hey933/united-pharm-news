@@ -1,6 +1,16 @@
 {
-  "updated_at": "2026-09-05T00:29:04.118555+00:00",
+  "updated_at": "2026-09-06T00:31:13.810958+00:00",
   "articles": [
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증 - 데일리팜",
+      "summary": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증&nbsp;&nbsp;데일리팜",
+      "url": "https://dailypharm.com/user/news/342126",
+      "pub_date": "Thu, 03 Sep 2026 13:20:13 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-04T01:17:01.374773+00:00"
+    },
     {
       "source": "dailypharm",
       "label": "데일리팜",
@@ -10,16 +20,6 @@
       "pub_date": "Thu, 03 Sep 2026 05:14:36 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.000870+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증 - 데일리팜",
-      "summary": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증&nbsp;&nbsp;데일리팜",
-      "url": "https://www.dailypharm.com/user/news/342126",
-      "pub_date": "Thu, 03 Sep 2026 05:14:36 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-04T01:17:01.374773+00:00"
     },
     {
       "source": "pharmnews",
@@ -44,22 +44,22 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
-      "title": "유나이티드 '페노듀오' 내달 급여...200억대 시장 공략 - 데일리팜",
-      "summary": "유나이티드 '페노듀오' 내달 급여...200억대 시장 공략&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1sSHJGTXUyQ2xjanNIeUlneDA0TTE1SFJrV3Y2b05walVBM1RiTXNlM0x0dUI1RU1sclZXQWpDejRZT3hOR01yUHpBcXFCTjNm?oc=5",
-      "pub_date": "Fri, 28 Aug 2026 04:10:08 GMT",
-      "collected_at": "2026-08-29T00:09:29.758844+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
       "title": "유나이티드 '페노듀오' 내달 급여...200억대 시장 공략 - dailypharm.com",
       "summary": "유나이티드 '페노듀오' 내달 급여...200억대 시장 공략&nbsp;&nbsp;dailypharm.com",
       "url": "https://dailypharm.com/user/news/341868",
       "pub_date": "Fri, 28 Aug 2026 04:10:08 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.000856+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 '페노듀오' 내달 급여...200억대 시장 공략 - 데일리팜",
+      "summary": "유나이티드 '페노듀오' 내달 급여...200억대 시장 공략&nbsp;&nbsp;데일리팜",
+      "url": "https://www.dailypharm.com/user/news/341868",
+      "pub_date": "Fri, 28 Aug 2026 03:04:37 GMT",
+      "collected_at": "2026-08-29T00:09:29.758844+00:00",
+      "date_estimated": false
     },
     {
       "source": "daum",
@@ -508,6 +508,16 @@
       "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:33.991604+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "실로스타졸 단일제+복합제 장착...유나이티드, 실로듀오 등재 - 데일리팜",
+      "summary": "실로스타졸 단일제+복합제 장착...유나이티드, 실로듀오 등재&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIdTd5VV9TRWlPNmY2S2wwYWlxUHVRRi04UXJ4RE9LcWhvWTZiZkpRUFlYMnJKV0k0RVl2T3p5MXFib3B4SzNRek9IbVViNjV6?oc=5",
+      "pub_date": "Wed, 07 Jan 2026 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-06T00:30:34.741645+00:00"
     },
     {
       "source": "dailypharm",
@@ -1369,6 +1379,16 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOeVJGU29RcFU3WU51WlVISTNhMHhCcW04WF9mRXYyMVIzUHd2VXZoWlhGd01VV1RVTmRiVnJjMXlzaHpWX0dJWEVwOGVmQUxxZDloMXhxNnhyakFhMlJvTW9Xak90YWpDUmNVcg?oc=5",
       "pub_date": "Thu, 11 Nov 2021 08:00:00 GMT",
       "collected_at": "2026-08-26T07:50:34.502415+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 '모사프리드+라베프라졸 복합제' 러 특허 - 데일리팜",
+      "summary": "유나이티드 '모사프리드+라베프라졸 복합제' 러 특허&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9EdFJiOTFqbVlfRHZXc0NOVnotek9mX2J2OEctMklPd09lZmFULTBTMTQ2bUN0ZFdEdXVPLVEzNjB1TzNycnVPeUtFZ3lDbm8?oc=5",
+      "pub_date": "Fri, 15 Oct 2021 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-06T00:30:34.741651+00:00"
     },
     {
       "source": "pharmnews",
