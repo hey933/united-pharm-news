@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T00:25:54.856249+00:00",
+  "updated_at": "2026-09-11T00:27:51.915164+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -370,6 +370,16 @@
       "collected_at": "2026-09-09T00:30:48.601906+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약 '클란자CR정' 러시아 무기한 품목 허가 - 데일리팜",
+      "summary": "유나이티드제약 '클란자CR정' 러시아 무기한 품목 허가&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfdlF0ajFwWlZfcTRJNkdwMk9KX1J3aVptSlZoeEZrRkd5U3daWVFXZjZTV1ktM1hrMkVKWjFNMHJvclNhQlJBWHhRT3dIUkxzajNHS0VIU1dIUmdudlBEYjhn?oc=5",
+      "pub_date": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-11T00:26:44.154274+00:00"
+    },
+    {
       "source": "yakup",
       "label": "약업신문",
       "title": "한국유나이티드제약 ‘클란자CR정’, 러시아서 무기한 품목허가 승인",
@@ -448,6 +458,16 @@
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-10T00:25:53.352796+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "'실로듀오' 이어 '실로듀엣' 허가…유나이티드 판매채널 확대 - v.daum.net",
+      "summary": "'실로듀오' 이어 '실로듀엣' 허가…유나이티드 판매채널 확대&nbsp;&nbsp;v.daum.net",
+      "url": "https://v.daum.net/v/20260910122233907?f=p",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-11T00:27:50.411265+00:00"
     },
     {
       "source": "pharmnews",
@@ -588,6 +608,16 @@
       "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.001085+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 항암제 네트워크 확대…수출 3천만불 정조준 - 데일리팜",
+      "summary": "유나이티드, 항암제 네트워크 확대…수출 3천만불 정조준&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xUkxFQWVMeTFSUXRPVG4wWkFOUEVJZEVLMU96T0lqY0JkbnI3RDg0UXpnNUVJVmtqNU1oRi1NeXpvNGZuZlp3U25kWDZ6Rjh1VEZsS2Jn?oc=5",
+      "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-11T00:26:44.154029+00:00"
     },
     {
       "source": "dailypharm",
@@ -1987,6 +2017,16 @@
       "date_estimated": false
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 \"2월 코로나 흡입제 2상 환자 모집 완료\" - 데일리팜",
+      "summary": "유나이티드 \"2월 코로나 흡입제 2상 환자 모집 완료\"&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WcklfZXdsNURycG5wajlTVnd0UjMzVnlNNHh2ZUNQM0hSTm5kMUVtYzk1ZHJpWFhBVVFPYjZwQkt1Z2xROFhhUU9tYzR6azhCYVh5cg?oc=5",
+      "pub_date": "Mon, 24 Jan 2022 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-11T00:26:44.154014+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드제약 ‘아트맥콤비젤 연질캡슐’, 필리핀 특허 등록 결정 - 팜뉴스",
@@ -2123,6 +2163,16 @@
       "pub_date": "Thu, 01 Jul 2021 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.602097+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약, 멕시코 수출 계약 '600억 규모' - 데일리팜",
+      "summary": "유나이티드제약, 멕시코 수출 계약 '600억 규모'&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LVEVWVm5TLUMyWU5mdlJGTWdYWk9Pc25wbzVkOWRhM0J1MVhDR2NBUjU1SnRwLVhWZGZCUkZfTGNpb1lQbVczLUFmWGlncEE?oc=5",
+      "pub_date": "Mon, 21 Jun 2021 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-11T00:26:44.154053+00:00"
     },
     {
       "source": "dailypharm",
@@ -3397,6 +3447,16 @@
       "collected_at": "2026-09-09T00:30:48.601961+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, '메디컬아카데미' 연수원 완공 - 데일리팜",
+      "summary": "유나이티드, '메디컬아카데미' 연수원 완공&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05SWxHcTVMSThoYTNGdE5FSEYtMXcxcmFzdzYxY1ZTdll6cnkwSVlIeEd5dlItWDAwdmd1X2VQX2xpV1JGeXJZWmRMN2dSUFZTRDdWY0Rn?oc=5",
+      "pub_date": "Tue, 24 Dec 2002 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-11T00:26:44.154352+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드제약, 리피톨 - 팜뉴스",
@@ -3455,6 +3515,16 @@
       "pub_date": "Wed, 04 Dec 2002 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.601988+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, '아젤라스틴' 원료합성 성공 - 데일리팜",
+      "summary": "유나이티드, '아젤라스틴' 원료합성 성공&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5INjBtTksxS1VvWndsZXJ3a0FTME1FWUt1Sy1EZi10MFFTcG1XSURQTjVDc2U2WXBMX0ZUOEpGanZJRmdVNEJyOEJvYjR5Y1ppdnVoUmtB?oc=5",
+      "pub_date": "Wed, 04 Dec 2002 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-11T00:26:44.154347+00:00"
     },
     {
       "source": "pharmnews",
@@ -3528,6 +3598,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "유나이티드, 미국 현지공장 GMP 신청 - 데일리팜",
+      "summary": "유나이티드, 미국 현지공장 GMP 신청&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4YjRzS0IwdjRRbWcweEdSYTg0eEJzMElBUTBBWnRZanpvQzRtTnlHamtlVjhRai1LZHZfOVU3LUY2VGROUHFYMUJlMFVnZ1h0N2h3RkJB?oc=5",
+      "pub_date": "Thu, 27 Jun 2002 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-11T00:26:44.154239+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드 강덕영사장 칼럼 中연재방송 - 데일리팜",
       "summary": "유나이티드 강덕영사장 칼럼 中연재방송&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MSVJKS2YySUF1aVRGRlIyYnd5WGo0Nm02eUotQ0pWMHZKMG1CcWdKNlJ4VmpydGw2M1U4LUVSNTM4SVpSRlZ3MUNocDBUTGtf?oc=5",
@@ -3594,6 +3674,16 @@
       "pub_date": "Thu, 16 Dec 1999 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-10T00:24:39.925543+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약, 5백만불 수출탑 수상 - 데일리팜",
+      "summary": "유나이티드제약, 5백만불 수출탑 수상&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84VlYxdzRaUVoxUVdsZG83cWI2aGYwVlJ2anFqQ2pKdzdqTTZyWGktSG9rTUdPUk4yOTFReXJ6VW5ZSTR4ZzNzSDAxZjZ5aUpuUUd5Nkh3?oc=5",
+      "pub_date": "Tue, 30 Nov 1999 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-11T00:26:44.154126+00:00"
     },
     {
       "source": "yakup",
