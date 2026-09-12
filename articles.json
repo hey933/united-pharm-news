@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T00:27:51.915164+00:00",
+  "updated_at": "2026-09-12T00:25:58.074780+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -90,6 +90,16 @@
       "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.000877+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료 - v.daum.net",
+      "summary": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료&nbsp;&nbsp;v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZbGpOdnNnS3pQVFVOd2h2MjFMZFFac0xKMnhpRjJhTExxMFpxcHowVXVDbk1GY1VuT1drSF9LOS1HOFBlcEUtdWpwU2ZSWUxIallHQw?oc=5",
+      "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-10T00:25:53.352784+00:00"
     },
     {
       "source": "daum",
@@ -438,16 +448,6 @@
       "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-05T00:29:02.615997+00:00"
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료 - v.daum.net",
-      "summary": "한국유나이티드제약 최대주주 된 강원호…창업주서 장남으로 지분 승계 완료&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260811185048914?f=p",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-10T00:25:53.352784+00:00"
     },
     {
       "source": "daum",
@@ -1163,7 +1163,8 @@
       "summary": "[동정] 한국유나이티드제약, 강남구청장 감사장 수상&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EcDY0eGdzNVNCV1VXdzBPMFhFbktBVnRHMUFTeVBoX2s3amtvT0RpQVJKTkppYmRyakZGeThhTTZDZXhmUW9rNlM1WXlWLWkxLXJYb0xtSWRkdjAtbjl3Rjd5QndZbllVTVNsSQ?oc=5",
       "pub_date": "Fri, 13 Dec 2024 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:34.502474+00:00"
+      "collected_at": "2026-08-26T07:50:34.502474+00:00",
+      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -2742,6 +2743,16 @@
       "pub_date": "Wed, 26 Jul 2017 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.602180+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 등 3사, 레보드로프로피진 서방정 첫 허가 - 데일리팜",
+      "summary": "유나이티드 등 3사, 레보드로프로피진 서방정 첫 허가&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83NllhRk40R1pLVXgzck94NFFDVnNPLThwY0cyTDQzZkg2ZnJaWTNXTkF6bkh4X3dYdWtiLUpmWlpFVjdDZ3ZFbTlGeTZyLTVlcVgyaElRa0QtMGZ3X2RnQjhn?oc=5",
+      "pub_date": "Thu, 13 Apr 2017 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-12T00:24:48.627284+00:00"
     },
     {
       "source": "dailypharm",
