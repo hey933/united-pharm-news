@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T00:27:32.550438+00:00",
+  "updated_at": "2026-09-14T00:28:19.104766+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -69,6 +69,16 @@
       "url": "https://www.dailypharm.com/user/news/341868",
       "pub_date": "Fri, 28 Aug 2026 07:00:00 GMT",
       "collected_at": "2026-08-29T00:09:29.758844+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "“30년전 친필원고에 담긴 신뢰”… 한국유나이티드제약, 국경 넘은 묵직한 울림 - v.daum.net",
+      "summary": "“30년전 친필원고에 담긴 신뢰”… 한국유나이티드제약, 국경 넘은 묵직한 울림&nbsp;&nbsp;v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wZVVLWW1mS25OSDc4UllDa1hxSnFlNmtWc05Xdm1CLWZ1dE5qd3lGTUZHZ3RPR0xiVFdoMnI0Z2RuX01NQWpmaWREYV9HWnhrdXUyRA?oc=5",
+      "pub_date": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:51.552132+00:00",
       "date_estimated": false
     },
     {
@@ -408,16 +418,6 @@
       "pub_date": "Thu, 04 Jun 2026 02:35:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-03T00:14:08.859481+00:00"
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "“30년전 친필원고에 담긴 신뢰”… 한국유나이티드제약, 국경 넘은 묵직한 울림 - v.daum.net",
-      "summary": "“30년전 친필원고에 담긴 신뢰”… 한국유나이티드제약, 국경 넘은 묵직한 울림&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/VrXS8zjJUu",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:51.552132+00:00",
-      "date_estimated": false
     },
     {
       "source": "daum",
@@ -1036,16 +1036,6 @@
       "pub_date": "Wed, 25 Jun 2025 23:14:15 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:07.274407+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
-      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zRTNGREhaYXZkTE5oMjREWURvRXNHb3NjN1dPZC1iOUlBcTBkclJpOTV6NTJiSnh4Qk5UQk85am05N0JDQkktNW85a1I3VjFMMDRtOWlrRThQWFli?oc=5",
-      "pub_date": "Wed, 25 Jun 2025 04:31:56 GMT",
-      "collected_at": "2026-08-26T07:49:03.688665+00:00",
-      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -2043,6 +2033,16 @@
     {
       "source": "pharmnews",
       "label": "팜뉴스",
+      "title": "한국유나이티드제약 강덕영 대표, 한국약제학회로부터 감사장 받아 - 팜뉴스",
+      "summary": "한국유나이티드제약 강덕영 대표, 한국약제학회로부터 감사장 받아&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uLUtjdllTRDczR2Fvd0IwT083N1ZFV2lGdkVKWXNQYjRhbWxkcHEtVXpHTm1TVjNMRmtPRG9lWE9CR0ljeVBPREF6R2dPay1pcmlsMC1qQkZ6Y1daaUJIdTRJMGREVWV6c0FxbA?oc=5",
+      "pub_date": "Wed, 02 Mar 2022 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-14T00:27:54.496098+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
       "title": "한국유나이티드제약, 고함량 라베프라졸+탄산수소나트륨 복합제 품목 허가 - 팜뉴스",
       "summary": "한국유나이티드제약, 고함량 라베프라졸+탄산수소나트륨 복합제 품목 허가&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zdl9WWUZ4LUl5RWNWTk5GS1lxUm1xbkhtTkMtTFdOT2w5eXR1ZnRoc2J3YmxoZjRoZW1nSEpFdU1PUGZUd0tzVHJ3ZEp0UkFiNmFkbl9ZOHdCQ0VURTVYRGsyd2lFWnNiQU1ENg?oc=5",
@@ -2098,6 +2098,16 @@
       "pub_date": "Fri, 15 Oct 2021 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-06T00:30:34.741651+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, ‘모사프리드 + 라베프라졸 복합제’ 러시아 특허 등록 - 팜뉴스",
+      "summary": "한국유나이티드제약, ‘모사프리드 + 라베프라졸 복합제’ 러시아 특허 등록&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkQmt1ekdjcDRyRzFqaDBqRXNuZU9LaklzcXVweDVTZm4wM1lDWlk2SFVBSms1bkdRNjd3MDVvdmNXOU9Za2MzQjZOekRzUkFZVk5OUklPXzZfalBvUUI0eVZkNmxrZWh3WTJHMA?oc=5",
+      "pub_date": "Fri, 15 Oct 2021 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-14T00:27:54.496102+00:00"
     },
     {
       "source": "pharmnews",
@@ -2520,6 +2530,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
+      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MTk9xYmJONjB3Umo4ZDc2V0xpbTVuMUJpeG5WVE12WlpQWHNTRVgySXo0aGp2NXVpSXdkckdYX2dXbG9hbEN0TTdjYzVjcGM?oc=5",
+      "pub_date": "Tue, 23 Apr 2019 07:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:03.688665+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드, 콜린알포 시럽제 개발…위수탁 17품목 허가 - 데일리팜",
       "summary": "유나이티드, 콜린알포 시럽제 개발…위수탁 17품목 허가&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hdDYwMU5VNm40SUZVQUg0aVlwYjBtQ3VZMW9jTnBVdmlYMjc3V1o0OW0tN2IwUWxDcmxDd1JmTmJneF9XNlZzN1Q5R0E5N045U1RIQ3JEb2FFakh1MFpXT0lhdnA3RHZFa05tRGxR?oc=5",
@@ -2798,6 +2818,16 @@
       "collected_at": "2026-09-09T00:30:48.602180+00:00"
     },
     {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드, 표적항암제 기술 이전 계약 - 팜뉴스",
+      "summary": "유나이티드, 표적항암제 기술 이전 계약&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RRG5VdEE1WnZGbzZBRGktaFprY3pGZFVXeFFaNUZqOUZRTmREZW0wUUMxRWlXU3FET2gtUkM0OFQ2ZkhfOTVqSmVOVzF2MEhXcjM5NzBCc3Nab3RIcy1rQ2dtWXlYVVNhZGxV?oc=5",
+      "pub_date": "Tue, 18 Jul 2017 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-14T00:27:54.496070+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드 등 3사, 레보드로프로피진 서방정 첫 허가 - 데일리팜",
@@ -2836,6 +2866,26 @@
       "pub_date": "Fri, 07 Oct 2016 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.001080+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드-동덕약대, 실무실습 수료식 개최 - 팜뉴스",
+      "summary": "유나이티드-동덕약대, 실무실습 수료식 개최&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Namw1QU1zeldiSnNaNTFXQWg4WHZUSWxveW9BYWx6V3QzOG91a0dMcGI0SWQ5OFJKbmxCZlRpVFdGb0w4c2hPSm0xX1RQTUtnRFRKaXFlRlpSSWI1Qm5Ibm5sdk1qUFhxcGJR?oc=5",
+      "pub_date": "Mon, 22 Aug 2016 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-14T00:27:54.496124+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드, ‘가스티인CR정’ 발매식 - 팜뉴스",
+      "summary": "유나이티드, ‘가스티인CR정’ 발매식&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1peld4SzlRWmh4OVVKQVo4VjhGc1VDME8xcm8zTkVCc3VjVlFlbzM1dExYYzRIdVpvOUtvQTJVeUlrS2szNXF1QTl4UDYyZTY1alZaLVFaQXNpUmJZRFV5YnJHRk5ROTR0a1Fn?oc=5",
+      "pub_date": "Tue, 26 Jul 2016 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-14T00:27:54.496074+00:00"
     },
     {
       "source": "pharmnews",
@@ -2971,7 +3021,18 @@
       "summary": "한국유나이티드, 美FDA에 공장 등록&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ueVJVbnhzMDJ0eEFCcmNscHVPeXZja0M3blVWSlk3c0VnOHlQUmxLMWRtc3JTXzBtclB3cjJWLXRlNUd4cTFhdm1ReUxmVldURms3d3RNVWl4NEVXOU5zN1ZkcVFyc3BZOTc4?oc=5",
       "pub_date": "Mon, 28 Nov 2011 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:34.502407+00:00"
+      "collected_at": "2026-08-26T07:50:34.502407+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드제약, cGMP 공장 준공 - 팜뉴스",
+      "summary": "유나이티드제약, cGMP 공장 준공&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02QmIwQll2OFFKNnJUVHMzeEJJTzloT2liRVZrbDNtZGJqVE9KSkZnZjlpSHFyelJDVGNRWVNrTVRyaW5xYnBnTmZFN0QwdVk4a2FPSEFfT3FRLTNneGVSbllIT0dGV0ZXNUpz?oc=5",
+      "pub_date": "Mon, 14 Nov 2011 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-14T00:27:54.496116+00:00"
     },
     {
       "source": "dailypharm",
