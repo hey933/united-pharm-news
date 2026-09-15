@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-09-14T00:28:19.104766+00:00",
+  "updated_at": "2026-09-15T00:28:07.453755+00:00",
   "articles": [
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드제약, 창립 39주년…임직원 1200명 한자리 - 데일리팜",
+      "summary": "한국유나이티드제약, 창립 39주년…임직원 1200명 한자리&nbsp;&nbsp;데일리팜",
+      "url": "https://dailypharm.com/user/news/342473",
+      "pub_date": "Mon, 14 Sep 2026 14:20:14 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-15T00:27:02.874738+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 창립 39주년 기념식 - 팜뉴스",
+      "summary": "한국유나이티드제약, 창립 39주년 기념식&nbsp;&nbsp;팜뉴스",
+      "url": "https://www.pharmnews.com/news/articleView.html?idxno=306275",
+      "pub_date": "Mon, 14 Sep 2026 01:44:47 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-15T00:27:49.940655+00:00"
+    },
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "한국유나이티드제약, 창립 39주년…강덕영 대표 “성장 동력은 임직원”",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=332498",
+      "pub_date": "Mon, 14 Sep 2026 01:44:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-15T00:26:08.721796+00:00"
+    },
     {
       "source": "pharmnews",
       "label": "팜뉴스",
