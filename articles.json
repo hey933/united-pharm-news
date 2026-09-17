@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-16T00:26:17.711719+00:00",
+  "updated_at": "2026-09-17T00:26:23.826729+00:00",
   "articles": [
     {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급 - dailypharm.com",
       "summary": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급&nbsp;&nbsp;dailypharm.com",
-      "url": "https://www.dailypharm.com/user/news/342513?REFERER=NP",
-      "pub_date": "Tue, 15 Sep 2026 07:35:15 GMT",
+      "url": "https://www.dailypharm.com/user/news/342513",
+      "pub_date": "Tue, 15 Sep 2026 06:05:13 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.343874+00:00"
     },
@@ -20,6 +20,16 @@
       "pub_date": "Tue, 15 Sep 2026 02:10:32 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:25:47.261928+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드제약, 말레이시아 정부 병원에 항암제 '하이드린캡슐' 공급 계약 체결 - 팜뉴스",
+      "summary": "유나이티드제약, 말레이시아 정부 병원에 항암제 '하이드린캡슐' 공급 계약 체결&nbsp;&nbsp;팜뉴스",
+      "url": "https://www.pharmnews.com/news/articleView.html?idxno=306308",
+      "pub_date": "Tue, 15 Sep 2026 02:10:32 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-17T00:25:54.152203+00:00"
     },
     {
       "source": "yakup",
@@ -1861,7 +1871,8 @@
       "summary": "유나이티드제약, 호치민 의약학대학과 필수 원료약 공동연구개발 협약&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UeWdwZXM2Vlp0OHRnczBZN3FiZXF0X3ZuX3NPLUpTVi1pV2wwYWZlVXp1UndaVWNFZkR3SmY5R0J0UlV5VkRpdV9sQVFLVEtYaWVra0RTa0tzVnA3UUNFTjlzcmM1N05fS3NrSA?oc=5",
       "pub_date": "Thu, 08 Jun 2023 07:00:00 GMT",
-      "collected_at": "2026-08-29T00:09:31.673546+00:00"
+      "collected_at": "2026-08-29T00:09:31.673546+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -1870,7 +1881,8 @@
       "summary": "한국유나이티드제약, 세종 1공장 우크라이나 GMP 승인&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tekFkTDJ6c3pTVk1CMjZROEJlZG5HbW9GSktBZ0FhNFhLc3JiSUk4YzU1NlcyV3dFT2VNVlpSR0t6d1ZlNGZUOEF3TGNBeG5kQmxWME1qY0FYMUlVeXYwWU11eXFsZlRIeWpqcQ?oc=5",
       "pub_date": "Thu, 27 Apr 2023 07:00:00 GMT",
-      "collected_at": "2026-08-29T00:09:31.673629+00:00"
+      "collected_at": "2026-08-29T00:09:31.673629+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -1999,7 +2011,8 @@
       "summary": "한국유나이티드제약,사우디 수출 계약 체결...중동 진출 교두보 마련&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91REFTWHdYR0pFSW13SUkzdFdEdkFNQjlCd1VFMHNWOXAwLThsbkdxa1pqY00zSEdhcm1wU0pHT3JTNF8ySnpjb21PUW96dXN6Q193NWtSOERubXRkZXhZbm1TdW5JM1kyRlNYTQ?oc=5",
       "pub_date": "Mon, 20 Feb 2023 08:00:00 GMT",
-      "collected_at": "2026-08-29T00:09:31.673516+00:00"
+      "collected_at": "2026-08-29T00:09:31.673516+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -2577,6 +2590,16 @@
       "pub_date": "Mon, 21 Jun 2021 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-11T00:26:44.154053+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약, 멕시코 수출 계약 '600억 규모' - dailypharm.com",
+      "summary": "유나이티드제약, 멕시코 수출 계약 '600억 규모'&nbsp;&nbsp;dailypharm.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LVEVWVm5TLUMyWU5mdlJGTWdYWk9Pc25wbzVkOWRhM0J1MVhDR2NBUjU1SnRwLVhWZGZCUkZfTGNpb1lQbVczLUFmWGlncEE?oc=5",
+      "pub_date": "Mon, 21 Jun 2021 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-17T00:25:02.791555+00:00"
     },
     {
       "source": "dailypharm",
@@ -3226,6 +3249,16 @@
       "pub_date": "Fri, 03 Feb 2017 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:00.173715+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 프레탈 특허도전 성공…실로스탄CR 호재 - dailypharm.com",
+      "summary": "유나이티드, 프레탈 특허도전 성공…실로스탄CR 호재&nbsp;&nbsp;dailypharm.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4YTJ0eDV2RHgyWHViSzUtTjlKU1JBdzFDLUo2MUF4RFNFX2w3bUMtaUstcU9NZHJ6OHRCNjE0clo1dDUzY3pHdy1jQ2dxZ1dl?oc=5",
+      "pub_date": "Fri, 03 Feb 2017 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-17T00:25:02.791805+00:00"
     },
     {
       "source": "dailypharm",
