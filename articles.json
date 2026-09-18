@@ -1,6 +1,16 @@
 {
-  "updated_at": "2026-09-17T00:26:23.826729+00:00",
+  "updated_at": "2026-09-18T00:26:25.922417+00:00",
   "articles": [
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "[영상] 한국유나이티드제약, 상반기 순익 516억 ‘어닝 서프라이즈’",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=332723",
+      "pub_date": "Thu, 17 Sep 2026 21:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-18T00:24:11.736431+00:00"
+    },
     {
       "source": "dailypharm",
       "label": "데일리팜",
@@ -10,6 +20,16 @@
       "pub_date": "Tue, 15 Sep 2026 06:05:13 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.343874+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급 - 데일리팜",
+      "summary": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급&nbsp;&nbsp;데일리팜",
+      "url": "https://www.dailypharm.com/user/news/342513",
+      "pub_date": "Tue, 15 Sep 2026 06:05:13 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-18T00:25:10.128793+00:00"
     },
     {
       "source": "pharmnews",
@@ -938,6 +958,16 @@
       "pub_date": "Mon, 22 Dec 2025 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.344007+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 영리한 자사주 활용법…2세 지배력 강화 - 데일리팜",
+      "summary": "유나이티드, 영리한 자사주 활용법…2세 지배력 강화&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fdzJBdnM1SkVNdXdfUFdIQzBxLTFsV2ZLVUkxa3BHZ1doODN2ZlMtczBndEd0bllkT2RfeTBWZnk5ZEpCTGJPYmN6d2dDMW5H?oc=5",
+      "pub_date": "Mon, 22 Dec 2025 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-18T00:25:10.128938+00:00"
     },
     {
       "source": "dailypharm",
@@ -2005,6 +2035,16 @@
       "collected_at": "2026-09-16T00:24:55.344258+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약, 신규 판로 개척...UAE 수출 확대 - 데일리팜",
+      "summary": "유나이티드제약, 신규 판로 개척...UAE 수출 확대&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xemNXWG5yTTJSb3hKZGk0VHBxU1hyOGFYWHIxUHJKV1gtTDdtRUR0dmkzYXlzOGhUeEZ6QXI4TTBoMmxDOHJySDZFQWdENVU?oc=5",
+      "pub_date": "Tue, 21 Feb 2023 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-18T00:25:10.129058+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약,사우디 수출 계약 체결...중동 진출 교두보 마련 - 팜뉴스",
@@ -2411,6 +2451,16 @@
       "pub_date": "Thu, 04 Nov 2021 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.344179+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "김태식 유나이티드 전무, 서울경찰청 감사장 수상 - 데일리팜",
+      "summary": "김태식 유나이티드 전무, 서울경찰청 감사장 수상&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1waVNmQ1N1NVVYM01lajJ6UVJhUUVueDJPSDJXdUNSZTJ2blduU0swaFBvYkluVTVROE43dnNkWThrc3ZCTGdsMkhxUTIyaVk?oc=5",
+      "pub_date": "Thu, 04 Nov 2021 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-18T00:25:10.129015+00:00"
     },
     {
       "source": "pharmnews",
@@ -2939,6 +2989,16 @@
       "pub_date": "Tue, 26 Mar 2019 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.344206+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 국내 첫 페노피브릭산 정제 상업화 임박 - 데일리팜",
+      "summary": "유나이티드, 국내 첫 페노피브릭산 정제 상업화 임박&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TOXRBZk1reTBpNkRpamRudzRsaGNzUmxPZ3lLSnEwbm9qZzBxQmNNa1JCVVdZOUxldmNmYUxVSFJaWHpBM0xpeHZFZzY0NUE?oc=5",
+      "pub_date": "Tue, 26 Mar 2019 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-18T00:25:10.129033+00:00"
     },
     {
       "source": "dailypharm",
