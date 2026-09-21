@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T00:27:46.529151+00:00",
+  "updated_at": "2026-09-21T00:26:53.915571+00:00",
   "articles": [
     {
       "source": "yakup",
@@ -1322,9 +1322,10 @@
       "label": "데일리팜",
       "title": "강덕영 대표, 유나이티드문화재단에 100억 주식 기부 - 데일리팜",
       "summary": "강덕영 대표, 유나이티드문화재단에 100억 주식 기부&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ORTNTM0N4MzdJTll5SWpGR3dCV2NnQjJvSlpXOHBlLWpTUGlqX2VkbWZjbGpSdHVjNkVxbllkbnpubGdCMWdOZmlvQXl0bllDbWI5SU1ELTJtNmprMUtOLVppMVJraE1tSV9aREdn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rR2dOVy1YZGd2WWZUZFY4TndMWDc2Wmx4TUpfN1ZWeXNGQ19UVUdRTXE1dGNLVTc1a0tSc3V6TEpwWkRfaUJLUG5SXzNWdw?oc=5",
       "pub_date": "Tue, 29 Apr 2025 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:14.390575+00:00"
+      "collected_at": "2026-08-26T07:49:14.390575+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -1699,6 +1700,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "유나이티드, 라베프라졸+탄산수소나트륨 추가 라인업 - 데일리팜",
+      "summary": "유나이티드, 라베프라졸+탄산수소나트륨 추가 라인업&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16ZVRJYXJxRlgzMGdWdko1R1U4SlFldk5YVGQySXFWU1NQSFN3STRGLUJub1NWa3lBV285UHB3c085U0JKUlJERmZrZS0zS28?oc=5",
+      "pub_date": "Thu, 19 Oct 2023 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-21T00:25:40.884989+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드제약, '글로벌 인재 육성 프로그램' 실시 - 데일리팜",
       "summary": "유나이티드제약, '글로벌 인재 육성 프로그램' 실시&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FcnFkVWltYkhsNWJxZGU1WkxRNUxkOF8ya0djNWlXS2puQTBwZnYwei1ja2Uzek92OUFfbkFibUR5Qk1NVHcybHBHMjdJbjNUQ3dkdFQ0RXA2ZnpN?oc=5",
@@ -2067,6 +2078,16 @@
     {
       "source": "pharmnews",
       "label": "팜뉴스",
+      "title": "한국유나이티드제약, 베트남 공장 설립 20주년 기념 전진대회 성료 - 팜뉴스",
+      "summary": "한국유나이티드제약, 베트남 공장 설립 20주년 기념 전진대회 성료&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2V0lxR2ZBWEI3cTg3U1lIX09QcGdQWVdzSjFHY3llN0dhWExrUVh0TFN0SmJySFVQVUo0dk9hMnFSUTFrWlUtUndialRJU1NxRW1tTmVObndaZmtwUUZxYXhnTV9CNkltVGdjTw?oc=5",
+      "pub_date": "Mon, 20 Feb 2023 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-21T00:26:29.392035+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
       "title": "한국유나이티드제약 '유니그릴CR정', 홍콩 특허 등록 - 팜뉴스",
       "summary": "한국유나이티드제약 '유니그릴CR정', 홍콩 특허 등록&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XMU9hdkR5Vk44dHN5ZFYxYnNUWWZQal9vWk9XWm16cHRqODFSTS12bWk2eWlTS2VtRlAxZDY5M0RBblYtbU5NTFBta2ZjYUVPbjB5MkRaWFcwSzAwcUU4Y0F1c2VjMDF2UTVJeg?oc=5",
@@ -2083,6 +2104,16 @@
       "pub_date": "Thu, 16 Feb 2023 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.601934+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "유나이티드제약, 알레르기 비염 치료제 임상3상 돌입 - v.daum.net",
+      "summary": "유나이티드제약, 알레르기 비염 치료제 임상3상 돌입&nbsp;&nbsp;v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1jWnJ2ZGs0NG1RMDZzVmJkbDlMTDZYNDh2YXJmTzE0enA0WkxlUFgxVzFSRHlKUGFlbUQ2UWxLZHBTYUZVbzQ1bEhZRQ?oc=5",
+      "pub_date": "Wed, 11 Jan 2023 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-21T00:26:52.411381+00:00"
     },
     {
       "source": "pharmnews",
