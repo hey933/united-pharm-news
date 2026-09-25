@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T00:26:04.654404+00:00",
+  "updated_at": "2026-09-25T00:28:24.210591+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -3854,6 +3854,16 @@
       "collected_at": "2026-09-16T00:25:47.262058+00:00"
     },
     {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드제약 김태식 전무 ‘산업포장’ - 팜뉴스",
+      "summary": "유나이티드제약 김태식 전무 ‘산업포장’&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9nRUlJbzN4TmhCemgwdkdzb205UlNOeHVaYXdkR0YzQjlyTG9hZUxMX05MNnFsTEdscXlOVWZkdTdYMDY2QmpiVTV0OVFsb2lpQUlMVnBLU3d5ZFRlTWpQNUdHLXlTV1JkSXEw?oc=5",
+      "pub_date": "Wed, 16 Mar 2011 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-25T00:28:00.917000+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드 1350억 매출, 전년대비 13% 성장 - 데일리팜",
@@ -3992,6 +4002,16 @@
       "pub_date": "Fri, 07 Dec 2007 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T01:17:01.375184+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드, 우리농산물 김장담그기 - 팜뉴스",
+      "summary": "유나이티드, 우리농산물 김장담그기&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpaW4ybFgxbTUwTzk0bEJKNmRWNER5VVdvSDVOd1RORWhEbU84SEJaUHBrdVY5NWE0ZktqalM0TUZpR1NoN1RFMmx1amhXX3VNR3lkU3JOdEZhVVgxQ0hORnpuY1JmNUoyakxZ?oc=5",
+      "pub_date": "Tue, 20 Nov 2007 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-25T00:28:00.916887+00:00"
     },
     {
       "source": "dailypharm",
