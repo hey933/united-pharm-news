@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T00:28:24.210591+00:00",
+  "updated_at": "2026-09-26T00:25:09.280914+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -24,22 +24,22 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급 - 데일리팜",
+      "summary": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급&nbsp;&nbsp;데일리팜",
+      "url": "https://www.dailypharm.com/user/news/342513",
+      "pub_date": "Tue, 15 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-18T00:25:10.128793+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급 - dailypharm.com",
       "summary": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급&nbsp;&nbsp;dailypharm.com",
       "url": "https://www.dailypharm.com/user/news/342513",
       "pub_date": "Tue, 15 Sep 2026 06:05:13 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.343874+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급 - 데일리팜",
-      "summary": "한국유나이티드제약, 말레이시아 정부 병원에 항암제 공급&nbsp;&nbsp;데일리팜",
-      "url": "https://www.dailypharm.com/user/news/342513",
-      "pub_date": "Tue, 15 Sep 2026 06:05:13 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-18T00:25:10.128793+00:00"
     },
     {
       "source": "pharmnews",
@@ -1116,7 +1116,8 @@
       "summary": "한국유나이티드제약, 철원군 초등학생 대상 리더십 교육 진행&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlcVNzSlVYVC1ZUjF0bmJ2THg0QkRpZjFmR0xUaG8tRW53bjhlenZ1d3JPdzV5U2RLRXJVRUlicXBGU1dQSDQ4MV9qeW8yS3RaNHpHSVRBSE9oeUR0emRhdFh2d05wSlYzNmtIUw?oc=5",
       "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
-      "collected_at": "2026-08-29T00:09:31.673573+00:00"
+      "collected_at": "2026-08-29T00:09:31.673573+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -1145,7 +1146,8 @@
       "summary": "한국유나이티드제약·한국바이오켐제약, 추석 위문금 1800만원 전달&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBybmlnekJRLUlFLUNGYVhmMHI3Tkh5c3pDU2N1UGg1NGY1UHdkMzRLM3I5emVkbU81TUFJX3NJUnFmdmhqeW5LdTRIQktLbXpwaHNDbDdiQm9VNUlxUlZLcjRQVTlBOFVrZzY1Zg?oc=5",
       "pub_date": "Thu, 02 Oct 2025 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:34.502430+00:00"
+      "collected_at": "2026-08-26T07:50:34.502430+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -3663,6 +3665,16 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuQWE1enBudGxyQlFNODFpTXd6aGpnRXpId05qb1BVNW4yTkVBTjhxOTlUS1FJSTNuSXMwUVBKVl9mVGF1SnZYakRqUDFsR0JfYWdQc3Y2bjBjdlpWOWZydjRldjI2Zld4TXRR?oc=5",
       "pub_date": "Thu, 19 May 2016 07:00:00 GMT",
       "collected_at": "2026-08-26T07:50:34.502481+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드 권오병 상무, 국무총리 표창 - 팜뉴스",
+      "summary": "유나이티드 권오병 상무, 국무총리 표창&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82MzhORm5fWVFTT3VSYjF5MVc1b21ocE5JekxRY2tNZEtzSkF4THVWTXIyMGlxWGRMeEZ6X1RtQi1WUXlaZkhEQnd6VkdCTEJEZDIxcjE5T0FzVmE0dDhndWxKamx6Qkt3WDhz?oc=5",
+      "pub_date": "Mon, 04 Apr 2016 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-26T00:24:45.894068+00:00"
     },
     {
       "source": "dailypharm",
