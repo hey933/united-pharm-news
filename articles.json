@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T05:10:17.565323+00:00",
+  "updated_at": "2026-09-28T05:12:45.729740+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -62,16 +62,6 @@
       "collected_at": "2026-09-16T00:24:55.343874+00:00"
     },
     {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "한국유나이티드제약, 창립 39주년…임직원 1200명 한자리 - dailypharm.com",
-      "summary": "한국유나이티드제약, 창립 39주년…임직원 1200명 한자리&nbsp;&nbsp;dailypharm.com",
-      "url": "https://www.dailypharm.com/user/news/342473",
-      "pub_date": "Tue, 15 Sep 2026 04:00:47 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-16T00:24:55.343845+00:00"
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드제약, 말레이시아 정부 병원에 항암제 '하이드린캡슐' 공급 계약 체결 - pharmnews.com",
@@ -112,6 +102,16 @@
       "collected_at": "2026-09-15T00:27:02.874738+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드제약, 창립 39주년…임직원 1200명 한자리 - dailypharm.com",
+      "summary": "한국유나이티드제약, 창립 39주년…임직원 1200명 한자리&nbsp;&nbsp;dailypharm.com",
+      "url": "https://www.dailypharm.com/user/news/342473",
+      "pub_date": "Mon, 14 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-16T00:24:55.343845+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약, 창립 39주년 기념식 - 팜뉴스",
@@ -142,6 +142,16 @@
       "collected_at": "2026-09-15T00:26:08.721796+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증 - dailypharm.com",
+      "summary": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증&nbsp;&nbsp;dailypharm.com",
+      "url": "https://www.dailypharm.com/user/news/342126",
+      "pub_date": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-04T00:26:43.000870+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약 세종1공장, 우크라이나 GMP 인증 갱신 - 팜뉴스",
@@ -160,16 +170,6 @@
       "pub_date": "Thu, 03 Sep 2026 04:14:42 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.601808+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증 - dailypharm.com",
-      "summary": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증&nbsp;&nbsp;dailypharm.com",
-      "url": "https://www.dailypharm.com/user/news/342126",
-      "pub_date": "Thu, 03 Sep 2026 04:04:15 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-04T00:26:43.000870+00:00"
     },
     {
       "source": "dailypharm",
@@ -1148,6 +1148,16 @@
       "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.001102+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드문화재단, 24회 행복 나눔 음악회 개최 - dailypharm.com",
+      "summary": "유나이티드문화재단, 24회 행복 나눔 음악회 개최&nbsp;&nbsp;dailypharm.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSGNyYWNhLU4zSUpYM0staGd4VE9xbG84V3VRYWw2Mzk0eDZSc2d5R1gtZDBBWUNES2JnWEpMUVFldGV5YXlZcTlyRDFCMWREeHNCOGtiVXBiTXZPcFY2YlVGTkNSVW5pMVB2ZU1wOGc2WU1Oc2JrdmdtR3JkTUZ3OE1kLXZKR1o0Q3BYZDl5aE1vcjg?oc=5",
+      "pub_date": "Fri, 07 Nov 2025 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-28T05:11:26.540173+00:00"
     },
     {
       "source": "pharmnews",
@@ -3568,6 +3578,16 @@
       "date_estimated": false
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, MRI조영제 도타렘 특허무효 도전 성공 - dailypharm.com",
+      "summary": "유나이티드, MRI조영제 도타렘 특허무효 도전 성공&nbsp;&nbsp;dailypharm.com",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53SFhUX2FvMUV0Vk50Y3JMN1IwbU44dk9odTdPM0xTTEJzNmtJTThWZVN3dUJmTEx5Y0gtUXNwSDdFMHRrRVVGaDlRaGFvMFAyZFQ5ZQ?oc=5",
+      "pub_date": "Fri, 02 Feb 2018 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-28T05:11:26.540117+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드, 동덕여대 약대 실무실습 지원 - 팜뉴스",
@@ -4049,11 +4069,22 @@
     {
       "source": "pharmnews",
       "label": "팜뉴스",
+      "title": "유나이티드 강덕영 대표, 마르퀴즈 등재 - 팜뉴스",
+      "summary": "유나이티드 강덕영 대표, 마르퀴즈 등재&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyLVUwWGpkbTFfMzg0bzN4NTFnLVdVQkdEV3VTVTNucUNTRzR6M0dHOE1rMG50ZzNXNUNXbWcxeGUyQTlKel9GdGlXbWxiWlhfamNKM2VGd3FYX0ZrZUljLWFadWlBa3lPdFFB?oc=5",
+      "pub_date": "Thu, 31 Jan 2013 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-28T05:12:23.245838+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
       "title": "유나이티드, 각국 대사 초청 음악회 - 팜뉴스",
       "summary": "유나이티드, 각국 대사 초청 음악회&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uU2lBOVlvRFNhcVlTOG5jQ3NnQ3FhWlFJMHBhNV9ER3VmVVIxZ3VDVGVxMHM1WnVHLTZabExXS0pRdHNOclprRThhc0p6UHJLQTliS05MY0FQNmt4dVRweG9sV0VoUVJYSGJj?oc=5",
       "pub_date": "Fri, 21 Dec 2012 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:34.502440+00:00"
+      "collected_at": "2026-08-26T07:50:34.502440+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
