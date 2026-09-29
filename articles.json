@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T05:12:45.729740+00:00",
+  "updated_at": "2026-09-29T05:35:10.211508+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -30,6 +30,16 @@
       "pub_date": "Tue, 22 Sep 2026 06:24:05 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:08:51.653391+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드·바이오켐, 추석 성금 1800만원 전달 - 데일리팜",
+      "summary": "한국유나이티드·바이오켐, 추석 성금 1800만원 전달&nbsp;&nbsp;데일리팜",
+      "url": "https://m.dailypharm.com/user/news/342787",
+      "pub_date": "Tue, 22 Sep 2026 06:24:05 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-29T05:33:54.206159+00:00"
     },
     {
       "source": "yakup",
@@ -96,8 +106,8 @@
       "label": "데일리팜",
       "title": "한국유나이티드제약, 창립 39주년…임직원 1200명 한자리 - 데일리팜",
       "summary": "한국유나이티드제약, 창립 39주년…임직원 1200명 한자리&nbsp;&nbsp;데일리팜",
-      "url": "https://dailypharm.com/user/news/342473",
-      "pub_date": "Mon, 14 Sep 2026 14:20:14 GMT",
+      "url": "https://www.dailypharm.com/user/news/342473",
+      "pub_date": "Mon, 14 Sep 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-15T00:27:02.874738+00:00"
     },
@@ -152,6 +162,16 @@
       "collected_at": "2026-09-04T00:26:43.000870+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증 - 데일리팜",
+      "summary": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증&nbsp;&nbsp;데일리팜",
+      "url": "https://www.dailypharm.com/user/news/342126",
+      "pub_date": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-04T01:17:01.374773+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약 세종1공장, 우크라이나 GMP 인증 갱신 - 팜뉴스",
@@ -170,16 +190,6 @@
       "pub_date": "Thu, 03 Sep 2026 04:14:42 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.601808+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증 - 데일리팜",
-      "summary": "한국유나이티드제약 세종1공장, 우크라이나 GMP 재인증&nbsp;&nbsp;데일리팜",
-      "url": "https://dailypharm.com/user/news/342126",
-      "pub_date": "Thu, 03 Sep 2026 04:04:15 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-04T01:17:01.374773+00:00"
     },
     {
       "source": "yakup",
@@ -1158,6 +1168,16 @@
       "pub_date": "Fri, 07 Nov 2025 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-28T05:11:26.540173+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드문화재단, 24회 행복 나눔 음악회 개최 - 데일리팜",
+      "summary": "유나이티드문화재단, 24회 행복 나눔 음악회 개최&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSGNyYWNhLU4zSUpYM0staGd4VE9xbG84V3VRYWw2Mzk0eDZSc2d5R1gtZDBBWUNES2JnWEpMUVFldGV5YXlZcTlyRDFCMWREeHNCOGtiVXBiTXZPcFY2YlVGTkNSVW5pMVB2ZU1wOGc2WU1Oc2JrdmdtR3JkTUZ3OE1kLXZKR1o0Q3BYZDl5aE1vcjg?oc=5",
+      "pub_date": "Fri, 07 Nov 2025 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-29T05:33:54.206444+00:00"
     },
     {
       "source": "pharmnews",
