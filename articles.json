@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T05:35:10.211508+00:00",
+  "updated_at": "2026-09-30T05:23:37.198973+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -1538,6 +1538,16 @@
       "pub_date": "Mon, 03 Feb 2025 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.602144+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 베트남 호치민 국립음악원과 함께 송년 가족음악회 개최 - 팜뉴스",
+      "summary": "한국유나이티드제약, 베트남 호치민 국립음악원과 함께 송년 가족음악회 개최&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95LTg1Rjh4RHhWMkhlQzBXS1daa3Q2el9YcTNFTF9KRlNKV0Fla3ZpUV9uNE5DcGRHLWJUOWh5ZjUxOE12WnpkQm01Qlg5cFZQRFMxSU1nMlcxRmhDbzZiWFlXdVg2bW1IN2o3RQ?oc=5",
+      "pub_date": "Tue, 17 Dec 2024 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-30T05:23:14.048968+00:00"
     },
     {
       "source": "pharmnews",
@@ -3806,6 +3816,16 @@
       "pub_date": "Fri, 07 Oct 2016 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:09:52.520704+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드, ‘가스티인CR정 런칭 심포지엄’ - 팜뉴스",
+      "summary": "유나이티드, ‘가스티인CR정 런칭 심포지엄’&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40VDB3WDZjYWoyV0RLM3FrVWJjT3JHU0lkQzJwajVxNlhfS3QzalREcTd2T256VnlwaTRJMWdTaERmSEFYUnJSLWsyVVlrTXpXNnhaOUFXbHpPTGc0ZG1yME9DUk1aTXZVcjZF?oc=5",
+      "pub_date": "Wed, 31 Aug 2016 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-30T05:23:14.048866+00:00"
     },
     {
       "source": "pharmnews",
