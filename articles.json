@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T05:23:37.198973+00:00",
+  "updated_at": "2026-10-01T05:38:26.080067+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -2477,6 +2477,16 @@
       "pub_date": "Wed, 09 Nov 2022 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.000934+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 한국-베트남 수교 30주년 기념 가족음악회 개최 - 팜뉴스",
+      "summary": "한국유나이티드제약, 한국-베트남 수교 30주년 기념 가족음악회 개최&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83MW9BTUs4eTdzY0s5T1VlWUIwSmNqUW1qYzFkdkZQdU8wcGtRMkJTYXFuaDhZQ3JIOFFVVndFXzJzS0FEaGhoSng1a3JXVGlXWnFvLTZLQUhmeGw4NXJFZ3Zoc2NiZEFuaFN2dw?oc=5",
+      "pub_date": "Tue, 18 Oct 2022 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-01T05:38:03.716101+00:00"
     },
     {
       "source": "dailypharm",
