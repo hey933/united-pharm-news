@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T05:38:26.080067+00:00",
+  "updated_at": "2026-10-02T05:25:16.757304+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -830,6 +830,16 @@
       "collected_at": "2026-09-27T05:08:51.653603+00:00"
     },
     {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "유나이티드제약, 비만약 체인 구축…\"개발부터 생산까지\" - v.daum.net",
+      "summary": "유나이티드제약, 비만약 체인 구축…\"개발부터 생산까지\"&nbsp;&nbsp;v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9yMENDVXZsYTlpQk5uVGZDQzR4UUhJUWhUUU92cU9xYmlEU1FxVllpOXUzZmVTc3cybWlKQ0todGZQamM2MVdkRUp4RQ?oc=5",
+      "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-02T05:25:15.252463+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드, 10년 연속 이익률 15%↑…개량신약의 힘 - 데일리팜",
@@ -1590,6 +1600,16 @@
       "collected_at": "2026-09-22T00:24:43.748932+00:00"
     },
     {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "유나이티드제약, 세종에 3번째 공장 짓는 까닭은 - v.daum.net",
+      "summary": "유나이티드제약, 세종에 3번째 공장 짓는 까닭은&nbsp;&nbsp;v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mZ2JkYWpOS3F2aUdqR09WdmNuWU8xd2xVUXdkX2xDbGFHQ0tKTEN6QzlQdjRzdWhTQnlHXzJKVjNLdlhXeTBvdmNFWQ?oc=5",
+      "pub_date": "Thu, 15 Aug 2024 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-02T05:25:15.252498+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드제약, 약대생 개량신약 디테일 콘테스트 진행 - 데일리팜",
@@ -2231,6 +2251,16 @@
     {
       "source": "pharmnews",
       "label": "팜뉴스",
+      "title": "한국유나이티드제약 강원호 대표, 아주대 약학박사 취득 - 팜뉴스",
+      "summary": "한국유나이티드제약 강원호 대표, 아주대 약학박사 취득&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TamhOd3lFblN1ajVYMExLR19CcTFXV0ZwNEZjTXF0LTU1SGdKT2JrQV9vdERlWU5acGp2NndBbU0yVm03VjhIeVA2X1lKdXpQdm1JUm1KUU1zNTVJWjl5SHlUcUkzdHYzd2swTw?oc=5",
+      "pub_date": "Wed, 22 Feb 2023 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-02T05:24:51.017071+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
       "title": "한국유나이티드제약,항암제 UAE 신규계약 추진-중동 판로 확대 - 팜뉴스",
       "summary": "한국유나이티드제약,항암제 UAE 신규계약 추진-중동 판로 확대&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iLVdoY293czNaS0ZqVnV0M29KZ0Q2STBpd2c1Sk1lTkxqWkIyVUpOT3BqcnRvMHNtdTNfNmF3QldSS2piTEhNa29USzZNLUNqaC1sYkRxbnlzQlJEZU5IWFJxZGdTRjJGZ2FFNg?oc=5",
@@ -2757,6 +2787,16 @@
       "pub_date": "Thu, 04 Nov 2021 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-18T00:25:10.129015+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약 ‘실로스탄CR정’, 대만 특허 등록 - 팜뉴스",
+      "summary": "한국유나이티드제약 ‘실로스탄CR정’, 대만 특허 등록&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TUEU4ZVpDd19RQkx3ZTF2ak1DODl0MDlWeU5YbWtYRDZXWDlMX3p6YV9ObnpTeEx0S1hfRjQ1amp5ZWpqbWhtbFJ3V2xhZi1nRUZyeEZDVjVaYTBleXN3MVFmaEZ6ejlmQVN6Mg?oc=5",
+      "pub_date": "Thu, 04 Nov 2021 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-02T05:24:51.017167+00:00"
     },
     {
       "source": "pharmnews",
