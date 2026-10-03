@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T05:25:16.757304+00:00",
+  "updated_at": "2026-10-03T05:08:03.652587+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -3786,6 +3786,16 @@
       "pub_date": "Thu, 13 Apr 2017 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.344246+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드, ‘스마트 공장’ 가동…성장 가속화 - 팜뉴스",
+      "summary": "유나이티드, ‘스마트 공장’ 가동…성장 가속화&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YOFUtWGMwN3dlQUFNM3NSLWtOVGYteWZWbnItZy1xelQ4aU85WWhlenVpZ01Fclh1V1k0WnNhUHcxeHhBSUFsR3I4VTVqbUtOdnpIc1ZvbkFLREtwejJ3WGJWSkVxamZQSkZn?oc=5",
+      "pub_date": "Thu, 23 Mar 2017 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-03T05:07:41.229909+00:00"
     },
     {
       "source": "dailypharm",
