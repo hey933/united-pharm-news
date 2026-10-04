@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T05:08:03.652587+00:00",
+  "updated_at": "2026-10-04T05:41:18.336617+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -1600,6 +1600,16 @@
       "collected_at": "2026-09-22T00:24:43.748932+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "﻿한국유나이티드제약 '창립 37주년 기념행사' 개최 - dailypharm.com",
+      "summary": "﻿한국유나이티드제약 '창립 37주년 기념행사' 개최&nbsp;&nbsp;dailypharm.com",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiY0xwR1FqOW5RRHZGX0FYRDhoWDltdTRITXdmXzZsaHZxTldIcDBuUlFsbWlJX3o3ajl2MTAwRm13TEtsREdyTEQyXzl5WEZUejRIUQ?oc=5",
+      "pub_date": "Mon, 21 Oct 2024 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-04T05:40:15.627133+00:00"
+    },
+    {
       "source": "daum",
       "label": "다음뉴스",
       "title": "유나이티드제약, 세종에 3번째 공장 짓는 까닭은 - v.daum.net",
@@ -1748,6 +1758,16 @@
       "pub_date": "Thu, 08 Feb 2024 08:00:00 GMT",
       "collected_at": "2026-08-26T07:49:12.603974+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "건일·유나이티드, 복합형 이상지질혈증 약물 리딩 - dailypharm.com",
+      "summary": "건일·유나이티드, 복합형 이상지질혈증 약물 리딩&nbsp;&nbsp;dailypharm.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjbGdyMnV0akxmSDBMR1llMEdHWVVsWUZlTE0wSlBDUFVTWFRyckM5TmJYMndVNEI3dURwdVpqN1BhWXhST3d6WXJqUkpnck0?oc=5",
+      "pub_date": "Thu, 08 Feb 2024 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-04T05:40:15.627394+00:00"
     },
     {
       "source": "dailypharm",
@@ -2731,6 +2751,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "'라베프라졸+탄산수소나트륨' 인기…유나이티드 가세 - dailypharm.com",
+      "summary": "'라베프라졸+탄산수소나트륨' 인기…유나이티드 가세&nbsp;&nbsp;dailypharm.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CQ2FmTXZ0V0J3bWJMSUtQUzBhd1ZVRE0wLVFxWFBMdThfMzJJV2tRMjNndi14YU1IR2VseGVqeUs3cnduUHNEQlhMUjZCS3M?oc=5",
+      "pub_date": "Thu, 03 Feb 2022 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-04T05:40:15.627375+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드 \"2월 코로나 흡입제 2상 환자 모집 완료\" - 데일리팜",
       "summary": "유나이티드 \"2월 코로나 흡입제 2상 환자 모집 완료\"&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WcklfZXdsNURycG5wajlTVnd0UjMzVnlNNHh2ZUNQM0hSTm5kMUVtYzk1ZHJpWFhBVVFPYjZwQkt1Z2xROFhhUU9tYzR6azhCYVh5cg?oc=5",
@@ -2847,6 +2877,16 @@
       "pub_date": "Fri, 15 Oct 2021 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:25:47.262038+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 '모사프리드+라베프라졸 복합제' 러 특허 - dailypharm.com",
+      "summary": "유나이티드 '모사프리드+라베프라졸 복합제' 러 특허&nbsp;&nbsp;dailypharm.com",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41cHpkTVVzQWhwTmZwZEhGZTNpRE5DVkJ5UVRwck55dlFEVkVMQ0dNUUlqLXc4N1RXNVlSMXFScXREREZSUWFiNjVvYkphMFFjeFdiVFBJYmZCNUI2Tzk5alZtWXl3Zl9wLXpPVW53?oc=5",
+      "pub_date": "Fri, 15 Oct 2021 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-04T05:40:15.627260+00:00"
     },
     {
       "source": "pharmnews",
@@ -3426,6 +3466,16 @@
       "pub_date": "Tue, 26 Mar 2019 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-18T00:25:10.129033+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드 소녀 방송 합창단, 중국 하얼빈서 ‘새봄맞이 음악회’ 성료 - 팜뉴스",
+      "summary": "유나이티드 소녀 방송 합창단, 중국 하얼빈서 ‘새봄맞이 음악회’ 성료&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45R09iM19URkdLTTktUUI2cGZiRVR6LUd2NWRfUnJ0dWFmRjNMVUtfWXczbXJTZlZ6b2VxdGVaeENFZ2puRUNMakhSNWxaYWtJQXJpdEJhSnRtXzJYMlFHV2FJYW1XNXFSeG4w?oc=5",
+      "pub_date": "Tue, 05 Mar 2019 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-04T05:40:56.880633+00:00"
     },
     {
       "source": "dailypharm",
