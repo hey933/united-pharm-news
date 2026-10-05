@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T05:41:18.336617+00:00",
+  "updated_at": "2026-10-05T05:24:44.806172+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -170,6 +170,26 @@
       "pub_date": "Thu, 03 Sep 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T01:17:01.374773+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "유나이티드제약, 우크라이나 GMP 재인증…현장실사 통과 - v.daum.net",
+      "summary": "유나이티드제약, 우크라이나 GMP 재인증…현장실사 통과&nbsp;&nbsp;v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RVnNFUHYzRHhudHp5MThTU3B1dG5rdmEzUFJRS3RLd1Fuc2dsRmRtbVZBcEJNMW5xZ0l2cE5EeWlnVkk1eFBLQ2JYSzBxbEVoQnN1RA?oc=5",
+      "pub_date": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-04T00:30:46.030282+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "[바이오 브리핑] 대웅제약, 국제약품, 한국유나이티드제약 - v.daum.net",
+      "summary": "[바이오 브리핑] 대웅제약, 국제약품, 한국유나이티드제약&nbsp;&nbsp;v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vdWsyRW41dUlKcW9NSkx5ek5KVUd5Wll6NlBGX211VlZaanJJeVN0aEhrYzJmUnp1c09kM3dLQnFPNUIyQTBfRmNOZVJ1bzdSNU9ubg?oc=5",
+      "pub_date": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-04T01:37:24.421221+00:00"
     },
     {
       "source": "pharmnews",
@@ -588,26 +608,6 @@
       "pub_date": "Thu, 04 Jun 2026 02:35:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-03T00:14:08.859481+00:00"
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "유나이티드제약, 우크라이나 GMP 재인증…현장실사 통과 - v.daum.net",
-      "summary": "유나이티드제약, 우크라이나 GMP 재인증…현장실사 통과&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260903115145051",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-04T00:30:46.030282+00:00"
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
-      "title": "[바이오 브리핑] 대웅제약, 국제약품, 한국유나이티드제약 - v.daum.net",
-      "summary": "[바이오 브리핑] 대웅제약, 국제약품, 한국유나이티드제약&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/20260903133725039?f=p",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-04T01:37:24.421221+00:00"
     },
     {
       "source": "daum",
@@ -1562,6 +1562,16 @@
     {
       "source": "pharmnews",
       "label": "팜뉴스",
+      "title": "한국유나이티드제약, 베트남 호치민 국립음악원과 함께 송년 가족음악회 개최 - pharmnews.com",
+      "summary": "한국유나이티드제약, 베트남 호치민 국립음악원과 함께 송년 가족음악회 개최&nbsp;&nbsp;pharmnews.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95LTg1Rjh4RHhWMkhlQzBXS1daa3Q2el9YcTNFTF9KRlNKV0Fla3ZpUV9uNE5DcGRHLWJUOWh5ZjUxOE12WnpkQm01Qlg5cFZQRFMxSU1nMlcxRmhDbzZiWFlXdVg2bW1IN2o3RQ?oc=5",
+      "pub_date": "Tue, 17 Dec 2024 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-05T05:24:27.076819+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
       "title": "[동정] 한국유나이티드제약, 강남구청장 감사장 수상 - 팜뉴스",
       "summary": "[동정] 한국유나이티드제약, 강남구청장 감사장 수상&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EcDY0eGdzNVNCV1VXdzBPMFhFbktBVnRHMUFTeVBoX2s3amtvT0RpQVJKTkppYmRyakZGeThhTTZDZXhmUW9rNlM1WXlWLWkxLXJYb0xtSWRkdjAtbjl3Rjd5QndZbllVTVNsSQ?oc=5",
@@ -1608,6 +1618,16 @@
       "pub_date": "Mon, 21 Oct 2024 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-04T05:40:15.627133+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "﻿한국유나이티드제약 '창립 37주년 기념행사' 개최 - 데일리팜",
+      "summary": "﻿한국유나이티드제약 '창립 37주년 기념행사' 개최&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiY0xwR1FqOW5RRHZGX0FYRDhoWDltdTRITXdmXzZsaHZxTldIcDBuUlFsbWlJX3o3ajl2MTAwRm13TEtsREdyTEQyXzl5WEZUejRIUQ?oc=5",
+      "pub_date": "Mon, 21 Oct 2024 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-05T05:23:46.871517+00:00"
     },
     {
       "source": "daum",
@@ -1980,6 +2000,16 @@
       "collected_at": "2026-09-20T00:26:25.405929+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 식약처와 국가안보태세 을지연습 실시 - 데일리팜",
+      "summary": "유나이티드, 식약처와 국가안보태세 을지연습 실시&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGV3M0UUt0S3FJMHY3MXFHcGNWVkpTNFFHTDNNVFN4aTZVR3pBbWl6cUt5RGwtM041SjFDUkM3cGhBNEtLaUE0VWxIR2w2bVNkdkE?oc=5",
+      "pub_date": "Thu, 24 Aug 2023 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-05T05:23:46.871722+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드제약,알레르기비염 치료제 'UI064' 임상3상 IND 변경승인 신청 - 팜뉴스",
@@ -2277,6 +2307,16 @@
       "pub_date": "Wed, 22 Feb 2023 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-02T05:24:51.017071+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약 강원호 대표, 아주대 약학박사 취득 - pharmnews.com",
+      "summary": "한국유나이티드제약 강원호 대표, 아주대 약학박사 취득&nbsp;&nbsp;pharmnews.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TamhOd3lFblN1ajVYMExLR19CcTFXV0ZwNEZjTXF0LTU1SGdKT2JrQV9vdERlWU5acGp2NndBbU0yVm03VjhIeVA2X1lKdXpQdm1JUm1KUU1zNTVJWjl5SHlUcUkzdHYzd2swTw?oc=5",
+      "pub_date": "Wed, 22 Feb 2023 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-05T05:24:27.076883+00:00"
     },
     {
       "source": "pharmnews",
@@ -3848,6 +3888,16 @@
       "collected_at": "2026-10-03T05:07:41.229909+00:00"
     },
     {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드, ‘스마트 공장’ 가동…성장 가속화 - pharmnews.com",
+      "summary": "유나이티드, ‘스마트 공장’ 가동…성장 가속화&nbsp;&nbsp;pharmnews.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YOFUtWGMwN3dlQUFNM3NSLWtOVGYteWZWbnItZy1xelQ4aU85WWhlenVpZ01Fclh1V1k0WnNhUHcxeHhBSUFsR3I4VTVqbUtOdnpIc1ZvbkFLREtwejJ3WGJWSkVxamZQSkZn?oc=5",
+      "pub_date": "Thu, 23 Mar 2017 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-05T05:24:27.076839+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드, 프레탈 특허도전 성공…실로스탄CR 호재 - 데일리팜",
@@ -3996,6 +4046,16 @@
       "pub_date": "Fri, 22 Jul 2016 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:09:52.520798+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드ㆍ유통협, 제품 공급 정상화 - pharmnews.com",
+      "summary": "유나이티드ㆍ유통협, 제품 공급 정상화&nbsp;&nbsp;pharmnews.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLVTFxeFlqQTRLbHlkWkZIaHA3MlF6N3JHLUhzSGpKV2hsZ2RRTUdMVmRWQWd6OVA4eVRYbWgya29YQ2FPcmpGTDFjeWxZd0xYNHRqbzB3Yk9RQW0xZ0VteEloNEpWQ016TGcw?oc=5",
+      "pub_date": "Thu, 14 Jul 2016 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-05T05:24:27.076825+00:00"
     },
     {
       "source": "dailypharm",
