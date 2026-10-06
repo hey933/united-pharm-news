@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T05:24:44.806172+00:00",
+  "updated_at": "2026-10-06T06:08:38.483995+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -150,6 +150,16 @@
       "pub_date": "Mon, 14 Sep 2026 01:44:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-15T00:26:08.721796+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "유나이티드제약 세종1공장, 우크라이나 GMP 재인증…동유럽 사업박차 - v.daum.net",
+      "summary": "유나이티드제약 세종1공장, 우크라이나 GMP 재인증…동유럽 사업박차&nbsp;&nbsp;v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1lNThVR1BPaXhlcHhaV05ZNGljdVFjRnIyajJtS2VhUTJzRTdtLUUyR0Y2cjIzd1V4NlkwSUd4eG5VWGFMTGtWbEtfdw?oc=5",
+      "pub_date": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-05T00:29:02.615997+00:00"
     },
     {
       "source": "dailypharm",
@@ -612,16 +622,6 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "유나이티드제약 세종1공장, 우크라이나 GMP 재인증…동유럽 사업박차 - v.daum.net",
-      "summary": "유나이티드제약 세종1공장, 우크라이나 GMP 재인증…동유럽 사업박차&nbsp;&nbsp;v.daum.net",
-      "url": "https://v.daum.net/v/4VOxEYcnuR?f=p",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-05T00:29:02.615997+00:00"
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
       "title": "[제약가 상속자들⑦] 지분 넘겨받은 강원호…유나이티드제약 '2세 시대' 활짝 - v.daum.net",
       "summary": "[제약가 상속자들⑦] 지분 넘겨받은 강원호…유나이티드제약 '2세 시대' 활짝&nbsp;&nbsp;v.daum.net",
       "url": "https://v.daum.net/v/20260812110034979",
@@ -737,6 +737,16 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CTDhjaEE0R2VmaTRkVG8xZFhZTU5qZUluOFZ5U0htNDJRcFdwSkNEUHp3U2dQZ2pWQzZZemk0Uk9yZ3pXUGpXSDJuQlo1UFE?oc=5",
       "pub_date": "Wed, 08 Apr 2026 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:51.552142+00:00",
+      "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
+      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MTk9xYmJONjB3Umo4ZDc2V0xpbTVuMUJpeG5WVE12WlpQWHNTRVgySXo0aGp2NXVpSXdkckdYX2dXbG9hbEN0TTdjYzVjcGM?oc=5",
+      "pub_date": "Sat, 14 Mar 2026 14:02:19 GMT",
+      "collected_at": "2026-08-26T07:49:03.688665+00:00",
       "date_estimated": false
     },
     {
@@ -1635,7 +1645,7 @@
       "title": "유나이티드제약, 세종에 3번째 공장 짓는 까닭은 - v.daum.net",
       "summary": "유나이티드제약, 세종에 3번째 공장 짓는 까닭은&nbsp;&nbsp;v.daum.net",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mZ2JkYWpOS3F2aUdqR09WdmNuWU8xd2xVUXdkX2xDbGFHQ0tKTEN6QzlQdjRzdWhTQnlHXzJKVjNLdlhXeTBvdmNFWQ?oc=5",
-      "pub_date": "Thu, 15 Aug 2024 07:00:00 GMT",
+      "pub_date": "Wed, 14 Aug 2024 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-02T05:25:15.252498+00:00"
     },
@@ -3438,16 +3448,6 @@
       "date_estimated": false
     },
     {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
-      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MTk9xYmJONjB3Umo4ZDc2V0xpbTVuMUJpeG5WVE12WlpQWHNTRVgySXo0aGp2NXVpSXdkckdYX2dXbG9hbEN0TTdjYzVjcGM?oc=5",
-      "pub_date": "Tue, 23 Apr 2019 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:03.688665+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드제약, 남아공 항암제 시장 진출 - 팜뉴스",
@@ -4056,6 +4056,16 @@
       "pub_date": "Thu, 14 Jul 2016 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-05T05:24:27.076825+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드ㆍ유통협, 제품 공급 정상화 - 팜뉴스",
+      "summary": "유나이티드ㆍ유통협, 제품 공급 정상화&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLVTFxeFlqQTRLbHlkWkZIaHA3MlF6N3JHLUhzSGpKV2hsZ2RRTUdMVmRWQWd6OVA4eVRYbWgya29YQ2FPcmpGTDFjeWxZd0xYNHRqbzB3Yk9RQW0xZ0VteEloNEpWQ016TGcw?oc=5",
+      "pub_date": "Thu, 14 Jul 2016 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-06T06:08:21.048998+00:00"
     },
     {
       "source": "dailypharm",
