@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T05:43:34.644704+00:00",
+  "updated_at": "2026-10-08T05:51:50.418322+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -24,22 +24,22 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "한국유나이티드·바이오켐, 추석 성금 1800만원 전달 - 데일리팜",
+      "summary": "한국유나이티드·바이오켐, 추석 성금 1800만원 전달&nbsp;&nbsp;데일리팜",
+      "url": "https://dailypharm.com/user/news/342787",
+      "pub_date": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-29T05:33:54.206159+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "한국유나이티드·바이오켐, 추석 성금 1800만원 전달 - dailypharm.com",
       "summary": "한국유나이티드·바이오켐, 추석 성금 1800만원 전달&nbsp;&nbsp;dailypharm.com",
       "url": "https://dailypharm.com/user/news/342787",
       "pub_date": "Tue, 22 Sep 2026 06:24:05 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:08:51.653391+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "한국유나이티드·바이오켐, 추석 성금 1800만원 전달 - 데일리팜",
-      "summary": "한국유나이티드·바이오켐, 추석 성금 1800만원 전달&nbsp;&nbsp;데일리팜",
-      "url": "https://m.dailypharm.com/user/news/342787",
-      "pub_date": "Tue, 22 Sep 2026 06:24:05 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-29T05:33:54.206159+00:00"
     },
     {
       "source": "yakup",
@@ -938,6 +938,16 @@
       "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-02T05:25:15.252463+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "유나이티드제약, 비만약 체인 구축…\"개발부터 생산까지\" - Daum",
+      "summary": "유나이티드제약, 비만약 체인 구축…\"개발부터 생산까지\"&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9yMENDVXZsYTlpQk5uVGZDQzR4UUhJUWhUUU92cU9xYmlEU1FxVllpOXUzZmVTc3cybWlKQ0todGZQamM2MVdkRUp4RQ?oc=5",
+      "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-08T05:51:48.913999+00:00"
     },
     {
       "source": "dailypharm",
@@ -4046,6 +4056,16 @@
       "pub_date": "Fri, 03 Feb 2017 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-17T00:25:02.791805+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "벤조피렌 미저감화, 유나이티드 '스타렉신' 강제회수 - 데일리팜",
+      "summary": "벤조피렌 미저감화, 유나이티드 '스타렉신' 강제회수&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ON19sekNtNE9BNWZQUTJtM2ptajl3d29nSjc5WkdEa1JNMUg4NEFQd1otNnViY1ItUFNuOHktcUVJbkFLM1BYLVdxcnk4cVlQ?oc=5",
+      "pub_date": "Thu, 20 Oct 2016 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-08T05:50:52.102502+00:00"
     },
     {
       "source": "pharmnews",
