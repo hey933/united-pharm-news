@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T05:39:08.293794+00:00",
+  "updated_at": "2026-10-11T05:35:18.998067+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -528,6 +528,16 @@
       "pub_date": "Mon, 15 Jun 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.602009+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "한국유나이티드제약 ‘디티아이주200㎎’ 생산·공급 정상화 - Daum",
+      "summary": "한국유나이티드제약 ‘디티아이주200㎎’ 생산·공급 정상화&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WVGhWaEw5ajd6RWpTejRzVVIxcHJ5bmcwc2Z0NTlmY0xfYVNoNXlYREVLbjNZc3g3QXlVQW9TOGg4R0d2WGU5cWxQTzUwb0U?oc=5",
+      "pub_date": "Mon, 15 Jun 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-11T05:35:17.492875+00:00"
     },
     {
       "source": "daum",
@@ -4475,6 +4485,16 @@
       "pub_date": "Tue, 23 Oct 2012 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:09:52.520739+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드제약, 유럽 진출 교두보 마련 - 팜뉴스",
+      "summary": "유나이티드제약, 유럽 진출 교두보 마련&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80NkNvQjhSdDd4QWZTcndBRzRoTTNBSVNGdGtoY0UzWlJha0dLeUNQbTVmNkNTSmZibS1HOTR6R0tuZ3hLTlhPT1BVZXRFQkI4SnlBUVllcVVJVG5qdXNzaEEzeHpvTXFCQ3Bz?oc=5",
+      "pub_date": "Mon, 03 Sep 2012 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-11T05:35:02.953191+00:00"
     },
     {
       "source": "dailypharm",
