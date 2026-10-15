@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T04:42:13.494396+00:00",
+  "updated_at": "2026-10-15T04:24:45.488911+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -960,6 +960,16 @@
       "collected_at": "2026-10-08T05:51:48.913999+00:00"
     },
     {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "한국유나이티드제약, 소분자 GLP-1 개발 착수 - Daum",
+      "summary": "한국유나이티드제약, 소분자 GLP-1 개발 착수&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzbTBDRmpiaW9iMmxiaUdWX0hhT1JWREhELVZVck1LWDlkSTFRdlp3eFFsdXZhbEJZOHFPeXNucVZMWllKRHRmTU1BRHVSRW8?oc=5",
+      "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-15T04:24:43.983078+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드, 10년 연속 이익률 15%↑…개량신약의 힘 - 데일리팜",
@@ -1428,6 +1438,16 @@
       "pub_date": "Tue, 09 Sep 2025 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-02T00:31:37.566013+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "[단독]“영업목표 못채우면 퇴사” 서약서 강요…한국유나이티드 ‘시대착오’ 경영 - Daum",
+      "summary": "[단독]“영업목표 못채우면 퇴사” 서약서 강요…한국유나이티드 ‘시대착오’ 경영&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02eUhOVjQtVVB4dHNDcGhKWWJZRTh0d2NxOWloU21XSml6clhTcEI2SDVaamEzY0JqY2lhaE1TdXUzSUhpcVBNTVlZbWhvUlk?oc=5",
+      "pub_date": "Tue, 09 Sep 2025 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-15T04:24:43.983041+00:00"
     },
     {
       "source": "dailypharm",
