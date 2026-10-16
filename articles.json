@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T04:24:45.488911+00:00",
+  "updated_at": "2026-10-16T04:20:06.646709+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -126,8 +126,8 @@
       "label": "팜뉴스",
       "title": "한국유나이티드제약, 창립 39주년 기념식 - 팜뉴스",
       "summary": "한국유나이티드제약, 창립 39주년 기념식&nbsp;&nbsp;팜뉴스",
-      "url": "https://www.pharmnews.com/news/articleView.html?idxno=306275",
-      "pub_date": "Mon, 14 Sep 2026 01:44:47 GMT",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fdlpsRngxeW5EQUxjTlAwWGg5Xy1uNXJpSkg2TlcxTXNLV0E1cm02S2pURHBKUE1TX0ZObXA4UW85eVVOOGpSWkZBX1hTSGp5RXZRRWszLVlJS3dQQXN5bUNvOVpnbTdBWFpLRw?oc=5",
+      "pub_date": "Mon, 14 Sep 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-15T00:27:49.940655+00:00"
     },
@@ -3490,6 +3490,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "유나이티드제약 '페노릭스EH정', 식약처 특허 등재 - 데일리팜",
+      "summary": "유나이티드제약 '페노릭스EH정', 식약처 특허 등재&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HUEVmUWJpRVhtVlljcEFoNkdUZm9qc1d3TDlTOE5MQjBZRUhIY002b2hqbnpRTWI3TGNrQWJWQWZjV2dGbWJBTzdVbkpRSW43VjNVNUR1Z3JYOHVSNi1BMw?oc=5",
+      "pub_date": "Thu, 14 May 2020 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-16T04:19:14.407000+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드제약, '간치료 물질' 유럽 특허 등록 - dailypharm.com",
       "summary": "유나이티드제약, '간치료 물질' 유럽 특허 등록&nbsp;&nbsp;dailypharm.com",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZNWZ3cWsxb2hnUmFINzNHZHhMdjNUQXlOTmFYQTR0cDVNUE1HZWdaV1RLeXNBOW13cXZaWDdJNXAwdDVOSVBaN2F2TUgwUG1MdG92OGh5R3J0cTktVHRMbE9WcTlrLUFXNm1vczI5bkRrcXZEY3UzYTgwY18?oc=5",
@@ -3616,6 +3626,16 @@
       "pub_date": "Thu, 27 Jun 2019 07:00:00 GMT",
       "collected_at": "2026-08-26T07:49:03.688667+00:00",
       "date_estimated": false
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약, '오메틸큐티렛연질캡슐' 시판허가 - 데일리팜",
+      "summary": "유나이티드제약, '오메틸큐티렛연질캡슐' 시판허가&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aRE82NXBfTEZfQy1CTGN6NlJzTVpuYlZuOXdweVB2S0RFRHo0OGJEdlpzUUJKajg5VENZa0JnVmU0UUY2X2c3T1dxQWMtSWpMUkE?oc=5",
+      "pub_date": "Wed, 24 Apr 2019 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-16T04:19:14.406957+00:00"
     },
     {
       "source": "pharmnews",
