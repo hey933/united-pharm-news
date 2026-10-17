@@ -1,16 +1,6 @@
 {
-  "updated_at": "2026-10-16T04:20:06.646709+00:00",
+  "updated_at": "2026-10-17T04:10:48.558834+00:00",
   "articles": [
-    {
-      "source": "pharmnews",
-      "label": "팜뉴스",
-      "title": "한국유나이티드제약·한국바이오켐제약, 세종시에 추석 이웃사랑 성금 기탁 - 팜뉴스",
-      "summary": "한국유나이티드제약·한국바이오켐제약, 세종시에 추석 이웃사랑 성금 기탁&nbsp;&nbsp;팜뉴스",
-      "url": "https://www.pharmnews.com/news/articleView.html?idxno=306486",
-      "pub_date": "Tue, 22 Sep 2026 07:30:45 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-23T00:24:37.803334+00:00"
-    },
     {
       "source": "pharmnews",
       "label": "팜뉴스",
@@ -20,6 +10,16 @@
       "pub_date": "Tue, 22 Sep 2026 07:30:45 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:09:52.520655+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약·한국바이오켐제약, 세종시에 추석 이웃사랑 성금 기탁 - 팜뉴스",
+      "summary": "한국유나이티드제약·한국바이오켐제약, 세종시에 추석 이웃사랑 성금 기탁&nbsp;&nbsp;팜뉴스",
+      "url": "https://www.pharmnews.com/news/articleView.html?idxno=306486",
+      "pub_date": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-23T00:24:37.803334+00:00"
     },
     {
       "source": "dailypharm",
@@ -70,6 +70,16 @@
       "pub_date": "Tue, 15 Sep 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.343874+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "동남아 공공의료 문턱넘었다…유나이티드제약, 말레이 국립병원에 항암제 공급 - Daum",
+      "summary": "동남아 공공의료 문턱넘었다…유나이티드제약, 말레이 국립병원에 항암제 공급&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBaSWVtTGtMdzJZYUV4NU55RkJNeVFlY1lKNXNLRDF5WmFrdHk0SzBIYUQ0YzlLMnNzRG1GcVM4SEJzUHRaNlRmVDJVQQ?oc=5",
+      "pub_date": "Tue, 15 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-07T05:43:33.142038+00:00"
     },
     {
       "source": "pharmnews",
@@ -752,16 +762,6 @@
     {
       "source": "daum",
       "label": "다음뉴스",
-      "title": "동남아 공공의료 문턱넘었다…유나이티드제약, 말레이 국립병원에 항암제 공급 - Daum",
-      "summary": "동남아 공공의료 문턱넘었다…유나이티드제약, 말레이 국립병원에 항암제 공급&nbsp;&nbsp;Daum",
-      "url": "https://v.daum.net/v/8DFPo3GhUo?f=p",
-      "pub_date": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-10-07T05:43:33.142038+00:00"
-    },
-    {
-      "source": "daum",
-      "label": "다음뉴스",
       "title": "유나이티드제약, 말레이시아 항암제 입찰 첫 수주 - Daum",
       "summary": "유나이티드제약, 말레이시아 항암제 입찰 첫 수주&nbsp;&nbsp;Daum",
       "url": "https://v.daum.net/v/20260915151538376",
@@ -828,6 +828,16 @@
       "pub_date": "Tue, 12 May 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.343900+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 필리핀 파트너사와 수출 확대 전략회의 개최 - 팜뉴스",
+      "summary": "한국유나이티드제약, 필리핀 파트너사와 수출 확대 전략회의 개최&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxZFhYbVktb3VMcEFWMmdMYmVacFpxT1ZrSk4zRWduOHppLW1EY2JKcWRKX2p6LXRvaDk1Zm9zajdtSUpDOXZkWEFSazZ5QXZnd3JjdkdQZlA1UlNHZEgyVm9TUzJGMjlnbGdESw?oc=5",
+      "pub_date": "Tue, 28 Apr 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-17T04:10:40.531065+00:00"
     },
     {
       "source": "daum",
@@ -1358,6 +1368,16 @@
       "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:09:52.521038+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "한국유나이티드제약, 필리핀에 MRI 조영제 시장 진출…“코트라로부터 큰 도움” - Daum",
+      "summary": "한국유나이티드제약, 필리핀에 MRI 조영제 시장 진출…“코트라로부터 큰 도움”&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1pTG1uVWpsV1lPc0pSZnBBRVB4NnNrZjEyRkRrQThHY2Rkd2l3Uktpek02XzhSYTVwSW1VaEh0bVVWU3VfRlJHR05KMUExYTVmaDNNMw?oc=5",
+      "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-17T04:10:47.053862+00:00"
     },
     {
       "source": "pharmnews",
@@ -1898,6 +1918,16 @@
       "pub_date": "Thu, 25 Apr 2024 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-10T00:25:23.038278+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약 신규 ADC 항암제 개발 추진 - 데일리팜",
+      "summary": "유나이티드제약 신규 ADC 항암제 개발 추진&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11QndyenczbFI4ZkYwZHVyTmd0dk5GaUdvRWlNcVdIYVd5QTN1VUhvY2lqWGJjWVRmbzhwcmtmdlp5cE5OSmFQUmV0Rk9iSml2?oc=5",
+      "pub_date": "Thu, 25 Apr 2024 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-17T04:09:59.526519+00:00"
     },
     {
       "source": "dailypharm",
