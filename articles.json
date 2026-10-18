@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T04:10:48.558834+00:00",
+  "updated_at": "2026-10-18T04:18:42.470201+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -4080,6 +4080,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "유나이티드, 레보투스 개량신약 7월 발매 - 데일리팜",
+      "summary": "유나이티드, 레보투스 개량신약 7월 발매&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0QkZhRFRmV2tOeHZZUHZmSlVYdkZlNWJnY1hUUzdZZFUwU1MzRkxLWEFiSjFaX0E2VTN1TmpvdjNxZDZwMTNkNTUwZUhLQzJU?oc=5",
+      "pub_date": "Wed, 26 Apr 2017 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-18T04:17:44.938937+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드 등 3사, 레보드로프로피진 서방정 첫 허가 - 데일리팜",
       "summary": "유나이티드 등 3사, 레보드로프로피진 서방정 첫 허가&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83NllhRk40R1pLVXgzck94NFFDVnNPLThwY0cyTDQzZkg2ZnJaWTNXTkF6bkh4X3dYdWtiLUpmWlpFVjdDZ3ZFbTlGeTZyLTVlcVgyaElRa0QtMGZ3X2RnQjhn?oc=5",
@@ -4384,7 +4394,8 @@
       "summary": "유나이티드, 해의 의약품 공무원 초청&nbsp;&nbsp;팜뉴스",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuQWE1enBudGxyQlFNODFpTXd6aGpnRXpId05qb1BVNW4yTkVBTjhxOTlUS1FJSTNuSXMwUVBKVl9mVGF1SnZYakRqUDFsR0JfYWdQc3Y2bjBjdlpWOWZydjRldjI2Zld4TXRR?oc=5",
       "pub_date": "Thu, 19 May 2016 07:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:34.502481+00:00"
+      "collected_at": "2026-08-26T07:50:34.502481+00:00",
+      "date_estimated": false
     },
     {
       "source": "pharmnews",
@@ -4815,6 +4826,16 @@
       "pub_date": "Fri, 07 Dec 2007 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T01:17:01.375184+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "[제약특집]유나이티드, 종합감기약 '알카펜네이잘' - Daum",
+      "summary": "[제약특집]유나이티드, 종합감기약 '알카펜네이잘'&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE53X2xOM3dqYkZkZUh3MjVkZkR4WHhSc25UZkpuYlRwVnRQak1VeFhIUGh0bTltUHE4R1dlTUZaazdTa1ZDbkhUTGs2cw?oc=5",
+      "pub_date": "Tue, 27 Nov 2007 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-18T04:18:40.966274+00:00"
     },
     {
       "source": "pharmnews",
