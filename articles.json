@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T04:18:42.470201+00:00",
+  "updated_at": "2026-10-19T04:27:11.746559+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -578,6 +578,16 @@
       "pub_date": "Wed, 10 Jun 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-07T05:43:33.142052+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "[Invest&Law]유나이티드제약, 건보공단 약값 소송 최종승소 - Daum",
+      "summary": "[Invest&Law]유나이티드제약, 건보공단 약값 소송 최종승소&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9VTXhYamEteGVSYlhVQUx4QUVTTVRrRm00d04zV0M0T3pBNmVSa1pwR2ZQeG1jMTQxeXdBMUFZbGZsSV9QbUE?oc=5",
+      "pub_date": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-19T04:27:10.241301+00:00"
     },
     {
       "source": "pharmnews",
@@ -1532,6 +1542,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "유나이티드·중외, 피타바스타틴+페노피브릭산 급여 등재 - 데일리팜",
+      "summary": "유나이티드·중외, 피타바스타틴+페노피브릭산 급여 등재&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jSVNhRUUtTDhxVnFHR0J1Z3F1cV9fa1pick1teWExNHZOS1VhSEdvYWNvQW5wR1dBemF2aldVMGZENlJRXzAwVmdqTDY0Zw?oc=5",
+      "pub_date": "Mon, 21 Jul 2025 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-19T04:26:19.436557+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드 '피타릭캡슐' 8월 발매…고지혈증 라인업 강화 - 데일리팜",
       "summary": "유나이티드 '피타릭캡슐' 8월 발매…고지혈증 라인업 강화&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jc0JadmlfMTR2VDJRejFFWGdJTlFzTS0tOWdXSDFXaXhidmRmRUdtWF9fdk9Dd1FOSWViQTl1V082bmNuaENKd1VJODFsNHktSnBCb1VIR2pMcjB4a0RfNGV1ZkhyUnYtN29WaFNub0dwbVhUQ0FUbUd1S3pkdw?oc=5",
@@ -2188,6 +2208,16 @@
       "pub_date": "Fri, 15 Sep 2023 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:09:52.520840+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약, 베트남·필리핀 수출 계약 체결 - 데일리팜",
+      "summary": "유나이티드제약, 베트남·필리핀 수출 계약 체결&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxMmpIbGRCVzFuTDZLZUFSTzNMcDJWYUpkNkgxVENabTJFVXE4eVA0b1cwREsyaEhSUzRiT2xlcFdyWWdHaTEtT1VBa2xncEItNkNERQ?oc=5",
+      "pub_date": "Fri, 15 Sep 2023 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-19T04:26:19.436378+00:00"
     },
     {
       "source": "dailypharm",
@@ -4126,6 +4156,16 @@
       "pub_date": "Thu, 23 Mar 2017 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-05T05:24:27.076839+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 국내 첫 베트남공장 'PIC/s' GMP 인증 - 데일리팜",
+      "summary": "유나이티드, 국내 첫 베트남공장 'PIC/s' GMP 인증&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MNDY1NjFoUDRsU1c0XzhaVTR3VG55bG14cVVCbzdjRjFZTDlXOFo2Nm84bFJ2bWMyM2t4cTZ0V1BHWnBxRVR4QWRLQWptRjZh?oc=5",
+      "pub_date": "Tue, 14 Feb 2017 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-19T04:26:19.436443+00:00"
     },
     {
       "source": "dailypharm",
