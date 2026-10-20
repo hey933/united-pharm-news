@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T04:27:11.746559+00:00",
+  "updated_at": "2026-10-20T04:37:52.849924+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -988,6 +988,16 @@
       "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-15T04:24:43.983078+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "유나이티드제약-유엔에스바이오, 비만약 개발·생산 협력​ - Daum",
+      "summary": "유나이티드제약-유엔에스바이오, 비만약 개발·생산 협력​&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMWTF4WmdLWThPejFNRnR5S2hJMUVTNzdPRVZPNmZiSm1pa0pVc3NNeXp5bTB2RUNzckRodDhqWkFHVXpNbjVXS2x4UQ?oc=5",
+      "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-20T04:37:51.344800+00:00"
     },
     {
       "source": "dailypharm",
@@ -2467,6 +2477,16 @@
       "pub_date": "Mon, 20 Mar 2023 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.001015+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약, '가스티인CR' 필리핀 심포지엄 개최 - 데일리팜",
+      "summary": "유나이티드제약, '가스티인CR' 필리핀 심포지엄 개최&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZWkxJQlNJQTF3aE5KeU9kYkhQcHdnRTlMeUdZZExkaFFDMDBRNzFjcG5KYVZuM1VLNGkwVzZXVWtkSWhHNkwzNmVWRTEtaVU?oc=5",
+      "pub_date": "Thu, 16 Mar 2023 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-20T04:37:05.153232+00:00"
     },
     {
       "source": "pharmnews",
