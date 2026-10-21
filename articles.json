@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T04:37:52.849924+00:00",
+  "updated_at": "2026-10-21T04:30:55.057419+00:00",
   "articles": [
     {
       "source": "pharmnews",
@@ -1128,6 +1128,16 @@
       "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.601984+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 호흡기약 '칼로민정' 제제 개선 임상 착수 - 데일리팜",
+      "summary": "유나이티드, 호흡기약 '칼로민정' 제제 개선 임상 착수&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RN2E2aWxOcy1QVzUtRkJHSHZVZXZycmxNR0w4T2hWWWJaNHQ5LVBvM1Ryei1DT2JIa2JWQXBfY2dNQmdnbTVlUFJrZ2tRLUVf?oc=5",
+      "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-21T04:30:09.822797+00:00"
     },
     {
       "source": "dailypharm",
@@ -3129,6 +3139,16 @@
       "collected_at": "2026-10-02T05:24:51.017167+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약 '실로스탄CR정', 대만 특허 등록 - 데일리팜",
+      "summary": "유나이티드제약 '실로스탄CR정', 대만 특허 등록&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IVVU4am92aFdpM21qV1JIVGExRDloX3BST1c1ZnhiZHNPdGZHYUI1Q2JVbkN5a3l5SWZRSGxST1FsRXRLWnpSZGM2SjJVbVdZcWdPRWQ4S1BBZVo0?oc=5",
+      "pub_date": "Thu, 04 Nov 2021 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-21T04:30:09.822877+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드제약, ‘레보틱스CR’ 제네릭 허가사 특허권 침해금지 가처분 신청 - 팜뉴스",
@@ -3936,6 +3956,16 @@
       "pub_date": "Mon, 27 Aug 2018 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.602155+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 홈타민 모조품 생산 中기업에 강력 대응 - 데일리팜",
+      "summary": "유나이티드, 홈타민 모조품 생산 中기업에 강력 대응&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QeW5GS3h2X3BBOG5qeUt2X0tiR2gtQXJZM3MxZE03STVkdXZPT01qcEQ0TmVzZXJ5RDItcUVHVHU2YlU4Mk9qZ3FkcDNSR0E4ODhLYQ?oc=5",
+      "pub_date": "Thu, 31 May 2018 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-21T04:30:09.822811+00:00"
     },
     {
       "source": "pharmnews",
