@@ -1,6 +1,16 @@
 {
-  "updated_at": "2026-10-24T04:24:45.838021+00:00",
+  "updated_at": "2026-10-25T04:28:28.968606+00:00",
   "articles": [
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "\"필리핀 찍고 베트남까지\"…유나이티드제약, 항암제 47억 계약 - 데일리팜",
+      "summary": "\"필리핀 찍고 베트남까지\"…유나이티드제약, 항암제 47억 계약&nbsp;&nbsp;데일리팜",
+      "url": "https://www.dailypharm.com/user/news/343763",
+      "pub_date": "Sun, 25 Oct 2026 02:30:14 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-25T04:27:42.639824+00:00"
+    },
     {
       "source": "pharmnews",
       "label": "팜뉴스",
@@ -1448,6 +1458,16 @@
       "pub_date": "Mon, 20 Oct 2025 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.601918+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 해외 바이어와 클래식으로 소통 - 팜뉴스",
+      "summary": "한국유나이티드제약, 해외 바이어와 클래식으로 소통&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qRENzNFVKQndnRlFXak5jeUZBbGluSU1xT3dhMG0tQXdoZHV1b21UREMzZkp0WC1hQk5TYUc5N201OTBONXNxZzRublJReHYyOEZtaEtIOGlaeWtzWW5aWTZHUV9TMnNESzFZOQ?oc=5",
+      "pub_date": "Fri, 17 Oct 2025 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-25T04:28:24.540789+00:00"
     },
     {
       "source": "pharmnews",
