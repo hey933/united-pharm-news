@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T04:28:28.968606+00:00",
+  "updated_at": "2026-10-26T04:31:01.250953+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -124,22 +124,22 @@
     {
       "source": "pharmnews",
       "label": "팜뉴스",
+      "title": "유나이티드제약, 말레이시아 정부 병원에 항암제 '하이드린캡슐' 공급 계약 체결 - 팜뉴스",
+      "summary": "유나이티드제약, 말레이시아 정부 병원에 항암제 '하이드린캡슐' 공급 계약 체결&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tV3NSQUgyWjJOMWFSVFF1bUtXWXoyelhKMzZWVHNJXzdEWC16eVdEWTRWN05rSkV4QjAycGhVd2hxQi1RRWdEbE9lcUVRVXEzR29kaFVHQWh3OXYyOEtuN1VZWksxSEF4eVdVdQ?oc=5",
+      "pub_date": "Tue, 15 Sep 2026 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-09-17T00:25:54.152203+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
       "title": "유나이티드제약, 말레이시아 정부 병원에 항암제 '하이드린캡슐' 공급 계약 체결 - pharmnews.com",
       "summary": "유나이티드제약, 말레이시아 정부 병원에 항암제 '하이드린캡슐' 공급 계약 체결&nbsp;&nbsp;pharmnews.com",
       "url": "https://www.pharmnews.com/news/articleView.html?idxno=306308",
       "pub_date": "Tue, 15 Sep 2026 02:10:32 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:25:47.261928+00:00"
-    },
-    {
-      "source": "pharmnews",
-      "label": "팜뉴스",
-      "title": "유나이티드제약, 말레이시아 정부 병원에 항암제 '하이드린캡슐' 공급 계약 체결 - 팜뉴스",
-      "summary": "유나이티드제약, 말레이시아 정부 병원에 항암제 '하이드린캡슐' 공급 계약 체결&nbsp;&nbsp;팜뉴스",
-      "url": "https://www.pharmnews.com/news/articleView.html?idxno=306308",
-      "pub_date": "Tue, 15 Sep 2026 02:10:32 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-09-17T00:25:54.152203+00:00"
     },
     {
       "source": "yakup",
@@ -900,6 +900,16 @@
       "date_estimated": false
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
+      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MTk9xYmJONjB3Umo4ZDc2V0xpbTVuMUJpeG5WVE12WlpQWHNTRVgySXo0aGp2NXVpSXdkckdYX2dXbG9hbEN0TTdjYzVjcGM?oc=5",
+      "pub_date": "Sat, 14 Mar 2026 14:02:19 GMT",
+      "collected_at": "2026-08-26T07:49:03.688665+00:00",
+      "date_estimated": false
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약, 몽골 간엠파마와 전략적 파트너십 강화… 수출 확대 논의 - 팜뉴스",
@@ -1520,6 +1530,16 @@
       "collected_at": "2026-09-09T00:30:07.274296+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "﻿유나이티드 세종 1공장, 유라시아 경제연합 GMP 승인 - 데일리팜",
+      "summary": "﻿유나이티드 세종 1공장, 유라시아 경제연합 GMP 승인&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8zQ3JhN0F3OUFacDNRSUFtTmlSYTROdnJjUDdRMGh5Rng3d3hPYWxjcEp5WjMtTnFhSkI3eG9ucHNYVFdSRlFZak5FcWlwUQ?oc=5",
+      "pub_date": "Tue, 16 Sep 2025 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-26T04:30:11.172032+00:00"
+    },
+    {
       "source": "daum",
       "label": "다음뉴스",
       "title": "[단독]“영업목표 못채우면 퇴사” 서약서 강요…한국유나이티드 ‘시대착오’ 경영 - v.daum.net",
@@ -1658,16 +1678,6 @@
       "pub_date": "Wed, 25 Jun 2025 23:14:15 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:07.274407+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
-      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zRTNGREhaYXZkTE5oMjREWURvRXNHb3NjN1dPZC1iOUlBcTBkclJpOTV6NTJiSnh4Qk5UQk85am05N0JDQkktNW85a1I3VjFMMDRtOWlrRThQWFli?oc=5",
-      "pub_date": "Wed, 25 Jun 2025 04:31:56 GMT",
-      "collected_at": "2026-08-26T07:49:03.688665+00:00",
-      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -2038,6 +2048,16 @@
       "pub_date": "Fri, 12 Apr 2024 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:08:51.653562+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약·충남대 약대, 장학제도 성과 발표회 - 데일리팜",
+      "summary": "유나이티드제약·충남대 약대, 장학제도 성과 발표회&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBVzM3WUtkbjEyWmdfOWphQUh1V2Ezb2ZINlhSVmNzMm9pME1NWXBBbWxqWUpLdW9zX0hiMGJSYWhqdkhPTk9tM2pHLWo3RllieWc?oc=5",
+      "pub_date": "Mon, 25 Mar 2024 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-26T04:30:11.172231+00:00"
     },
     {
       "source": "dailypharm",
