@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T04:50:14.988562+00:00",
+  "updated_at": "2026-10-28T05:24:46.402889+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -900,6 +900,16 @@
       "date_estimated": false
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
+      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MTk9xYmJONjB3Umo4ZDc2V0xpbTVuMUJpeG5WVE12WlpQWHNTRVgySXo0aGp2NXVpSXdkckdYX2dXbG9hbEN0TTdjYzVjcGM?oc=5",
+      "pub_date": "Sat, 14 Mar 2026 14:02:19 GMT",
+      "collected_at": "2026-08-26T07:49:03.688665+00:00",
+      "date_estimated": false
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약, 몽골 간엠파마와 전략적 파트너십 강화… 수출 확대 논의 - 팜뉴스",
@@ -1668,16 +1678,6 @@
       "pub_date": "Wed, 25 Jun 2025 23:14:15 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:07.274407+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
-      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zRTNGREhaYXZkTE5oMjREWURvRXNHb3NjN1dPZC1iOUlBcTBkclJpOTV6NTJiSnh4Qk5UQk85am05N0JDQkktNW85a1I3VjFMMDRtOWlrRThQWFli?oc=5",
-      "pub_date": "Wed, 25 Jun 2025 04:31:56 GMT",
-      "collected_at": "2026-08-26T07:49:03.688665+00:00",
-      "date_estimated": false
     },
     {
       "source": "dailypharm",
