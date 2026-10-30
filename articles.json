@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T05:34:04.540073+00:00",
+  "updated_at": "2026-10-30T05:34:08.907660+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -4137,6 +4137,16 @@
       "pub_date": "Fri, 02 Feb 2018 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-28T05:11:26.540117+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 히든챔피언 기업에 ‘성장스토리’ 특강 - 데일리팜",
+      "summary": "유나이티드, 히든챔피언 기업에 ‘성장스토리’ 특강&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51ZFNQWTJoN2FuUTRxYmc1M0NEaFY4cE84dHp4SXRHVGxCT3BBLVZVTVdwUWlaTmo2RXdGYWo5U3pIRVZFaHUtMnJKa3VwTVN4cFA4dA?oc=5",
+      "pub_date": "Thu, 07 Sep 2017 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-30T05:33:26.193595+00:00"
     },
     {
       "source": "pharmnews",
