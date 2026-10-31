@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T05:34:08.907660+00:00",
+  "updated_at": "2026-10-31T05:20:45.531072+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -900,16 +900,6 @@
       "date_estimated": false
     },
     {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
-      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MTk9xYmJONjB3Umo4ZDc2V0xpbTVuMUJpeG5WVE12WlpQWHNTRVgySXo0aGp2NXVpSXdkckdYX2dXbG9hbEN0TTdjYzVjcGM?oc=5",
-      "pub_date": "Sat, 14 Mar 2026 14:02:19 GMT",
-      "collected_at": "2026-08-26T07:49:03.688665+00:00",
-      "date_estimated": false
-    },
-    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "한국유나이티드제약, 몽골 간엠파마와 전략적 파트너십 강화… 수출 확대 논의 - 팜뉴스",
@@ -1678,6 +1668,16 @@
       "pub_date": "Wed, 25 Jun 2025 23:14:15 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:07.274407+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장 - 데일리팜",
+      "summary": "유나이티드 서방제 또 흥행조짐…유니그릴CR 고속성장&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zRTNGREhaYXZkTE5oMjREWURvRXNHb3NjN1dPZC1iOUlBcTBkclJpOTV6NTJiSnh4Qk5UQk85am05N0JDQkktNW85a1I3VjFMMDRtOWlrRThQWFli?oc=5",
+      "pub_date": "Wed, 25 Jun 2025 04:31:56 GMT",
+      "collected_at": "2026-08-26T07:49:03.688665+00:00",
+      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -3741,6 +3741,16 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
+      "title": "최연웅 유나이티드 연구소장, 복지부 장관 표창장 - 데일리팜",
+      "summary": "최연웅 유나이티드 연구소장, 복지부 장관 표창장&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8telZMcmdRX1F4bXAwRUZVZkpaSkl2Q21NNXhrNVBmM0dUbEtSYmxFYnBSRzdZLXd0UWdiekp5Tm5HTTFxRWFsVmQ3ajM2MVZ3WFkxTA?oc=5",
+      "pub_date": "Fri, 13 Dec 2019 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-31T05:20:07.258317+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
       "title": "유나이티드제약 클란자CR정, 러시아 GMP 승인 - 데일리팜",
       "summary": "유나이티드제약 클란자CR정, 러시아 GMP 승인&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zUl94NGFwSFFGM2dHeTktLTJ0NEg0U2dRVzFzbzhaenh2RGZQcEJWX0htQ29QYWZBUkJMRGN2TmVkWEw5aDdTWVlJU0JkNGlUbHE2cg?oc=5",
@@ -5784,6 +5794,16 @@
       "pub_date": "Thu, 07 Feb 2002 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.001174+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드, 파크리탁셀 조성물 특허 - 데일리팜",
+      "summary": "유나이티드, 파크리탁셀 조성물 특허&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TVFhTUnJnY21TbTg3QW1BQWJ2WHNqcGRHby1zM001ZU5LM1cyTzRFRnV2Q1dDYTMxX2dNbWg4VjhTVjUyTWtySE14dWY2Y0F2YVlZOThCRjZ6elU?oc=5",
+      "pub_date": "Fri, 21 Sep 2001 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-10-31T05:20:07.258436+00:00"
     },
     {
       "source": "pharmnews",
