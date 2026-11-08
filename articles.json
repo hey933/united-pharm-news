@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T05:46:46.758983+00:00",
+  "updated_at": "2026-11-08T05:50:04.547766+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -1338,6 +1338,16 @@
       "pub_date": "Fri, 05 Dec 2025 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-07T05:43:33.142044+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 몽골 의료진 대상 제품 설명회 진행 - 팜뉴스",
+      "summary": "한국유나이티드제약, 몽골 의료진 대상 제품 설명회 진행&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kR2pxbE5QR01xMUJxQkJjdmdrYWdkYWQ0aG5TOVE1Rk9wVm9FOEJXVUNTWWFvYldBTVl6dy10SDdndnd5Z1J3VkZSM2dFRjRycEpWM2tHckx1aGZYRkxyeEhqS0J1Szh5U0VVdA?oc=5",
+      "pub_date": "Tue, 25 Nov 2025 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-08T05:50:01.313135+00:00"
     },
     {
       "source": "dailypharm",
