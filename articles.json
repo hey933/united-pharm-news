@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:50:04.547766+00:00",
+  "updated_at": "2026-11-09T05:59:58.513462+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -2548,6 +2548,16 @@
       "pub_date": "Mon, 10 Apr 2023 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.602051+00:00"
+    },
+    {
+      "source": "daum",
+      "label": "다음뉴스",
+      "title": "[인사] 한국유나이티드제약 임원 - Daum",
+      "summary": "[인사] 한국유나이티드제약 임원&nbsp;&nbsp;Daum",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBqU3FHcjVWQmxYa21BdldFMDJvNDJJU2NXNXM2eFljRElTbFNCVzhUWThRRFNTYnBVODFMZGxnWl9EbVhKeVE?oc=5",
+      "pub_date": "Mon, 10 Apr 2023 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-09T05:59:57.009474+00:00"
     },
     {
       "source": "dailypharm",
