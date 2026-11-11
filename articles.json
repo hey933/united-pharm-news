@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:03:07.100670+00:00",
+  "updated_at": "2026-11-11T05:56:02.049829+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -4397,6 +4397,16 @@
       "pub_date": "Wed, 19 Oct 2016 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:09:52.520833+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드 ‘글로벌 인재 육성 프로그램’ - 팜뉴스",
+      "summary": "유나이티드 ‘글로벌 인재 육성 프로그램’&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBocXgwZlZ4c2FzRGVPdjFiaW40OENydzFEZ291MjZuMnN2RzNtbjdZTVNTWUp3WXFWX3hnLVNXSl9QZjQ1dEg4V0ZDc0JWOW9tLUpseERaVGhURElHM0YxeU1QLXNfazNzOUc4?oc=5",
+      "pub_date": "Thu, 13 Oct 2016 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-11T05:55:58.217373+00:00"
     },
     {
       "source": "dailypharm",
