@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:56:02.049829+00:00",
+  "updated_at": "2026-11-12T06:59:42.717043+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -1060,6 +1060,16 @@
       "collected_at": "2026-09-04T00:26:43.001085+00:00"
     },
     {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, '실로듀오서방정' 출시 기념 심포지엄 개최 - 팜뉴스",
+      "summary": "한국유나이티드제약, '실로듀오서방정' 출시 기념 심포지엄 개최&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCSTI0NmlKN2hrSGlHbUJCclBxVHBRckVFNGZGSDB6QnlYYTZfQ2RfbUlEUGtmdFZqRk14c1ItbVpjbzBwa2FsN3c1VUdkVmFSU2I2djR2TGpHcTNrSFU2S3JFQlFNNzlyV3FmMw?oc=5",
+      "pub_date": "Thu, 12 Feb 2026 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-12T06:59:38.928241+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드, 항암제 네트워크 확대…수출 3천만불 정조준 - 데일리팜",
@@ -1548,6 +1558,16 @@
       "pub_date": "Tue, 16 Sep 2025 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-26T04:30:11.172032+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 창립 38주년…홍보관 리뉴얼로 미래 전략 공개 - 팜뉴스",
+      "summary": "한국유나이티드제약, 창립 38주년…홍보관 리뉴얼로 미래 전략 공개&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uVmQwaVB6bnlDT3VNX29fRDEzOWJEVFhLdTFzSlBjMXRWdFI0VTZNSkxVTFBCaldDNExhRHRNY2cyc1lwMmNWb013MXNtdDFLbXhvTXVabXBGcFJlSkdvWnlZZEhHTDZSanMzVQ?oc=5",
+      "pub_date": "Fri, 12 Sep 2025 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-12T06:59:38.928169+00:00"
     },
     {
       "source": "daum",
