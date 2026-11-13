@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T06:59:42.717043+00:00",
+  "updated_at": "2026-11-13T06:24:44.798792+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -1420,6 +1420,16 @@
       "collected_at": "2026-09-04T00:26:43.001102+00:00"
     },
     {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 국내외 특허로 독점 경쟁력 강화 - 팜뉴스",
+      "summary": "한국유나이티드제약, 국내외 특허로 독점 경쟁력 강화&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xakVTdnlXYUdjUVNQdElZNkxTYmhZZGR6TXVBTlRxRUJVdm9YbTE2bnpFaldkWVdneklOX1M3b1M5b1ZWRnBIbHBROFJTMi0wTzNUdkJRSlZWSGt3MEdYcEc1TVlHSWxwWXBLRw?oc=5",
+      "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-13T06:24:40.994201+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드문화재단, 24회 행복 나눔 음악회 개최 - dailypharm.com",
@@ -2788,6 +2798,16 @@
       "pub_date": "Thu, 16 Feb 2023 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.601934+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약 정원태 전무 차남 - 팜뉴스",
+      "summary": "한국유나이티드제약 정원태 전무 차남&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ualhEZ09OMW5ZVEpwTlFXT1IyN09MZFp3VS16cnByc3d0c0tPSERiM2ljalFmN2ZZQk9NaHk3UEZydEUybS1SYUIyaUl5MGRzUjA3bWM0d1paR1pSTmFFTjJaLUpXTmJ0UlE5OQ?oc=5",
+      "pub_date": "Tue, 07 Feb 2023 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-13T06:24:40.994278+00:00"
     },
     {
       "source": "daum",
@@ -5944,6 +5964,16 @@
       "pub_date": "Tue, 30 Nov 1999 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-16T00:24:55.344026+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약 적정주가 '33,000 원' - 데일리팜",
+      "summary": "유나이티드제약 적정주가 '33,000 원'&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSYkJ0ZFVNY282dEpGNTZYelJLVkl2bGNQOWQ2WEFVNjF1dnRvY1VGZHktQ2xwV2RISF85Qkk4Ykd3eUJNdThSd3ZweGVSZnRQUmhCNnh3?oc=5",
+      "pub_date": "Mon, 18 Oct 1999 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-13T06:24:01.459929+00:00"
     },
     {
       "source": "yakup",
