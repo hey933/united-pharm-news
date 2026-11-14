@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:24:44.798792+00:00",
+  "updated_at": "2026-11-14T06:04:46.262222+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -3228,6 +3228,16 @@
       "pub_date": "Mon, 24 Jan 2022 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-22T04:28:23.440688+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약 표적 항암제, 일본 특허 등록 결정 - 팜뉴스",
+      "summary": "한국유나이티드제약 표적 항암제, 일본 특허 등록 결정&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Rcl9fSTdLZTRzQUsxRGozSlB2MDNvZlBaejRjWjFaUmxyOWdmellZV3JFWTZLaEt5eThvSHJsMmpkQ2hDZDRTMUlZS3ZjVVJsQVhLbEVMRmIxOFJGbDY3ZFhhRkFHRTcxT3VWdQ?oc=5",
+      "pub_date": "Mon, 13 Dec 2021 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-14T06:04:43.022710+00:00"
     },
     {
       "source": "pharmnews",
