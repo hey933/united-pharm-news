@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T06:04:46.262222+00:00",
+  "updated_at": "2026-11-15T06:10:39.970779+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -1188,6 +1188,16 @@
       "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-10-21T04:30:09.822797+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드, '덱시드+심발타' 복합제 개발 추진 - 데일리팜",
+      "summary": "한국유나이티드, '덱시드+심발타' 복합제 개발 추진&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNYTRsZy1vYXlqUFNYend1N1FQVlR3NGVvTzdUeHBhVTU3X2VPLUY3d0t0aHFnSklhNzcwQVJwOHBDZkpYYTdmN09wU3ZzeW9sOC03Yg?oc=5",
+      "pub_date": "Mon, 19 Jan 2026 20:45:08 GMT",
+      "collected_at": "2026-08-26T07:49:03.688662+00:00",
+      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -2400,6 +2410,16 @@
       "date_estimated": false
     },
     {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "한국유나이티드제약, 선진 물류 시스템 도입 물류자동화창고 준공 - 팜뉴스",
+      "summary": "한국유나이티드제약, 선진 물류 시스템 도입 물류자동화창고 준공&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmSERWV2tiZGJLcE9KSEU2cDFfZGFGeUZiSzlROXV5UjlxdG1tbzhIS08zVndhQjlzc0ozU0g2N1NTampIXzRQV0NPajl1Rjk0SFRmNEJpTHBlQmVkaXJRbDFpSXpjRVpvRjVFcA?oc=5",
+      "pub_date": "Thu, 10 Aug 2023 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-15T06:10:36.720793+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "오메가3 처방시장 3년새 2배↑…유나이티드 첫 선두 - 데일리팜",
@@ -3120,6 +3140,16 @@
       "collected_at": "2026-09-09T00:30:48.601912+00:00"
     },
     {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드 '아트맥' 처방 월 10억원...\"개량신약의 힘\" - 데일리팜",
+      "summary": "유나이티드 '아트맥' 처방 월 10억원...\"개량신약의 힘\"&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9obnBVeXFDdmNmVGVlT3ZyYVVDcXJWa3E1dG9VTU1QWkVrUXQ2dHR5V0tfLVFkU2tPMW1kUXRHQjBYeXl1eG5vcWRHekM0UVE?oc=5",
+      "pub_date": "Thu, 14 Apr 2022 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-15T06:09:56.732576+00:00"
+    },
+    {
       "source": "pharmnews",
       "label": "팜뉴스",
       "title": "유나이티드제약 '로민콤프시럽', 필리핀 특허 등록결정 - 팜뉴스",
@@ -3787,16 +3817,6 @@
       "pub_date": "Mon, 16 Mar 2020 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.001206+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "한국유나이티드, '덱시드+심발타' 복합제 개발 추진 - 데일리팜",
-      "summary": "한국유나이티드, '덱시드+심발타' 복합제 개발 추진&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lY09xd1VkTVVwc1d6LUw1WWhKOV9kWHJKTVR5WnlzWlBHSFpCbVRKYmhmSXBGWDlESkpaR2tNLXdlQUprYzJCdGRfaXNjRlo2SXc?oc=5",
-      "pub_date": "Fri, 20 Dec 2019 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:49:03.688662+00:00",
-      "date_estimated": false
     },
     {
       "source": "dailypharm",
