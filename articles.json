@@ -1,6 +1,16 @@
 {
-  "updated_at": "2026-11-15T06:10:39.970779+00:00",
+  "updated_at": "2026-11-16T06:08:48.076560+00:00",
   "articles": [
+    {
+      "source": "yakup",
+      "label": "약업신문",
+      "title": "유나이티드문화재단, 소외계층 위한 '제26회 행복 나눔 음악회' 성료",
+      "summary": "",
+      "url": "https://www.yakup.com/news/index.html?mode=view&nid=335269",
+      "pub_date": "Mon, 16 Nov 2026 02:57:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-16T06:07:49.408052+00:00"
+    },
     {
       "source": "dailypharm",
       "label": "데일리팜",
@@ -4029,6 +4039,16 @@
       "collected_at": "2026-09-27T05:09:52.520805+00:00"
     },
     {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드제약, 미얀마서 스포츠 학술 강연회 통해 교류증진 - 팜뉴스",
+      "summary": "유나이티드제약, 미얀마서 스포츠 학술 강연회 통해 교류증진&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55V053Rlo4N1NKa1Njc0lpOTN3cHpodW8xempRbXliZXU5bTZFRnlMeDI5UlJaYk1GSjhCb3VhSFhUWkxNcVloS2RMYUMtQ1VlaEgzSnYzSkNOQldtSGdMNEpuLVhqektLeGpF?oc=5",
+      "pub_date": "Wed, 14 Nov 2018 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-16T06:08:44.875498+00:00"
+    },
+    {
       "source": "dailypharm",
       "label": "데일리팜",
       "title": "유나이티드제약, 창립 첫 매출 2000억 돌파 가시권 - dailypharm.com",
@@ -4187,6 +4207,16 @@
       "pub_date": "Wed, 11 Apr 2018 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:48.602117+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "강덕영 한국유나이티드제약 대표 - 팜뉴스",
+      "summary": "강덕영 한국유나이티드제약 대표&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UdWxBNU82d1RVUlJrUldTdVFXTGhjNnFJMy1TVW95V2MwTWN4QVM0aVd2S2h2U1lRekNLWjRXTDdKZHIxbHVFME9scmY1cEVuRVE1TGdNWElhTVJEUEMxRHBRbDlnbEtlNURB?oc=5",
+      "pub_date": "Wed, 21 Mar 2018 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-16T06:08:44.875656+00:00"
     },
     {
       "source": "dailypharm",
