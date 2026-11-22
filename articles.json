@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T06:54:54.527972+00:00",
+  "updated_at": "2026-11-22T06:29:58.088277+00:00",
   "articles": [
     {
       "source": "dailypharm",
@@ -878,6 +878,16 @@
       "pub_date": "Sat, 30 May 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:07.274439+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약도 로수바스타틴+오메가3 시장 참전 - 데일리팜",
+      "summary": "유나이티드제약도 로수바스타틴+오메가3 시장 참전&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tWVRRblB6M0VpWEVzYjJ0dnN3clNnQTJsVURxWC1PTnhJanBnT19UXzdVWWlPeEFOUXlLdGU0d0NLX2R4SW5RSm5uUEdpaDA?oc=5",
+      "pub_date": "Sat, 16 May 2026 07:12:23 GMT",
+      "collected_at": "2026-08-26T07:50:32.620194+00:00",
+      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -2188,16 +2198,6 @@
       "pub_date": "Tue, 26 Dec 2023 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:08:51.653590+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "유나이티드제약도 로수바스타틴+오메가3 시장 참전 - 데일리팜",
-      "summary": "유나이티드제약도 로수바스타틴+오메가3 시장 참전&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tWVRRblB6M0VpWEVzYjJ0dnN3clNnQTJsVURxWC1PTnhJanBnT19UXzdVWWlPeEFOUXlLdGU0d0NLX2R4SW5RSm5uUEdpaDA?oc=5",
-      "pub_date": "Tue, 19 Dec 2023 08:00:00 GMT",
-      "collected_at": "2026-08-26T07:50:32.620194+00:00",
-      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -4297,6 +4297,16 @@
       "pub_date": "Fri, 02 Feb 2018 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-28T05:11:26.540117+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드, 카자흐스탄인 초청 가족음악회 - 팜뉴스",
+      "summary": "유나이티드, 카자흐스탄인 초청 가족음악회&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kZnpCckh5T0JZRzdmS19zZHZVMUF0cGp2WTJISHRDZDJWOUNOdlhORGYtTHJlbFE2X3U4U2ZuTUw0UGNKUkpnU3FHZGZEN1J4Vjl2Vl9GaDVINS0zOTV6RUxGRmFVQ2xSZTVv?oc=5",
+      "pub_date": "Thu, 09 Nov 2017 08:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-22T06:29:53.694669+00:00"
     },
     {
       "source": "dailypharm",
