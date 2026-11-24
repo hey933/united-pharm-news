@@ -1,16 +1,6 @@
 {
-  "updated_at": "2026-11-23T07:20:49.091254+00:00",
+  "updated_at": "2026-11-24T09:42:19.789759+00:00",
   "articles": [
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "유나이티드제약, 뉴부틴 베트남서 순항…2029년까지 허가 확보 - 데일리팜",
-      "summary": "유나이티드제약, 뉴부틴 베트남서 순항…2029년까지 허가 확보&nbsp;&nbsp;데일리팜",
-      "url": "https://dailypharm.com/user/news/344914",
-      "pub_date": "Mon, 23 Nov 2026 06:55:23 GMT",
-      "date_estimated": false,
-      "collected_at": "2026-11-23T07:20:07.113016+00:00"
-    },
     {
       "source": "yakup",
       "label": "약업신문",
@@ -20,6 +10,16 @@
       "pub_date": "Mon, 23 Nov 2026 06:32:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-11-23T07:19:25.988191+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약, 뉴부틴 베트남서 순항…2029년까지 허가 확보 - 데일리팜",
+      "summary": "유나이티드제약, 뉴부틴 베트남서 순항…2029년까지 허가 확보&nbsp;&nbsp;데일리팜",
+      "url": "https://www.dailypharm.com/user/news/344914",
+      "pub_date": "Mon, 23 Nov 2026 05:34:22 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-23T07:20:07.113016+00:00"
     },
     {
       "source": "pharmnews",
@@ -908,16 +908,6 @@
       "pub_date": "Sat, 30 May 2026 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:07.274439+00:00"
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
-      "title": "유나이티드제약도 로수바스타틴+오메가3 시장 참전 - 데일리팜",
-      "summary": "유나이티드제약도 로수바스타틴+오메가3 시장 참전&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tWVRRblB6M0VpWEVzYjJ0dnN3clNnQTJsVURxWC1PTnhJanBnT19UXzdVWWlPeEFOUXlLdGU0d0NLX2R4SW5RSm5uUEdpaDA?oc=5",
-      "pub_date": "Sat, 16 May 2026 07:12:23 GMT",
-      "collected_at": "2026-08-26T07:50:32.620194+00:00",
-      "date_estimated": false
     },
     {
       "source": "dailypharm",
@@ -2228,6 +2218,16 @@
       "pub_date": "Tue, 26 Dec 2023 08:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-27T05:08:51.653590+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "유나이티드제약도 로수바스타틴+오메가3 시장 참전 - 데일리팜",
+      "summary": "유나이티드제약도 로수바스타틴+오메가3 시장 참전&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tWVRRblB6M0VpWEVzYjJ0dnN3clNnQTJsVURxWC1PTnhJanBnT19UXzdVWWlPeEFOUXlLdGU0d0NLX2R4SW5RSm5uUEdpaDA?oc=5",
+      "pub_date": "Tue, 19 Dec 2023 08:00:00 GMT",
+      "collected_at": "2026-08-26T07:50:32.620194+00:00",
+      "date_estimated": false
     },
     {
       "source": "dailypharm",
