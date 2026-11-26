@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T08:14:42.226898+00:00",
+  "updated_at": "2026-11-26T08:01:32.614772+00:00",
   "articles": [
     {
       "source": "yakup",
@@ -4407,6 +4407,16 @@
       "pub_date": "Wed, 09 Aug 2017 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:07.274342+00:00"
+    },
+    {
+      "source": "pharmnews",
+      "label": "팜뉴스",
+      "title": "유나이티드, 경구용 복합제제 기술특허 등록 - 팜뉴스",
+      "summary": "유나이티드, 경구용 복합제제 기술특허 등록&nbsp;&nbsp;팜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81U3FINmNmRzFNWHdLTGx3ak5HSUJOSU1RSVJWbGVwc2FZdnlOM1hhMjkwVzJ5VHRoanZ5bVV2ekcyVVJzcDJHTlh1QTZTNGwyQ1FzTGV5TDFWZmFLM0FzbG9UaGxHeFNIRVBJ?oc=5",
+      "pub_date": "Wed, 09 Aug 2017 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-26T08:01:29.406803+00:00"
     },
     {
       "source": "pharmnews",
