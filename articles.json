@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T08:04:55.918045+00:00",
+  "updated_at": "2026-11-28T07:32:39.684640+00:00",
   "articles": [
     {
       "source": "yakup",
@@ -1242,16 +1242,6 @@
     {
       "source": "dailypharm",
       "label": "데일리팜",
-      "title": "한국유나이티드, '덱시드+심발타' 복합제 개발 추진 - 데일리팜",
-      "summary": "한국유나이티드, '덱시드+심발타' 복합제 개발 추진&nbsp;&nbsp;데일리팜",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNYTRsZy1vYXlqUFNYend1N1FQVlR3NGVvTzdUeHBhVTU3X2VPLUY3d0t0aHFnSklhNzcwQVJwOHBDZkpYYTdmN09wU3ZzeW9sOC03Yg?oc=5",
-      "pub_date": "Mon, 19 Jan 2026 20:45:08 GMT",
-      "collected_at": "2026-08-26T07:49:03.688662+00:00",
-      "date_estimated": false
-    },
-    {
-      "source": "dailypharm",
-      "label": "데일리팜",
       "title": "한국유나이티드제약, 세계 최초 실로스타졸·스타틴 복합제 출시 - 데일리팜",
       "summary": "한국유나이티드제약, 세계 최초 실로스타졸·스타틴 복합제 출시&nbsp;&nbsp;데일리팜",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzeU1zVjc5M29VWEZzR1dZSTVlRlB5VlNvM1lyemY4dXYyZlB6YWFEdzFKWkpaOWdYODh2MEZYdUhnV09ESmx1Z3VSZXBhNWpL?oc=5",
@@ -2048,6 +2038,16 @@
       "pub_date": "Tue, 23 Jul 2024 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-09T00:30:07.274428+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "정원태 유나이티드제약 부사장, 회화 개인전 개최 - 데일리팜",
+      "summary": "정원태 유나이티드제약 부사장, 회화 개인전 개최&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzYXpfTHgwM0l3RHZVQXVnalZOMDZiZEFuOFpwLU52M0tmVzRHQWlsSkhkUDFyYmt4SVpGb2JWRlFSM1NiUlpETk15RjRMYkk?oc=5",
+      "pub_date": "Tue, 23 Jul 2024 07:00:00 GMT",
+      "date_estimated": false,
+      "collected_at": "2026-11-28T07:31:38.372662+00:00"
     },
     {
       "source": "dailypharm",
@@ -3877,6 +3877,16 @@
       "pub_date": "Mon, 16 Mar 2020 07:00:00 GMT",
       "date_estimated": false,
       "collected_at": "2026-09-04T00:26:43.001206+00:00"
+    },
+    {
+      "source": "dailypharm",
+      "label": "데일리팜",
+      "title": "한국유나이티드, '덱시드+심발타' 복합제 개발 추진 - 데일리팜",
+      "summary": "한국유나이티드, '덱시드+심발타' 복합제 개발 추진&nbsp;&nbsp;데일리팜",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNYTRsZy1vYXlqUFNYend1N1FQVlR3NGVvTzdUeHBhVTU3X2VPLUY3d0t0aHFnSklhNzcwQVJwOHBDZkpYYTdmN09wU3ZzeW9sOC03Yg?oc=5",
+      "pub_date": "Fri, 20 Dec 2019 08:00:00 GMT",
+      "collected_at": "2026-08-26T07:49:03.688662+00:00",
+      "date_estimated": false
     },
     {
       "source": "dailypharm",
